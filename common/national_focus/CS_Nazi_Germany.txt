@@ -1,0 +1,18 @@
+###################
+### Nazi Shared ###
+###################
+
+focus_tree = {
+	id = CS_GRM_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GRM
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 3200 y = 1100 }
+	
+	shared_focus = GRM_the_reich_reborn
+}

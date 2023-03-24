@@ -1,0 +1,31 @@
+
+state={
+	id=927
+	name="STATE_927" # Provence
+	manpower = 6342040
+
+	state_category = metropolis
+
+	history={
+		owner = SRA
+		victory_points = {
+			13476 30
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			dockyard = 2
+			arms_factory = 2
+			air_base = 7
+			13476 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = SRA
+	}
+	local_supplies=0.0
+	provinces={
+		11834 13476
+	}
+}

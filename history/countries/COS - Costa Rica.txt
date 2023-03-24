@@ -1,0 +1,15 @@
+﻿capital = 316
+
+#oob = "COS_1936"
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2006.2.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 98
+	left_populism = 2
+}

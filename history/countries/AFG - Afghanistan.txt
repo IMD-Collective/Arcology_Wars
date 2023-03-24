@@ -1,0 +1,16 @@
+﻿capital = 267
+
+##oob = ""
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 15
+	left_populism = 10
+	democratic = 75
+}

@@ -1,0 +1,27 @@
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = ARA
+		victory_points = {
+			11821 2
+		}
+		victory_points = {
+			13225 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = ARA
+	}
+
+	provinces={
+		790 899 915 9813 11793 13225 11819 11821 
+	}
+	local_supplies=0.0
+	manpower=106450
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

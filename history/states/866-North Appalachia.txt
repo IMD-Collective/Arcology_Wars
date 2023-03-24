@@ -1,0 +1,29 @@
+state={
+	id=866
+	name="STATE_866"
+	resources={
+		rubber=3
+	}
+
+	state_category = pastoral
+	manpower = 72305
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = USA
+		victory_points = {
+			11888 2
+		}
+		victory_points = {
+			873 1
+		}
+	}
+
+	provinces={
+		873 951 3847 6929 6958 6984 11758 11873 11888
+	}
+	local_supplies=0.0
+}

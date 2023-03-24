@@ -1,0 +1,22 @@
+capital = 75
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 25
+	neutrality = 55
+	democratic = 20
+}
+
+create_country_leader = {
+	name = "Rudolf Gödel"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "2032.1.1"
+	ideology = despotism_subtype 
+	traits = { dictator }
+}

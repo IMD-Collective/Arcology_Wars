@@ -1,0 +1,16 @@
+﻿capital = 596
+
+#oob = "PRC_1936"
+
+set_stability = 0.6
+set_war_support = 0.7
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}

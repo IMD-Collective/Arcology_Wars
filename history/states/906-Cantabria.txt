@@ -1,0 +1,30 @@
+state={
+	id=906
+	name="STATE_906"
+
+	history={
+		owner = CNT
+		victory_points = {
+			11688 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			11688 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = CNT
+
+	}
+
+	provinces={
+		738 9703 11688 
+	}
+	local_supplies=0.0
+	manpower=482252
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

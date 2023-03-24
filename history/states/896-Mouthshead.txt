@@ -1,0 +1,28 @@
+state={
+	id=896
+	name="STATE_896"
+
+	history={
+		owner = BNK
+		add_core_of = BNK
+		buildings = {
+			infrastructure = 5
+			8450 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			8450 10
+		}
+		victory_points = {
+			13368 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		8450 13367 13368
+	}
+	manpower=509000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

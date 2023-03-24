@@ -1,0 +1,26 @@
+state={
+	id=842
+	name="STATE_842"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = USA
+		victory_points = {
+			9910 2 
+		}
+		victory_points = {
+			10526 1
+		}
+	}
+
+	provinces={
+		1560 1760 1831 4664 7829 9910 10341 10478 10526 11589
+	}
+	local_supplies=0.0
+	manpower=11031
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+} 

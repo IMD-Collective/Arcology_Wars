@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		GER_Stasi_Securocracy = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_GER_Stasi_Securocracy
+
+			modifier = {
+				stability_factor  = 0.05
+				drift_defence_factor = 0.25
+				encryption_factor = 0.01
+			}
+		}
+		GER_Frontline_Commissars = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_GER_Frontline_Commissars
+
+			modifier = {
+				defence = 0.02 
+				attrition = -0.03 
+				conscription_factor = -0.02 
+			}
+		}	
+	}
+}	

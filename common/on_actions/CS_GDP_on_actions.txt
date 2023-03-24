@@ -1,0 +1,126 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				### State Producing Gold - example of how to use GDP in state modifiers.
+				calculate_income_from_modifiers = yes
+				### Setting up the taxable population on start.
+				set_taxable_population = yes
+				### Setting up the occupation costs
+				set_variable = { no = 0 }
+				calculate_state_upkeeps_noncore = yes
+				calculate_state_upkeeps_core = yes
+				### Fuck this code man
+				set_variable = { income_from_subjects = 0 }
+			}
+			### DO NOT CHANGE AT ALL
+			every_country = {
+				econ_start = yes
+				eco_exchanges = yes
+			}
+			every_country = {
+				calculate_social_ideas = yes
+			}
+		}
+	}
+	
+	on_monthly = {
+		effect = {
+			### State Producing Gold - example of how to use GDP in state modifiers.
+			calculate_income_from_modifiers = yes
+			### Setting up the taxable population on start.
+			set_taxable_population = yes
+			### Setting up the occupation costs
+			set_variable = { no = 0 }
+			calculate_state_upkeeps_noncore = yes
+			calculate_state_upkeeps_core = yes
+			### Subject Income
+			set_variable = { income_from_subjects = 0 }
+			### DO NOT CHANGE AT ALL
+			econ_vars = yes
+			econ_modifiers = yes
+			eco_exchanges = yes
+		}
+	}
+
+	on_state_control_changed = { ####This fucking code man I swear to god
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = GDP
+						value = 0
+						compare = equals
+					}
+				}
+				set_variable = { GDP_moneycount_invalid = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = GDP
+						value = 1
+						compare = greater_than_or_equals
+					}
+				}
+				set_variable = { GDP_moneycount_valid = 0 }
+			}
+			ROOT = {
+				if = {
+					limit = {
+						has_variable = GDP_moneycount_invalid
+						NOT = {
+							has_variable = GDP_moneycount_valid
+						}
+					}
+					econ_start = yes
+				}
+			}
+		}
+	}
+
+	on_release_as_free = {
+		effect = {
+			ROOT = {
+				### State Producing Gold - example of how to use GDP in state modifiers.
+				set_econ_new_country = yes
+			}
+			FROM = {
+				subtract_from_variable = { GDP = ROOT.GDP }
+			}
+		}
+	}
+
+	on_release_as_puppet = {
+		effect = {
+			ROOT = {
+				### State Producing Gold - example of how to use GDP in state modifiers.
+				set_econ_new_country = yes
+			}
+			FROM = {
+				subtract_from_variable = { GDP = ROOT.GDP }
+			}
+		}
+	}
+
+	on_liberate = {
+		effect = {
+			ROOT = {
+				### State Producing Gold - example of how to use GDP in state modifiers.
+				set_econ_new_country = yes
+			}
+			FROM = {
+				subtract_from_variable = { GDP = ROOT.GDP }
+			}
+		}
+	}
+
+	on_civil_war_end_before_annexation = {
+		effect = {
+			ROOT = {
+				add_to_variable = { GDP = FROM.GDP }
+			}
+		}
+	}
+}

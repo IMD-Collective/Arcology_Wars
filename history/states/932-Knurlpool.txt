@@ -1,0 +1,26 @@
+state={
+	id=932
+	name="STATE_932"
+
+	state_category = rural
+	manpower = 108305
+
+	history={
+		owner = FUS
+		buildings = {
+			infrastructure = 5
+			13398 = {
+				naval_base = 8
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = FUS
+		victory_points = {
+			13398 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		13312 13395 13396 13397 13398 13399 13400
+	}
+}

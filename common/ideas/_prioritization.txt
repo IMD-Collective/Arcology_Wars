@@ -1,0 +1,38 @@
+ideas = {
+
+	development_prioritization = { 
+		law = yes
+		use_list_view = yes
+		
+		resource_prioritization = {
+
+			cost = 0
+			removal_cost = -1
+		}
+		
+		agricultural_prioritization = {
+
+			cost = 0
+			removal_cost = -1
+		}
+		
+		civilian_goods_prioritization = {
+			
+			cost = 0
+			removal_cost = -1
+		}
+
+		military_prioritization = {
+			
+			cost = 0
+			removal_cost = -1
+		}
+
+		mixed_prioritization = {
+		
+			cost = 0
+			removal_cost = -1
+			default = yes
+		}
+	}
+}

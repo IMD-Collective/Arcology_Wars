@@ -1,0 +1,23 @@
+capital = 895
+
+set_politics = {
+	ruling_party = left_populism 
+	last_election = "2008.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	left_populism = 46
+	democratic = 24
+	communism = 30
+}
+
+create_country_leader = {
+	name = "Vincent Gilkinet"
+	desc = ""
+	picture = "Portrait_Vincent_Gilkinet.dds"
+	expire = "2032.1.1"
+	ideology = left_populism_subtype 
+	traits = { }
+}

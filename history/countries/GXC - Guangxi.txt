@@ -1,0 +1,18 @@
+﻿capital = 594
+
+#oob = "GXC_1936"
+
+set_stability = 0.6
+set_war_support = 0.4
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}

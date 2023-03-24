@@ -1,0 +1,24 @@
+﻿capital = 102
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 15
+	neutrality = 65
+	fascism = 20
+}
+
+create_country_leader = {
+	name = "Dragotin Hoèevar"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "2032.1.1"
+	ideology = securocratic_despotism 
+	traits = { securocrat }
+}

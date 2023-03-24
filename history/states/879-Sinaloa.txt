@@ -1,0 +1,24 @@
+state={
+	id=879
+	name="STATE_879"
+	state_category = wasteland
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			8057 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		1945 8057 10895
+	}
+	local_supplies=0.0
+	manpower=401
+}

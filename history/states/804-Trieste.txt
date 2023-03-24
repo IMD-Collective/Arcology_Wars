@@ -1,0 +1,33 @@
+state={
+	id=804
+	name="STATE_804"
+	manpower=2258350
+	
+	state_category = large_city
+
+	resources={
+		steel=1
+	}
+
+	history={
+		owner = NIT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			6626 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			6626 1 
+		}
+		add_core_of = NIT
+	}
+
+	provinces= {
+		6626 
+	}
+	local_supplies=0.0
+}

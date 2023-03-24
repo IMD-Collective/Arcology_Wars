@@ -1,0 +1,28 @@
+state={
+	id=904
+	name="STATE_904"
+
+	history={
+		victory_points = { 11446 2 }
+		victory_points = { 13442 1 }
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 3
+			11446 = {
+				naval_base = 10
+				coastal_bunker = 1
+			}
+			13004 = {
+				bunker = 5		
+			}
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		9458 11446 13004 13070 13441 13442 13446
+	}
+	manpower=13100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

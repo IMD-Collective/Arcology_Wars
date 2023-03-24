@@ -1,0 +1,17 @@
+﻿capital = 100 #Iceland
+
+set_research_slots = 3
+
+set_convoys = 30
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 96
+	fascism = 2
+	communism = 2
+}

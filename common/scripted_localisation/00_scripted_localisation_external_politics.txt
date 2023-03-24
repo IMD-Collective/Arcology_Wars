@@ -1,0 +1,235 @@
+defined_text = { # Country
+	name = GetInfluenceLevel
+	
+	text = {
+		trigger = {
+			THIS = {
+				meta_trigger = { 
+					text = { 
+						check_variable = { 
+							global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 4
+						} 
+					} 
+					INFLUENCER_SHIELD = "[THIS.GetTag]" INFLUENCED_SHIELD = "[FROM.GetTag]" 
+				}
+			}
+		}
+		localization_key = "GFX_reception_4"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				meta_trigger = { 
+					text = { 
+						check_variable = { 
+							global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 3
+						} 
+					} 
+					INFLUENCER_SHIELD = "[THIS.GetTag]" INFLUENCED_SHIELD = "[FROM.GetTag]" 
+				}
+			}
+		}
+		localization_key = "GFX_reception_3"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				meta_trigger = { 
+					text = { 
+						check_variable = { 
+							global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 2
+						} 
+					} 
+					INFLUENCER_SHIELD = "[THIS.GetTag]" INFLUENCED_SHIELD = "[FROM.GetTag]" 
+				}
+			}
+		}
+		localization_key = "GFX_reception_2"
+	}
+
+	text = {
+		localization_key = "GFX_reception_1"
+	}
+}
+defined_text = { # Country
+	name = GetInfluenceLevelText
+	
+	text = {
+		trigger = {
+			THIS = {
+				meta_trigger = { 
+					text = { 
+						check_variable = { 
+							global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 4
+						} 
+					} 
+					INFLUENCER_SHIELD = "[THIS.GetTag]" INFLUENCED_SHIELD = "[FROM.GetTag]" 
+				}
+			}
+		}
+		localization_key = "High"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				meta_trigger = { 
+					text = { 
+						check_variable = { 
+							global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 3
+						} 
+					} 
+					INFLUENCER_SHIELD = "[THIS.GetTag]" INFLUENCED_SHIELD = "[FROM.GetTag]" 
+				}
+			}
+		}
+		localization_key = "Good"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				meta_trigger = { 
+					text = { 
+						check_variable = { 
+							global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 2
+						} 
+					} 
+					INFLUENCER_SHIELD = "[THIS.GetTag]" INFLUENCED_SHIELD = "[FROM.GetTag]" 
+				}
+			}
+		}
+		localization_key = "Average"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				meta_trigger = { 
+					text = { 
+						check_variable = { 
+							global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 0
+						} 
+					} 
+					INFLUENCER_SHIELD = "[THIS.GetTag]" INFLUENCED_SHIELD = "[FROM.GetTag]" 
+				}
+			}
+		}
+		localization_key = "No Influence"
+	}
+
+	text = {
+		localization_key = "Weak"
+	}
+}
+
+defined_text = { #Influence Tooltip Blurb
+	name = GetInfluenceBlurb
+	
+	text = {
+		trigger = {
+			OR = {
+				ROOT = { has_idea = irrelevant_third_world_country PREV = { has_idea = global_superpower } }
+				ROOT = { has_idea = third_world_country PREV = { has_idea = global_superpower } }
+				ROOT = { has_idea = regional_power PREV = { has_idea = global_superpower } }
+				ROOT = { has_idea = middling_power PREV = { has_idea = global_superpower } }
+				ROOT = { has_idea = global_superpower PREV = { has_idea = global_superpower } }
+			}
+			NOT = { tag = ROOT }
+		}
+		localization_key = "INFLUENCE_TT_ZERO"
+	}
+	
+	text = {
+		trigger = {
+			ROOT = { has_idea = irrelevant_third_world_country }
+			NOT = { tag = ROOT }
+		}
+		localization_key = "INFLUENCE_TT_ONE"
+	}
+
+	text = {
+		trigger = {
+			ROOT = { has_idea = third_world_country }
+			NOT = { tag = ROOT }
+		}
+		localization_key = "INFLUENCE_TT_TWO"
+	}
+
+	text = {
+		trigger = {
+			ROOT = { has_idea = regional_power }
+			NOT = { tag = ROOT }
+		}
+		localization_key = "INFLUENCE_TT_THREE"
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				ROOT = { has_idea = middling_power }
+			}
+			NOT = { tag = ROOT }
+		}
+		localization_key = "INFLUENCE_TT_FOUR"
+	}
+
+	text = {
+		trigger = {
+			ROOT = { has_idea = global_superpower }
+			NOT = { tag = ROOT }
+		}
+		localization_key = "INFLUENCE_TT_FIVE"
+	}
+}
+
+defined_text = { #Influence Tooltip Blurb
+	name = GetInfluenceBlurbCompetitor
+	
+	text = {
+		trigger = {
+			THIS = {
+				has_idea = irrelevant_third_world_country
+			}
+		}
+		localization_key = "INFLUENCE_TT_ONE_LOWER"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				has_idea = third_world_country
+			}
+		}
+		localization_key = "INFLUENCE_TT_TWO_LOWER"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				has_idea = regional_power
+			}
+		}
+		localization_key = "INFLUENCE_TT_THREE_LOWER"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				has_idea = middling_power
+			}
+		}
+		localization_key = "INFLUENCE_TT_FOUR_LOWER"
+	}
+
+	text = {
+		trigger = {
+			THIS = {
+				has_idea = global_superpower
+			}
+		}
+		localization_key = "INFLUENCE_TT_FIVE_LOWER"
+	}
+}

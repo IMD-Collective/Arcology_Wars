@@ -1,0 +1,14 @@
+﻿capital = 768
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = fascism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 80
+	neutrality = 20
+}

@@ -1,0 +1,133 @@
+ideas = {
+
+	military_instruction_law = { 
+		law = yes
+		use_list_view = yes
+		
+		no_formal_instruction = {
+
+			available = {
+				OR = {
+					has_idea = third_world_country
+					has_idea = irrelevant_third_world_country
+					has_idea = regional_power
+				}
+			}
+
+			cost = 0
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.05
+				consumer_goods_factor = -0.02
+				local_non_core_manpower = 0.02
+				mobilization_speed = 0.05
+				offence = -0.15
+				defence = -0.15
+				army_org_factor = -0.20
+				army_morale_factor = -0.20
+				dig_in_speed = -0.5
+				attrition = -0.03
+			}
+			cancel_if_invalid = no
+		}
+		
+		poor_instruction = {
+
+			available = {
+				OR = {
+					has_idea = third_world_country
+					has_idea = irrelevant_third_world_country
+					has_idea = regional_power
+				}
+			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				training_time_factor = -0.03
+				mobilization_speed = 0.03
+				offence = -0.9
+				defence = -0.9
+				army_org_factor = -0.10
+				army_morale_factor = -0.10
+				gdp_spending = 0.02
+				gdp_money_spent = 6
+			}
+		}
+		
+		decent_instruction = {
+
+			available = {
+				has_idea = poor_instruction
+				OR = {
+					has_idea = regional_power
+					has_idea = third_world_country
+				}
+			}
+			
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no			
+			default = yes
+			modifier = {
+				offence = 0.5
+				defence = 0.5
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				gdp_spending = 0.05
+				gdp_money_spent = 12
+			}
+		}
+		
+		good_instruction = {
+
+			available = {
+				has_idea = decent_instruction
+				OR = {
+					has_idea = regional_power
+					has_idea = middling_power
+				}
+			}
+
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				training_time_factor = 0.01
+				mobilization_speed = -0.03
+				offence = 0.10
+				defence = 0.10
+				army_org_factor = 0.10
+				army_morale_factor = 0.10
+				dig_in_speed = 1
+				gdp_spending = 0.09
+				gdp_money_spent = 18
+			}
+		}
+		
+		superior_instruction = {
+			available = {
+				has_idea = good_instruction
+				OR = {
+					has_idea = global_superpower
+					has_idea = middling_power
+				}
+			}			
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				training_time_factor = 0.03
+				mobilization_speed = -0.05
+				local_non_core_manpower = -0.06
+				offence = 0.15
+				defence = 0.15
+				army_org_factor = 0.20
+				army_morale_factor = 0.20
+				dig_in_speed = 2
+				gdp_spending = 0.12
+				gdp_money_spent = 25
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=72
+	name="STATE_72"
+	manpower = 152000
+	
+	state_category = rural
+	
+	history={
+		owner = WUR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = WUR
+	}
+	local_supplies=0.0
+	provinces={
+		519 708 3690 9545 9655 9666 11499 11638
+	}
+}

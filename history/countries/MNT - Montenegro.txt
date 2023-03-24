@@ -1,0 +1,15 @@
+﻿capital = 105 # Montenegro
+
+#oob = "MON_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {	democratic = 33	neutrality = 33	communism = 34
+}

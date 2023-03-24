@@ -1,0 +1,22 @@
+state={
+	id=690
+	name="STATE_690"
+	manpower = 40000
+	
+	state_category = pastoral
+
+	history={
+		add_core_of = BAH
+		owner = BAH
+		buildings = {
+			infrastructure = 4
+			7245 = {
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		7245 13301 13302 13303 13304 13305 13306 13309 13310
+	}
+}

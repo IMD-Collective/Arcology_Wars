@@ -1,0 +1,22 @@
+
+state={
+	id=121
+	name="STATE_121" # Lothian
+	manpower = 624
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		6104 11306
+	}
+	local_supplies=0.0
+}

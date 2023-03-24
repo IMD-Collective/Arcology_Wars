@@ -1,0 +1,27 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 3005214
+	resources={
+		steel=13 
+		chromium = 3 
+		tungsten = 3 
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = DDR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 5
+		}
+		add_core_of = DDR
+	}
+	local_supplies=0.0
+	provinces={
+		538 3535 6501 6582 6559 9441 9471 11481
+	}
+}

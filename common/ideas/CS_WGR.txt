@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		WGR_The_Manic_Struggle = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_WGR_The_Manic_Struggle
+
+			modifier = {
+				conscription = 0.005
+				war_support_factor = 0.05 
+			}
+		}
+		WGR_Anarchist_Brigades = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_WGR_Anarchist_Brigades
+
+			modifier = {
+				army_org = -0.10
+				army_morale_factor = 0.01 
+			}
+		}	
+	}
+}

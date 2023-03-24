@@ -1,0 +1,19 @@
+﻿l_english:
+ ST:0 "st"
+ ND:0 "nd"
+ RD:0 "rd"
+ TH:0 "th"
+ WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ War"
+ CIVIL_WAR_NAME:0 "$ORDER$$SECOND$ Civil War"
+ WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$ reclamation of $STATE$"
+ WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$ Aggression for $STATE$"
+ create_puppet_wargoal_usa:0 "§HPuppet (Focus)§! wargoal gained by §Y[ROOT.GetNameDef]§!"
+ INDEPENDENCE_WAR_NAME:0 "$ORDER$$FIRST$ War of Independence"
+ 
+ ##Germany#
+ WAR_NAME_GER_WGR:0 "German Civil War: Schwanitz - Gotting"
+ WAR_NAME_GRM_GER:0 "German Civil War: Voigt - Schwanitz"
+ WAR_NAME_GRM_WGR:0 "German Civil War: Voigt - Gotting"
+ 
+ ##WW4
+ WAR_NAME_USA_SOV:0 "Fourth World War"

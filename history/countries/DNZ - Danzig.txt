@@ -1,0 +1,19 @@
+﻿capital = 85 #Danzig
+
+set_research_slots = 3
+
+# Starting tech
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = { #popularities based on 1933 election statistics.
+	democratic = 22
+	fascism = 62
+	communism = 6
+	neutrality = 10
+}

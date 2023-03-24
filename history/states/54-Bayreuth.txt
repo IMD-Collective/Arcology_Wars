@@ -1,0 +1,24 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 2508159
+
+	state_category = city
+
+	history={
+		owner = BAY
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		}
+		victory_points = {
+			11544 9 
+		}
+		add_core_of = BAY
+	}
+	local_supplies=0.0
+	provinces={
+		561 3299 6540 9416 9557 9572 11529 11544 13095
+	}
+}

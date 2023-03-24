@@ -1,0 +1,36 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		owner = ENG
+		victory_points = {
+			3379 2
+		}
+		victory_points = {
+			11257 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 7
+			3379 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = ENG
+		add_core_of = NIR
+	}
+
+	provinces={
+		276 385 3217 3242 3329 3379 11257 
+	}
+	local_supplies=0.0
+	manpower=3218537
+	buildings_max_level_factor=1
+	state_category="rural"
+	
+	resources={
+		aluminium=2
+	}
+}

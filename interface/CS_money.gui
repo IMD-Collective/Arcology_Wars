@@ -1,0 +1,95 @@
+guiTypes = {
+	containerWindowType = {
+		name = "money_container"
+		position = { x = 1100 y = 5 }
+		iconType ={
+			name ="money_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=-14 y=0 }
+		}
+		
+		instantTextBoxType = {
+			name ="dollar"
+			position = { x= -13 y = 4 }
+			font = "hoi_16mbs"
+			text = "DOLLAR_GREEN"
+			format = center
+			maxWidth = 20
+			maxHeight = 24
+			fixedsize = yes
+		}	
+		
+		iconType = {
+			name ="money_icon"
+			spriteType = "GFX_money"
+			position = { x= 0 y = -40 }
+		}
+		
+		instantTextBoxType = {
+			name ="money_text"
+			position = { x= -7 y = 4 }
+			font = "hoi_16mbs"
+			text = "MONEY_MAIN"
+			format = right
+			maxWidth = 90
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "MONEY_TOOLTIP" 
+		}
+		
+		iconType = {
+			name ="container_gdp"
+			spriteType = "GFX_gdp_overview_blank"
+			position = { x= -12 y = 2 }
+			pdx_tooltip = "MONEY_TOOLTIP"
+		}
+		
+		iconType = {
+			name ="container_income"
+			spriteType = "GFX_gdp_overview_blank"
+			position = { x= -12 y = 2 }
+			pdx_tooltip = "MONEY_TOOLTIP"
+		}
+	}
+
+	containerWindowType = {
+		name = "money_container_debt"
+		position = { x = 1190 y = 5 }
+		iconType ={
+			name ="money_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="money_icon"
+			spriteType = "GFX_money"
+			position = { x= 12 y = -40 }
+		}
+		
+		instantTextBoxType = {
+			name ="money_debt"
+			position = { x= 7 y = 4 }
+			font = "hoi_16mbs"
+			text = "MONEY_DEBT_MAIN"
+			format = right
+			maxWidth = 90
+			maxHeight = 24
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name ="dollar_debt"
+			position = { x= 7 y = 4 }
+			font = "hoi_16mbs"
+			text = "DOLLAR_RED"
+			format = left
+			maxWidth = 93
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "MONEY_TOOLTIP_BASE_DEBT" 
+		}
+	}
+}

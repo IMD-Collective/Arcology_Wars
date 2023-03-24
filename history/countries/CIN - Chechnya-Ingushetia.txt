@@ -1,0 +1,18 @@
+﻿capital = 821 #Grozny
+
+#oob = "CIN_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 80
+	fascism = 10
+	communism = 10
+}

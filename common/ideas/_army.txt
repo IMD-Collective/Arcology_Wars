@@ -1,0 +1,32 @@
+ideas = {
+
+	army_theory = { 
+		law = yes
+		use_list_view = yes
+
+		hybrid_warfare_theorem = {
+			
+			cost = 0
+			removal_cost = -1
+		}
+		
+		decentralized_strategic_theorem = {
+		
+			cost = 0
+			removal_cost = -1
+		}
+
+		centralized_strategic_theorem = {
+
+			cost = 0
+			removal_cost = -1
+			default = yes
+		}
+		
+		strategic_mastercomputer_theorem = {
+			
+			cost = 0
+			removal_cost = -1
+		}
+	}
+}

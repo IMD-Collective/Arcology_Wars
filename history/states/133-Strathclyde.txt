@@ -1,0 +1,28 @@
+
+state={
+	id=133
+	name="STATE_133" # Lanark
+	manpower = 225721
+	
+	state_category = pastoral
+	
+	resources={
+		steel=21
+	}
+
+	history={
+		victory_points = { 3311 1 }
+		victory_points = { 13469 2 }
+		add_core_of = ENG
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			13469 = { bunker = 1 coastal_bunker = 1 }
+		}
+	}
+
+	provinces={
+		159 3311 3373 6320 6350 6385 6395 9237 9350 11332 13469 13470
+	}
+	local_supplies=0.0
+}  

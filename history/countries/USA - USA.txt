@@ -1,0 +1,48 @@
+﻿capital = 811
+
+#oob = "USA_1936"
+
+set_convoys = 350
+
+set_research_slots = 4
+
+add_ideas = {
+	closed_economy
+	isolationist_outlook
+	limited_conscription
+	good_instruction
+	good_research_capabilities
+	state_propaganda
+	mastercomputer_economic_planning
+	global_superpower
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_faction = nato
+add_to_faction = CAN
+add_to_faction = ENG
+add_to_faction = HAW
+
+set_autonomy = {
+	target = HAW
+	autonomous_state = autonomy_integrated_puppet
+}
+
+create_country_leader = {
+	name = "Dick Cheney"
+	desc = ""
+	picture = "Portrait_Dick_Cheney.dds"
+	expire = "2032.1.1"
+	ideology = despotism_subtype 
+	traits = { dictator }
+}

@@ -1,0 +1,8 @@
+state_categories={
+	arcoplex = {
+		local_building_slots = 25
+	
+			color = { 180 87 194 }
+
+	}
+}

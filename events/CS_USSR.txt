@@ -1,0 +1,189 @@
+###########################
+# USSR Events
+###########################
+
+add_namespace = soviet
+add_namespace = sovietnews
+
+#Internal Assesment
+country_event = {
+	id = soviet.1
+	title = soviet.1.t
+	desc = soviet.1.d
+	picture = GFX_SOV_report_event_supreme_soviet
+	
+	is_triggered_only = yes
+
+	option = {#Pugo
+		name = soviet.1.a
+		complete_national_focus = SOV_fruits_ripe_for_the_picking
+		hidden_effect = {
+			set_country_flag = SOV_pugo
+		}
+		ai_chance = { 
+			factor = 0 
+		}
+	}
+	
+	option = {#Baklanov 
+		name = soviet.1.b
+		complete_national_focus = SOV_our_interests_lie_elsewhere
+		hidden_effect = {
+			set_country_flag = SOV_baklanov
+		}
+		ai_chance = { 
+			factor = 4000 
+		}
+	}		
+}
+
+#Pugo News
+news_event = { 
+	id = sovietnews.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event sovietnews.1" }
+	title = sovietnews.1.t
+	desc = sovietnews.1.d
+	picture = GFX_SOV_news_bomber
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietnews.1.a
+		trigger = {
+			SOV = {
+				has_completed_focus = SOV_fruits_ripe_for_the_picking
+			}
+		}
+	}
+}
+
+#Balkanov News
+news_event = { 
+	id = sovietnews.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event sovietnews.2" }
+	title = sovietnews.2.t
+	desc = sovietnews.2.d
+	picture = GFX_SOV_news_mother_russia
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietnews.2.a
+		trigger = {
+			SOV = {
+				has_completed_focus = SOV_our_interests_lie_elsewhere
+			}
+		}
+	}
+}
+
+#Deeper Into The Void
+country_event = {
+	id = soviet.3
+	title = soviet.3.t
+	desc = soviet.3.d
+	picture = GFX_SOV_report_paper_signing
+	
+	is_triggered_only = yes
+
+	option = {
+		name = soviet.3.a
+		}
+}
+
+#An Unexpected Announcement
+country_event = { 
+	id = soviet.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.4" }
+	title = soviet.4.t
+	desc = soviet.4.d
+	picture = GFX_SOV_report_yazov_speech
+	
+	is_triggered_only = yes
+
+	option = {
+		name = soviet.4.a
+		add_political_power = -25
+		add_stability = -0.05
+		hidden_effect = {
+			if = { #pugo victory
+				limit = {
+					has_country_flag = SOV_pugo
+				}
+				country_event = { id = soviet.5 days = 1 }
+			}
+			if = { #baklanov victory
+				limit = {
+					has_country_flag = SOV_baklanov
+				}
+				country_event = { id = soviet.6 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { #pugo victory
+	id = soviet.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.5" }
+	title = soviet.5.t
+	desc = soviet.5.d
+	picture = GFX_SOV_report_pugo_speech
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #pugo
+		name = soviet.5.a
+		news_event = {
+			id = world.1
+			days = 2
+		}
+		load_focus_tree = CS_SOV_pugo
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Boris Pugo"
+			desc = "boris_pugo_DESC"
+			picture = "Portrait_Boris_Pugo.dds"
+			expire = "2032.3.1"
+			ideology = authoritarian_socialism_subtype
+			traits = {
+					#
+			}
+		}
+	}
+}
+
+country_event = { #baklanov victory
+	id = soviet.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.6" }
+	title = soviet.6.t
+	desc = soviet.6.d
+	picture = GFX_SOV_report_baklanov_speech
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #baklanov
+		name = soviet.6.a
+		news_event = {
+			id = world.2
+			days = 2
+		}
+		load_focus_tree = CS_SOV_baklanov
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Oleg Baklanov"
+			desc = "oleg_baklanov_DESC"
+			picture = "Portrait_Oleg_Balkanov.dds"
+			expire = "2032.3.1"
+			ideology = authoritarian_socialism_subtype
+			traits = {
+					#
+			}
+		}
+	}
+}

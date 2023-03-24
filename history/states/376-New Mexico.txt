@@ -1,0 +1,30 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		oil=24
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+		victory_points = {
+			8070 2
+		}
+		victory_points = {
+			12720 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		3867 3883 5044 8070 10740 12720 12791 
+	}
+	manpower=10316
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

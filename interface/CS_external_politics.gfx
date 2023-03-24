@@ -1,0 +1,72 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_tiled_window_1b_thin_border"
+		texturefile = "gfx/interface/tiles/tiled_window_1b_thin_border.dds"
+	}
+
+	spriteType = {
+		name = "GFX_no_projection"
+		texturefile = "gfx/interface/influence_buttons/projection/no_projection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_weak_projection"
+		texturefile = "gfx/interface/influence_buttons/projection/weak_projection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_average_projection"
+		texturefile = "gfx/interface/influence_buttons/projection/average_projection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_middling_projection"
+		texturefile = "gfx/interface/influence_buttons/projection/middling_projection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_high_projection"
+		texturefile = "gfx/interface/influence_buttons/projection/high_projection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_counter_influence"
+		texturefile = "gfx/interface/influence_buttons/reception/counter_influence.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_increase_influence_button"
+		texturefile = "gfx/interface/increase_influence_button.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_reception_1"
+		texturefile = "gfx/interface/influence_buttons/reception/reception_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_reception_2"
+		texturefile = "gfx/interface/influence_buttons/reception/reception_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_reception_3"
+		texturefile = "gfx/interface/influence_buttons/reception/reception_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_reception_4"
+		texturefile = "gfx/interface/influence_buttons/reception/reception_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_reduce_influence_button"
+		texturefile = "gfx/interface/reduce_influence_button.dds"
+	}
+	spriteType = {
+		name = "GFX_static_back"
+		texturefile = "gfx/interface/static_back.dds"
+	}
+}

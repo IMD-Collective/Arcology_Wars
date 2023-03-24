@@ -1,0 +1,1166 @@
+###yazov###
+shared_focus = {
+	id = SOV_the_2008_report
+	icon = GFX_SOV_the_2008_report
+	cost = 1
+	x = 8
+	y = 0
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = SOV_internal_assesment
+	icon = GFX_SOV_internal_assesment
+	cost = 5
+	prerequisite = {
+		focus = SOV_the_2008_report
+	}
+	x = 8
+	y = 1
+	completion_reward = {
+		country_event = soviet.1
+	}
+}
+shared_focus = {
+	id = SOV_fruits_ripe_for_the_picking
+	icon = GFX_SOV_fruits_ripe_for_the_picking
+	cost = 5
+	prerequisite = {
+		focus = SOV_internal_assesment
+	}
+	mutually_exclusive = {
+		focus = SOV_our_interests_lie_elsewhere
+	}
+	x = 6
+	y = 2
+	completion_reward = {
+		news_event = sovietnews.1
+		add_war_support = 0.05
+		add_named_threat = {threat = 10}	
+	}
+}
+shared_focus = {
+	id = SOV_our_interests_lie_elsewhere
+	icon = GFX_SOV_our_interests_lie_elsewhere
+	cost = 5
+	prerequisite = {
+		focus = SOV_internal_assesment
+	}
+	mutually_exclusive = {
+		focus = SOV_fruits_ripe_for_the_picking
+	}
+	x = 10
+	y = 2
+	completion_reward = {
+		news_event = sovietnews.2		
+		add_stability = 0.05
+		add_war_support = -0.05
+	}
+}
+shared_focus = {
+	id = SOV_enemies_at_the_gates
+	icon = GFX_SOV_enemies_at_the_gates
+	cost = 5
+	prerequisite = {
+		focus = SOV_our_interests_lie_elsewhere
+		focus = SOV_fruits_ripe_for_the_picking
+	}
+	x = 9
+	y = 3
+	completion_reward = {
+		add_ideas = SOV_An_Awakening_I
+	}
+}
+shared_focus = {
+	id = SOV_weve_got_our_eyes_on_you
+	icon = GFX_SOV_weve_got_our_eyes_on_you
+	cost = 5
+	prerequisite = {
+		focus = SOV_enemies_at_the_gates
+	}
+	prerequisite = {
+		focus = SOV_eying_up_eastern_europe
+	}
+	x = 8
+	y = 4
+	completion_reward = {
+		remove_ideas = SOV_An_Awakening_I
+		add_ideas = SOV_An_Awakening_II
+	}
+}
+shared_focus = {
+	id = SOV_deeper_into_the_void
+	icon = GFX_SOV_deeper_into_the_void
+	cost = 5
+	prerequisite = {
+		focus = SOV_our_interests_lie_elsewhere
+	}
+	x = 11
+	y = 3
+	completion_reward = {
+		country_event = soviet.3
+	}
+}
+shared_focus = {
+	id = SOV_zero_g_manufacturing
+	icon = GFX_SOV_zero_g_manufacturing
+	cost = 5
+	prerequisite = {
+		focus = SOV_deeper_into_the_void
+	}
+	prerequisite = {
+		focus = SOV_enemies_at_the_gates
+	}
+	x = 10
+	y = 4
+	completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+	}
+}
+shared_focus = {
+	id = SOV_groundwork_for_an_airtight_union
+	icon = GFX_SOV_groundwork_for_an_airtight_union
+	cost = 5
+	prerequisite = {
+		focus = SOV_zero_g_manufacturing
+	}
+	prerequisite = {
+		focus = SOV_weve_got_our_eyes_on_you
+	}
+	x = 10
+	y = 5
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	id = SOV_eying_up_eastern_europe
+	icon = GFX_SOV_eying_up_eastern_europe
+	cost = 5
+	prerequisite = {
+		focus = SOV_fruits_ripe_for_the_picking
+		focus = SOV_our_interests_lie_elsewhere
+	}
+	x = 7
+	y = 3
+	completion_reward = {
+		add_named_threat = {threat = 5}	
+		CZE = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}	
+		MRV = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		SLO = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}	
+		HUN = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}	
+		BOS = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		SLV = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		CRO = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		YUG = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		MAC = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		GRE = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		ALB = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+		ROM = {
+			add_opinion_modifier = { target = SOV modifier = medium_decrease }
+		}
+	}
+}
+shared_focus = {
+	id = SOV_loosen_pax_sovietica
+	icon = GFX_SOV_loosen_pax_sovietica
+	cost = 5
+	prerequisite = {
+		focus = SOV_fruits_ripe_for_the_picking
+	}
+	x = 5
+	y = 3
+	completion_reward = {
+   		remove_ideas = SOV_Pax_Sovietica_I
+   		add_ideas = SOV_Pax_Sovietica_II
+	}
+}
+shared_focus = {
+	id = SOV_op_restitute
+	icon = GFX_SOV_op_restitute
+	cost = 5
+	prerequisite = {
+		focus = SOV_loosen_pax_sovietica
+	}
+	prerequisite = {
+		focus = SOV_eying_up_eastern_europe
+	}
+	x = 6
+	y = 4
+	completion_reward = {
+		army_experience = 5
+	}
+}
+shared_focus = {
+	id = SOV_our_friends_in_asia
+	icon = GFX_SOV_our_friends_in_asia
+	cost = 5
+	prerequisite = {
+		focus = SOV_weve_got_our_eyes_on_you
+	}
+	x = 8
+	y = 5
+	completion_reward = {
+		SIK = {
+			add_opinion_modifier = { target = SOV modifier = medium_increase }
+			}
+			add_opinion_modifier = { target = SIK modifier = medium_increase }	
+	}
+}
+shared_focus = {
+	id = SOV_preludes_to_a_red_world
+	icon = GFX_SOV_preludes_to_a_red_world
+	cost = 5
+	prerequisite = {
+		focus = SOV_op_restitute
+	}
+	prerequisite = {
+		focus = SOV_weve_got_our_eyes_on_you
+	}
+	x = 6
+	y = 5
+	completion_reward = {
+		remove_ideas = SOV_An_Awakening_I
+		remove_ideas = SOV_An_Awakening_II
+		add_ideas = SOV_Red_Irredentism
+	}
+}
+shared_focus = {
+	id = SOV_an_unexpected_announcement
+	icon = GFX_SOV_an_unexpected_announcement
+	cost = 5
+	prerequisite = {
+		focus = SOV_our_friends_in_asia
+	}
+	prerequisite = {
+		focus = SOV_preludes_to_a_red_world
+		focus = SOV_groundwork_for_an_airtight_union
+	}
+	x = 8
+	y = 6
+	completion_reward = {
+		news_event = soviet.4
+	}
+}
+
+###baklanov###
+shared_focus = {
+	id = SOV_the_baklanov_ensemble
+	icon = GFX_SOV_the_baklanov_ensemble
+	cost = 1
+	x = 9
+	y = 0
+	completion_reward = {
+		add_political_power = 15
+	}
+}
+shared_focus = {
+	id = SOV_foreign_policy_reform  
+	icon = GFX_SOV_foreign_policy_reform
+	cost = 5
+	prerequisite = {
+		focus = SOV_the_baklanov_ensemble
+	}
+	x = 9
+	y = 1
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_redefined_realpolitk  
+	icon = GFX_SOV_redefined_realpolitk
+	cost = 5
+	prerequisite = {
+		focus = SOV_foreign_policy_reform
+	}
+	x = 10
+	y = 2
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_planning_a_perimeter
+	icon = GFX_SOV_planning_a_perimeter
+	cost = 5
+	prerequisite = {
+		focus = SOV_foreign_policy_reform
+	}
+	x = 8
+	y = 2
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_bring_the_spetznaz_home
+	icon = GFX_SOV_bring_the_spetznaz_home
+	cost = 5
+	prerequisite = {
+		focus = SOV_planning_a_perimeter
+	}
+	prerequisite = {
+		focus = SOV_redefined_realpolitk
+	}
+	x = 9
+	y = 3
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_eyes_towards_our_old_friends
+	icon = GFX_SOV_eyes_towards_our_old_friends
+	cost = 5
+	prerequisite = {
+		focus = SOV_planning_a_perimeter
+	}
+	x = 7
+	y = 3
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_reallocation_of_budgetary_funds
+	icon = GFX_SOV_reallocation_of_budgetary_funds
+	cost = 5
+	prerequisite = {
+		focus = SOV_redefined_realpolitk
+	}
+	x = 11
+	y = 3
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_end_of_the_bullshit_wars
+	icon = GFX_SOV_end_of_the_bullshit_wars
+	cost = 5
+	prerequisite = {
+		focus = SOV_reallocation_of_budgetary_funds
+	}
+	prerequisite = {
+		focus = SOV_eyes_towards_our_old_friends
+	}
+	prerequisite = {
+		focus = SOV_bring_the_spetznaz_home
+	}
+	x = 9
+	y = 4
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_our_apology
+	icon = GFX_SOV_our_apology	
+	cost = 5
+	prerequisite = {
+		focus = SOV_end_of_the_bullshit_wars
+	}
+	x = 9
+	y = 5
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_slight_apathy_for_western_europe
+	icon = GFX_SOV_slight_apathy_for_western_europe	
+	cost = 5
+	prerequisite = {
+		focus = SOV_end_of_the_bullshit_wars
+	}
+	x = 6
+	y = 5
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_tiny_increase_in_space_spending
+	icon = GFX_SOV_tiny_increase_in_space_spending	
+	cost = 5
+	prerequisite = {
+		focus = SOV_end_of_the_bullshit_wars
+	}
+	x = 12
+	y = 5
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_restart_comecon
+	icon = GFX_SOV_restart_comecon	
+	cost = 5
+	prerequisite = {
+		focus = SOV_tiny_increase_in_space_spending
+	}
+	prerequisite = {
+		focus = SOV_slight_apathy_for_western_europe
+	}
+	prerequisite = {
+		focus = SOV_our_apology
+	}
+	x = 9
+	y = 6
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_selling_our_glut
+	icon = GFX_SOV_selling_our_glut	
+	cost = 5
+	prerequisite = {
+		focus = SOV_restart_comecon
+	}
+	x = 9
+	y = 7
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_draft_the_shevardn_plan
+	icon = GFX_SOV_draft_the_shevardn_plan	
+	cost = 5
+	prerequisite = {
+		focus = SOV_selling_our_glut
+	}
+	x = 9
+	y = 8
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_propose_to_north_america
+	icon = GFX_SOV_propose_to_north_america	
+	cost = 5
+	prerequisite = {
+		focus = SOV_draft_the_shevardn_plan
+	}
+	x = 8
+	y = 9
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_propose_to_asia
+	icon = GFX_SOV_propose_to_asia	
+	cost = 5
+	prerequisite = {
+		focus = SOV_propose_to_north_america
+	}
+	x = 8
+	y = 10
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_propose_to_africa
+	icon = GFX_SOV_propose_to_africa	
+	cost = 5
+	prerequisite = {
+		focus = SOV_draft_the_shevardn_plan
+	}
+	x = 10
+	y = 9
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_propose_to_western_europe
+	icon = GFX_SOV_propose_to_western_europe
+	cost = 5
+	prerequisite = {
+		focus = SOV_propose_to_africa
+	}
+	x = 10
+	y = 10
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_soviet_solutions_to_soviet_problems
+	icon = GFX_SOV_soviet_solutions_to_soviet_problems
+	cost = 5
+	prerequisite = {
+		focus = SOV_propose_to_western_europe
+	}
+	prerequisite = {
+		focus = SOV_propose_to_asia
+	}
+	x = 9
+	y = 11
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_loan_masters
+	icon = GFX_SOV_loan_masters
+	cost = 5
+	prerequisite = {
+		focus = SOV_soviet_solutions_to_soviet_problems
+	}
+	x = 9
+	y = 12
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_jack_up_the_interest
+	icon = GFX_SOV_jack_up_the_interest
+	cost = 5
+	prerequisite = {
+		focus = SOV_loan_masters
+	}
+	x = 8
+	y = 13
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_dont_worry_you_can_default
+	icon = GFX_SOV_dont_worry_you_can_default
+	cost = 5
+	prerequisite = {
+		focus = SOV_loan_masters
+	}
+	x = 10
+	y = 13
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_and_if_you_do_well_cut_our_losses
+	icon = GFX_SOV_and_if_you_do_well_cut_our_losses	
+	cost = 5
+	prerequisite = {
+		focus = SOV_dont_worry_you_can_default
+	}
+	x = 10
+	y = 14
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_withholding_essential_resources 
+	icon = GFX_SOV_withholding_essential_resources
+	cost = 5
+	prerequisite = {
+		focus = SOV_jack_up_the_interest
+	}
+	x = 8
+	y = 14
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_red_lovushka
+	icon = GFX_SOV_red_lovushka
+	cost = 5
+	prerequisite = {
+		focus = SOV_withholding_essential_resources
+	}
+	prerequisite = {
+		focus = SOV_and_if_you_do_well_cut_our_losses
+	}
+	x = 9
+	y = 15
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_allocate_global_manufacturing_deals 
+	icon = GFX_SOV_allocate_global_manufacturing_deals
+	cost = 5
+	prerequisite = {
+		focus = SOV_soviet_solutions_to_soviet_problems
+	}
+	x = 4
+	y = 12
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_expand_civilian_goods_production
+	icon = GFX_SOV_expand_civilian_goods_production
+	cost = 5
+	prerequisite = {
+		focus = SOV_allocate_global_manufacturing_deals
+	}
+	x = 4
+	y = 13
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_technical_advisors_to_ideologically_compatible_states
+	icon = GFX_SOV_technical_advisors_to_ideologically_compatible_states
+	cost = 5
+	prerequisite = {
+		focus = SOV_expand_civilian_goods_production
+	}
+	x = 3
+	y = 14
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_exporting_ladas
+	icon = GFX_SOV_exporting_ladas
+	cost = 5
+	prerequisite = {
+		focus = SOV_expand_civilian_goods_production
+	}
+	x = 5
+	y = 14
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_acquiring_foreign_assets 
+	icon = GFX_SOV_acquiring_foreign_assets
+	cost = 5
+	prerequisite = {
+		focus = SOV_exporting_ladas
+	}
+	prerequisite = {
+		focus = SOV_technical_advisors_to_ideologically_compatible_states
+	}
+	x = 4
+	y = 15
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_beginning_the_oilopoly 
+	icon = GFX_SOV_beginning_the_oilopoly
+	cost = 5
+	prerequisite = {
+		focus = SOV_soviet_solutions_to_soviet_problems
+	}
+	x = 14
+	y = 12
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_trade_wars
+	icon = GFX_SOV_trade_wars	
+	cost = 5
+	prerequisite = {
+		focus = SOV_beginning_the_oilopoly
+	}
+	x = 14
+	y = 13
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_withhold_drilling_equipment_from_venezuella
+	icon = GFX_SOV_withhold_drilling_equipment_from_venezuella
+	cost = 5
+	prerequisite = {
+		focus = SOV_trade_wars
+	}
+	x = 13
+	y = 14
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_assassinate_saudi_distribution_capacity
+	icon = GFX_SOV_assassinate_saudi_distribution_capacity	
+	cost = 5
+	prerequisite = {
+		focus = SOV_trade_wars
+	}
+	x = 15
+	y = 14
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_draft_operation_red_spring
+	icon = GFX_SOV_draft_operation_red_spring	
+	cost = 5
+	prerequisite = {
+		focus = SOV_assassinate_saudi_distribution_capacity
+	}
+	prerequisite = {
+		focus = SOV_withhold_drilling_equipment_from_venezuella
+	}
+	x = 14
+	y = 15
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_one_and_invincible_one_and_invisible
+	icon = GFX_SOV_one_and_invincible_one_and_invisible	
+	cost = 5
+	prerequisite = {
+		focus = SOV_draft_operation_red_spring
+	}
+	prerequisite = {
+		focus = SOV_acquiring_foreign_assets
+	}
+	prerequisite = {
+		focus = SOV_red_lovushka
+	}
+	x = 9
+	y = 16
+	completion_reward = {
+					#
+	}
+}
+
+###pugo###
+shared_focus = {
+	id = SOV_pugos_preeminence
+	icon = GFX_SOV_pugos_preeminence	
+	cost = 1
+	x = 9
+	y = 0
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = SOV_kgb_co
+	icon = GFX_SOV_kgb_co	
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_the_armed_descent
+	}
+	prerequisite = {
+		focus = SOV_pugos_preeminence
+	}
+	x = 8
+	y = 1
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_the_armed_descent
+	icon = GFX_SOV_the_armed_descent	
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_kgb_co
+	}
+	prerequisite = {
+		focus = SOV_pugos_preeminence
+	}
+	x = 10
+	y = 1
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_friend_of_the_army
+	icon = GFX_SOV_friend_of_the_army
+	cost = 5
+	prerequisite = {
+		focus = SOV_the_armed_descent
+	}
+	x = 11
+	y = 2
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_discuss_with_the_pacifists
+	icon = GFX_SOV_discuss_with_the_pacifists
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_guns_blazing
+	}
+	prerequisite = {
+		focus = SOV_friend_of_the_army
+	}
+	x = 10
+	y = 3
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_guns_blazing
+	icon = GFX_SOV_guns_blazing
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_discuss_with_the_pacifists
+	}
+	prerequisite = {
+		focus = SOV_friend_of_the_army
+	}
+	x = 12
+	y = 3
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_there_will_be_glory
+	icon = GFX_SOV_there_will_be_glory
+	cost = 5
+	prerequisite = {
+		focus = SOV_discuss_with_the_pacifists
+		focus = SOV_guns_blazing
+	}
+	x = 11
+	y = 4
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_the_speech
+	icon = GFX_SOV_the_speech
+	cost = 1
+	prerequisite = {
+		focus = SOV_there_will_be_glory
+		focus = SOV_securostate
+	}
+	x = 9
+	y = 5
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_like_the_old_days
+	icon = GFX_SOV_like_the_old_days
+	cost = 5
+	prerequisite = {
+		focus = SOV_kgb_co
+	}
+	x = 7
+	y = 2
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_the_soft_purges
+	icon = GFX_SOV_the_soft_purges
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_the_bloody_purges
+	}
+	prerequisite = {
+		focus = SOV_like_the_old_days
+	}
+	x = 8
+	y = 3
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_the_bloody_purges
+	icon = GFX_SOV_the_bloody_purges
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_the_soft_purges
+	}
+	prerequisite = {
+		focus = SOV_like_the_old_days
+	}
+	x = 6
+	y = 3
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_securostate
+	icon = GFX_SOV_securostate
+	cost = 5
+	prerequisite = {
+		focus = SOV_the_soft_purges
+		focus = SOV_the_bloody_purges
+	}
+	x = 7
+	y = 4
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_the_war_of_truth_campaign
+	icon = GFX_SOV_the_war_of_truth_campaign
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_social_imperialism
+	}
+	prerequisite = {
+		focus = SOV_the_speech
+	}
+	x = 8
+	y = 6
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_social_imperialism 
+	icon = GFX_SOV_social_imperialism
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_the_war_of_truth_campaign
+	}
+	prerequisite = {
+		focus = SOV_the_speech
+	}
+	x = 10
+	y = 6
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_swell_the_defense_budget
+	icon = GFX_SOV_swell_the_defense_budget
+	cost = 5
+	prerequisite = {
+		focus = SOV_social_imperialism
+		focus = SOV_the_war_of_truth_campaign
+	}
+	x = 10
+	y = 7
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_propagandize_the_west
+	icon = GFX_SOV_propagandize_the_west
+	cost = 5
+	prerequisite = {
+		focus = SOV_social_imperialism
+		focus = SOV_the_war_of_truth_campaign
+	}
+	x = 8
+	y = 7
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_the_new_army 
+	icon = GFX_SOV_the_new_army
+	cost = 5
+	prerequisite = {
+		focus = SOV_propagandize_the_west
+	}
+	prerequisite = {
+		focus = SOV_swell_the_defense_budget
+	}
+	x = 9
+	y = 8
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_blacklist_zone_truthers 
+	icon = GFX_SOV_blacklist_zone_truthers
+	cost = 5
+	prerequisite = {
+		focus = SOV_swell_the_defense_budget
+	}
+	x = 11
+	y = 8
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_national_rallies 
+	icon = GFX_SOV_national_rallies
+	cost = 5
+	prerequisite = {
+		focus = SOV_blacklist_zone_truthers
+	}
+	x = 11
+	y = 10
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_quality_over_quantity
+	icon = GFX_SOV_quality_over_quantity
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_old_ways_still_work
+	}
+	prerequisite = {
+		focus = SOV_the_new_army
+	}
+	x = 10
+	y = 9
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_old_ways_still_work
+	icon = GFX_SOV_old_ways_still_work
+	cost = 5
+	mutually_exclusive = {
+		focus = SOV_quality_over_quantity
+	}
+	prerequisite = {
+		focus = SOV_the_new_army
+	}
+	x = 8
+	y = 9
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_contact_the_concerns
+	icon = GFX_SOV_contact_the_concerns
+	cost = 5
+	prerequisite = {
+		focus = SOV_old_ways_still_work
+		focus = SOV_quality_over_quantity
+	}
+	x = 9
+	y = 10
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_open_up_the_plants
+	icon = GFX_SOV_open_up_the_plants
+	cost = 5
+	prerequisite = {
+		focus = SOV_propagandize_the_west
+	}
+	x = 7
+	y = 8
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_extend_conscription
+	icon = GFX_SOV_extend_conscription
+	cost = 5
+	prerequisite = {
+		focus = SOV_open_up_the_plants
+	}
+	x = 7
+	y = 10
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_war_of_words
+	icon = GFX_SOV_war_of_words
+	cost = 5
+	prerequisite = {
+		focus = SOV_extend_conscription
+	}
+	prerequisite = {
+		focus = SOV_contact_the_concerns
+	}
+	x = 8
+	y = 11
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_soviet_neopatriotism
+	icon = GFX_SOV_soviet_neopatriotism
+	cost = 5
+	prerequisite = {
+		focus = SOV_contact_the_concerns
+	}
+	prerequisite = {
+		focus = SOV_national_rallies
+	}
+	x = 10
+	y = 11
+	completion_reward = {
+					#
+	}
+}
+shared_focus = {
+	id = SOV_in_war_we_trust
+	icon = GFX_SOV_in_war_we_trust
+	cost = 5
+	prerequisite = {
+		focus = SOV_soviet_neopatriotism
+	}
+	prerequisite = {
+		focus = SOV_war_of_words
+	}
+	x = 9
+	y = 12
+	completion_reward = {
+					#
+	}
+}
+

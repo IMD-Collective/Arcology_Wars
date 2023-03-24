@@ -1,0 +1,25 @@
+
+state={
+	id=53
+	name="STATE_53"
+	manpower = 453365
+	
+	state_category = rural
+
+	history={
+		owner = BAY
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = BAY
+		victory_points = {
+			3541 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		532 571 586 3541 3571 11497 13097 13098 13099
+	}
+}

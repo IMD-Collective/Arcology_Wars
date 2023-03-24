@@ -1,0 +1,33 @@
+﻿capital = 797
+
+#oob = "ITA_1936"
+
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 0.7
+
+set_convoys = 200
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	left_populism = 9
+	neutrality = 55
+	fascism = 24
+	communism = 12
+}
+
+create_country_leader = {
+	name = "Lauriano Anastasi"
+	desc = ""
+	picture = "Portrait_Lauriano_Anastasi.dds"
+	expire = "2032.1.1"
+	ideology = military_despotism 
+	traits = {
+		#
+	}
+}

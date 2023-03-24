@@ -1,0 +1,10 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_missing_info"
+		texturefile = "gfx/leaders/missing_info.dds"
+		noOfFrames = 33
+		animation_rate_fps = 8
+		looping = yes
+		play_on_show = yes
+	}
+}

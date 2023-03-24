@@ -1,0 +1,23 @@
+﻿capital = 574 #Yakutsk
+
+#oob = "YAK_1936"
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 60
+	fascism = 0
+	communism = 20
+	neutrality = 20
+}
+
+
+
+

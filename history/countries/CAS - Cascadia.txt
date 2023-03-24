@@ -1,0 +1,24 @@
+﻿capital = 468
+
+#oob = ""
+
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.1
+
+# Starting tech
+
+set_politics = {
+	ruling_party = left_populism
+	last_election = "2008.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 10
+	left_populism = 44
+	democratic = 11
+	neutrality = 23
+	fascism = 12
+}

@@ -1,0 +1,17 @@
+﻿capital = 284
+
+#oob = "NZL_1936"
+
+# Starting tech
+set_stability = 0.8
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.11.27"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}

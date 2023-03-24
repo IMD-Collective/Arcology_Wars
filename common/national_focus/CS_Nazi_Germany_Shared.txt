@@ -1,0 +1,240 @@
+####################
+### Nazi Germany ###
+####################
+
+#The Reich Reborn
+shared_focus = {
+	id = GRM_the_reich_reborn
+	icon = GFX_GRM_the_reich_reborn
+	x = 8
+	y = 0
+	cost = 5
+	available_if_capitulated = yes
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#Our Alpine Backers
+shared_focus = {
+	id = GRM_our_alpine_backers
+	icon = GFX_GRM_our_alpine_backers
+	x = 8
+	y = 1
+	cost = 5
+	prerequisite = { 
+		focus = GRM_the_reich_reborn 
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#Volks ans Gewhr
+shared_focus = {
+	id = GRM_volks_ans_gewhr
+	icon = GFX_GRM_volks_ans_gewhr
+	x = 8
+	y = 4
+	cost = 5
+	prerequisite = { 
+		focus = GRM_all_guns_are_good 
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		add_ideas = { 
+			GRM_volkssturm 
+		}
+	}
+}
+
+#The bastards of Stalin
+shared_focus = {
+	id = GRM_the_bastards_of_stalin
+	icon = GFX_goal_unknown
+	x = 6
+	y = 2
+	cost = 5
+	prerequisite = { 
+		focus = GRM_our_alpine_backers 
+	}
+	mutually_exclusive = {
+		focus = GRM_trotskys_plotters
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#Reinstate-kommissarbefehl
+shared_focus = {
+	id = GRM_reinstate_kommissarbefehl
+	icon = GFX_goal_unknown
+	x = 8
+	y = 5
+	cost = 5
+	prerequisite = { 
+		focus = GRM_volks_ans_gewhr
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#Destruction of Soviet influence
+shared_focus = {
+	id = GRM_destruction_of_soviet_influence
+	icon = GFX_goal_unknown
+	x = 6
+	y = 3
+	cost = 5
+	prerequisite = { 
+		focus = GRM_the_bastards_of_stalin 
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#The Swastika over Dresden
+shared_focus = {
+	id = GRM_the_swastika_over_dresden
+	icon = GFX_goal_unknown
+	x = 6
+	y = 5
+	cost = 5
+	prerequisite = { 
+		focus = GRM_destruction_of_soviet_influence
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#Trotskys plotters
+shared_focus = {
+	id = GRM_trotskys_plotters
+	icon = GFX_BOS_A_Terrorist_Attack
+	x = 10
+	y = 2
+	cost = 5
+	prerequisite = { 
+		focus = GRM_our_alpine_backers 
+	}
+	mutually_exclusive = {
+		focus = GRM_the_bastards_of_stalin
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#Over the Rhine
+shared_focus = {
+	id = GRM_over_the_rhine
+	icon = GFX_goal_unknown
+	x = 10
+	y = 3
+	cost = 5
+	prerequisite = { 
+		focus = GRM_trotskys_plotters 
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#All guns are good
+shared_focus = {
+	id = GRM_all_guns_are_good
+	icon = GFX_goal_unknown
+	x = 8
+	y = 3
+	cost = 5
+	prerequisite = { 
+		focus = GRM_our_alpine_backers
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#The Rhine Reborn
+shared_focus = {
+	id = GRM_the_rhine_reborn
+	icon = GFX_goal_unknown
+	x = 10
+	y = 5
+	cost = 5
+	prerequisite = { 
+		focus = GRM_over_the_rhine
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}
+
+#To save Germany
+shared_focus = {
+	id = GRM_to_save_germany
+	icon = GFX_goal_unknown
+	x = 8
+	y = 6
+	cost = 5
+	prerequisite = { 
+		focus = GRM_the_swastika_over_dresden
+		focus = GRM_the_rhine_reborn
+	}
+	prerequisite = {
+		focus = GRM_reinstate_kommissarbefehl	
+	}
+	available_if_capitulated = yes
+	cancelable = no
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	}
+}

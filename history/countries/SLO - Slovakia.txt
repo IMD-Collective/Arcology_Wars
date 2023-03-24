@@ -1,0 +1,25 @@
+﻿capital = 70
+
+#oob = "SLO_2008"
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 20
+	neutrality = 70
+	fascism = 10
+}
+
+create_country_leader = {
+	name = "Bronislav Pekár"
+	desc = ""
+	picture = "Portrait_Bronislav_Pekár.dds"
+	expire = "2032.1.1"
+	ideology = despotism_subtype 
+	traits = { dictator }
+}

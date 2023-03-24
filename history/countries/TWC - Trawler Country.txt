@@ -1,0 +1,12 @@
+capital = 890
+
+set_politics = {
+	ruling_party = left_populism 
+	last_election = "2008.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	left_populism = 100
+}

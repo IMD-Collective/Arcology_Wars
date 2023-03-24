@@ -1,0 +1,72 @@
+ideas = {
+
+	outlook = { 
+		law = yes
+		use_list_view = yes
+
+		isolationist_outlook = {
+
+			modifier = {
+				defensive_war_stability_factor = 0.20
+				stability_weekly = 0.01
+				drift_defence_factor = 0.15
+				army_core_defence_factor = 0.15
+				political_power_gain = -0.45
+				annex_cost_factor = 0.50
+				puppet_cost_factor = 0.50
+				war_support_factor = -0.15
+				trade_opinion_factor = -1.00
+			}
+
+			default = yes
+
+			cost = 0
+			removal_cost = -1
+		}
+
+		moderate_outlook = {
+
+			modifier = {
+				political_power_gain = -0.20
+				stability_factor = 0.10	
+				army_core_defence_factor = 0.05
+				gdp_money_spent = 10
+			}
+			
+			cost = 0
+			removal_cost = -1
+		}
+		
+		expansionist_outlook = {
+
+			modifier = {
+				political_power_gain = 0.10
+				stability_factor = -0.10
+				annex_cost_factor = -0.25
+				war_support_factor = 0.15
+				trade_opinion_factor = 0.15
+				#occupation_cost = -0.25
+				compliance_growth_on_our_occupied_states = 0.25
+				gdp_money_spent = 4
+			}
+			
+			cost = 0
+			removal_cost = -1
+		}
+
+		interventionist_outlook = {
+
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.05
+				puppet_cost_factor = -0.50
+				war_support_factor = 0.15
+				trade_opinion_factor = 0.25
+				gdp_money_spent = 8
+			}
+
+			cost = 0
+			removal_cost = -1
+		}
+	}
+}

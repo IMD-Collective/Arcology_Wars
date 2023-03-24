@@ -1,0 +1,28 @@
+state= {
+	id=120
+	name="STATE_120"
+	manpower = 90213
+	
+	state_category = pastoral
+
+	resources={
+		chromium=1
+		tungsten=16
+		aluminium=9
+	}
+
+	history= {
+		victory_points = { 3159 2 }
+		victory_points = { 3178 1 }
+		add_core_of = ENG
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		131 284 3159 3178 6046 6062 6196 6205 9075 9090 11064 11161 11266 	
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+﻿l_english:
+
+ ##Party Names 
+ HAW_democratic:0 "Hawai'ian Republic"
+ HAW_democratic_DEF:0 "the Hawai'ian Republic"
+ HAW_democratic_ADJ:0 "American"
+ HAW_communism:0 "Great Ohana Commonwealth"
+ HAW_communism_DEF:0 "the Great Ohana Commonwealth"
+ HAW_communism_ADJ:0 "Hawai'ian"
+ HAW_left_populism:0 "Great Ohana Commonwealth"
+ HAW_left_populism_DEF:0 "the Great Ohana Commonwealth"
+ HAW_left_populism_ADJ:0 "Hawai'ian"
+ HAW_neutrality:0 "United States Indo-Pacific Command"
+ HAW_neutrality_DEF:0 "the United States Indo-Pacific Command"
+ HAW_neutrality_ADJ:0 "American"
+ HAW_fascism:0 "Hawai'ian Empire"
+ HAW_fascism_DEF:0 "the Hawai'ian Empire"
+ HAW_fascism_ADJ:0 "Hawai'ian"
+ HAW:0 "Hawai'i"
+ HAW_DEF:0 "Hawai'i"
+ HAW_ADJ:0 "Hawai'ian"

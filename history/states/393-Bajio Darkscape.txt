@@ -1,0 +1,24 @@
+state={
+	id=393
+	name="STATE_393"
+
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = WST
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			6710 30
+		}
+
+	}
+	local_supplies=0.0
+	provinces={
+		1952 10172 10738 12804
+	}
+	manpower=89
+}

@@ -1,0 +1,25 @@
+﻿l_english:
+
+ ##Country Names
+ BUL_fascism:0 "Legionnaires Bulgaria"
+ BUL_fascism_DEF:0 "Legionnaires Bulgaria"
+ BUL_democratic:0 "Republic of Bulgaria"
+ BUL_democratic_DEF:0 "the Republic of Bulgaria"
+ BUL_neutrality:0 "Bulgaria"
+ BUL_neutrality_DEF:0 "Bulgaria"
+ BUL_left_populism:0 "Bulgarian Worker's Commmune"
+ BUL_left_populism_DEF:0 "the Bulgarian Worker's Commmune"
+ BUL_left_populism_ADJ:0 "Bulgarian"
+ BUL_communism:0 "People's Republic of Bulgaria"
+ BUL_communism_DEF:0 "People's Republic of Bulgaria"
+ BUL_fascism_ADJ:0 "Bulgarian"
+ BUL_democratic_ADJ:0 "Bulgarian"
+ BUL_neutrality_ADJ:0 "Bulgarian"
+ BUL_communism_ADJ:0 "Bulgarian"
+ BUL:0 "Bulgaria"
+ BUL_DEF:0 "Bulgaria"
+ BUL_ADJ:0 "Bulgarian"
+ 
+ ##Party Names 
+ BUL_communism_party:0 "BCP"
+ BUL_communism_party_long:0 "Bulgarian Communist Party"

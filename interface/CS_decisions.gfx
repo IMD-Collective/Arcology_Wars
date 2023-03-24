@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	### category pictures
+	
+		spriteType = {
+		name = "GFX_decision_aryan_backers"
+		texturefile = "gfx/interface/decisions/aryan_backers.dds"
+	}
+}

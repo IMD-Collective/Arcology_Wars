@@ -1,0 +1,32 @@
+
+state={
+	id=125
+	name="STATE_125"
+	manpower = 13317
+	
+	state_category = pastoral
+
+	history={
+		victory_points = { 3501 2 }
+		victory_points = { 13452 1 }
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			2799 = {
+				bunker = 1				
+			}
+			13450 = {
+				bunker = 2			
+			}
+			2824 = {
+				bunker = 2			
+			}
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		221 2824 2799 3501 7242 13447 13448 13449 13450 13451 13452 13453
+	}
+	local_supplies=0.0
+}

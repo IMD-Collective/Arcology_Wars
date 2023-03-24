@@ -1,0 +1,36 @@
+add_namespace = world
+
+
+news_event = { #pugo victory news
+	id = world.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event world.1" }
+	title = world.1.t
+	desc = world.1.d
+	picture = GFX_SOV_news_pugo_victory
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.1.a
+		name = world.1.b
+	}
+}
+
+news_event = { #baklanov victory news
+	id = world.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event world.2" }
+	title = world.2.t
+	desc = world.2.d
+	picture = GFX_SOV_news_baklanov_victory
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.2.a
+		name = world.2.b
+	}
+}

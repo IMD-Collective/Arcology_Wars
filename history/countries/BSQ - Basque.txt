@@ -1,0 +1,19 @@
+capital = 792
+
+##oob = ""
+
+# Starting tech
+
+set_convoys = 34
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 79
+	communism = 21
+}

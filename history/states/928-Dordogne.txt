@@ -1,0 +1,26 @@
+
+state={
+	id=928
+	name="STATE_928"
+	manpower = 432031
+
+	state_category = rural
+
+	history={
+		victory_points = {
+			11702 2
+		}
+		victory_points = {
+			9734 1 
+		}
+		owner = OCC
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = OCC
+	}
+	local_supplies=0.0
+	provinces={
+		752 755 3948 6775 9717 9734 11702 11718 11720
+	}
+}

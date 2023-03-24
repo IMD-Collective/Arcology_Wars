@@ -1,0 +1,27 @@
+#guiTypes = {
+#
+#	containerWindowType = {
+#		name = "budget_menu"
+#		position = { x = 7 y = 757}
+#		size = { width = 539 height = 242 }
+#		moveable = no
+#
+#		background = {
+#			name = "Background"		
+#			quadTextureSprite ="GFX_tiled_window_transparent"
+#		}
+#
+#		iconType = {
+#			name = "budget_static_frame"
+#			spriteType = "GFX_budget_static_frame"
+#			position = { x = -4 y = -4 }
+#			alwaystransparent = yes
+#		}
+#		iconType = {
+#			name = "budget_monitor"
+#			spriteType = "GFX_budget_monitor"
+#			position = { x = 7 y = 8 }
+#			alwaystransparent = yes
+#		}
+#	}
+#}

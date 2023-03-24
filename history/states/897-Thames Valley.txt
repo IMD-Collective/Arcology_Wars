@@ -1,0 +1,24 @@
+state={
+	id=897
+	name="STATE_897"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 13428 2 }
+		victory_points = { 6351 1 }
+		buildings = {
+			infrastructure = 5
+			13428 = {
+				naval_base = 8
+			}
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		507 6351 6378 6489 11471 13417 13418 13419 13427 13428
+	}
+	manpower=10982
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

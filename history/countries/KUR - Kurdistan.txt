@@ -1,0 +1,17 @@
+﻿capital = 800
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 40
+	communism = 25
+	fascism = 30
+	neutrality = 5
+}

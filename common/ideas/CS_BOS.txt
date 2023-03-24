@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		BOS_Islamic_Republic = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_BOS_Islamic_Republic
+
+			modifier = {
+			}
+		}
+		BOS_Jihadist_Pressure = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_BOS_Jihadist_Pressure
+
+			modifier = {
+			}
+		}
+		BOS_Secularist_Movement = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_BOS_Secularist_Movement
+
+			modifier = {
+			}
+		}
+	}
+}

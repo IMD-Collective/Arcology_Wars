@@ -1,0 +1,28 @@
+
+state={
+	id=22
+	name="STATE_22"
+	manpower = 1691200
+
+	state_category = town
+
+	history={
+		owner = OCC
+		victory_points = {
+			9898 2
+		}
+		victory_points = {
+			6962 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = OCC
+	}
+	local_supplies=0.0
+	provinces={
+		760 3751 6770 6960 6962 9723 9898 11709 11711 13483
+	}
+}

@@ -1,0 +1,22 @@
+capital = 158
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 60
+	neutrality = 20
+	fascism = 20
+}
+
+create_country_leader = {
+	name = "Franco Freda"
+	desc = ""
+	picture = "Portrait_Franco_Freda.dds"
+	expire = "2032.1.1"
+	ideology = left_wing_nationalism 
+	traits = { dictator }
+}

@@ -1,0 +1,23 @@
+state={
+	id=893
+	name="STATE_893"
+
+	history={
+		owner = FGD
+		add_core_of = FGD
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
+		}
+
+	}
+	local_supplies=0.0
+	provinces={
+		3231 3423 9575 11435 11470 11494 11531 11547 13314 11366
+	}
+	manpower=343000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

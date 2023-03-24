@@ -1,0 +1,17 @@
+﻿capital = 333
+
+#oob = "NKM_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 20
+	left_populism = 10	democratic = 70
+}

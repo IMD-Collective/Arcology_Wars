@@ -1,0 +1,12 @@
+capital = 886
+
+set_politics = {
+	ruling_party = neutrality 
+	last_election = "2008.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=915
+	name="STATE_915"
+	manpower = 129083
+	
+	state_category = city
+
+	history={
+		owner = GLC
+		add_core_of = GLC
+		victory_points = {
+			758 3
+		}
+		victory_points = {
+			11692 1
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			758 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = GLC
+	}
+
+	provinces={
+		729 758 3761 6764 6955 11692 11710
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,31 @@
+state={
+	id=808
+	name="STATE_808"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3653 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			3653 = {
+				naval_base = 5
+				coastal_bunker = 2
+
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = GEO
+	}
+
+	provinces={
+		654 672 772 3653 11599 11617
+	}
+	local_supplies=0.0
+	manpower=2949413
+	buildings_max_level_factor=1.000
+	state_category=city
+}

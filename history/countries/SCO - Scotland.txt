@@ -1,0 +1,27 @@
+﻿capital = 136
+
+##oob = ""
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 90
+	left_populism = 5
+	democratic = 5
+}
+
+create_country_leader = {
+	name = "Scottish District Council"
+	desc = ""
+	picture = "Portrait_Scottish_District_Council.dds"
+	expire = "2032.1.1"
+	ideology = congressional_despotism 
+	traits = { }
+}

@@ -1,0 +1,19 @@
+﻿capital = 113
+
+#oob = "IRE_1936"
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 70
+	left_populism = 20
+	democratic = 10
+}

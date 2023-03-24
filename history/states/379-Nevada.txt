@@ -1,0 +1,20 @@
+
+state={
+	id=379
+	name="STATE_379"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+	local_supplies=0.0
+	provinces={
+		1663 7756 9695 10591 10651 12573 13153
+	}
+	manpower=1105
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

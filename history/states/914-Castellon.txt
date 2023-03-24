@@ -1,0 +1,27 @@
+
+state={
+	id=914
+	name="STATE_914"
+	manpower = 597294
+	
+	state_category = large_town
+
+	history={
+		owner = VAL
+		victory_points = {
+			6817 2
+		}
+		buildings = {
+			infrastructure = 5
+			6817 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		3873 6817 9896
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=898
+	name="STATE_898"
+
+	history={
+		victory_points = { 377 1 }
+		victory_points = { 3422 2 }
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		377 3422 3463 13420 13421 13422 13423
+	}
+	manpower=13932
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

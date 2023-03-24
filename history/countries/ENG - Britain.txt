@@ -1,0 +1,70 @@
+﻿capital = 126
+
+set_convoys = 200
+
+add_ideas = {
+	middling_power
+	ENG_Anglo_American_Brotherhood
+	ENG_Saudade_For_Prior
+	ENG_Fortress_UK
+}
+
+set_politics = {
+	ruling_party = neutrality 
+	last_election = "2008.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 5
+	fascism = 5
+	communism = 5
+	left_populism = 5
+	neutrality = 80
+}
+
+create_country_leader = {
+	name = "Peter Carington"
+	desc = ""
+	picture = "Portrait_Peter_Carington.dds"
+	expire = "2032.1.1"
+	ideology = despotism_subtype 
+	traits = { dictator }
+}
+
+create_country_leader = {
+	name = "George Butler"
+	desc = ""
+	picture = "gfx/leaders/BRT/Portrait_George_Butler.dds"
+	expire = "2032.1.1"
+	ideology = military_ultranationalism 
+	traits = { securocrat }
+}
+
+create_country_leader = {
+	name = "Tony Benn"
+	desc = ""
+	picture = "gfx/leaders/BRT/Portrait_Tony_Benn.dds"
+	expire = "2032.1.1"
+	ideology = liberal_democracy 
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Mike Hicks"
+	desc = ""
+	picture = "Portrait_Mike_Hicks.dds"
+	expire = "2032.1.1"
+	ideology = left_populism_subtype 
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Robert Griffiths"
+	desc = ""
+	picture = "Portrait_Robert_Griffiths.dds"
+	expire = "2032.1.1"
+	ideology = congressional_socialism 
+	traits = { }
+}

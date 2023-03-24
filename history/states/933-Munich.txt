@@ -1,0 +1,27 @@
+
+state={
+	id=933
+	name="STATE_933"
+	manpower = 1273500
+	
+	state_category = metropolis
+	
+
+	history={
+		owner = GRM
+		victory_points = {
+			6816 30 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 8
+		}
+		add_core_of = GRM
+	}
+	local_supplies=0.0
+	provinces={
+		2895 6816
+	}
+}

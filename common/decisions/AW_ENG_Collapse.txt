@@ -1,0 +1,38 @@
+#Collapse Debug
+ENG_collapse_category = {
+
+	ENG_switch_tag_BMG = {
+		fire_only_once = yes
+		complete_effect = {
+			BMG = { change_tag_from = ENG }
+		}
+	}
+
+	ENG_switch_tag_BRT = {
+		fire_only_once = yes
+		complete_effect = {
+			BRT = { change_tag_from = ENG }
+		}
+	}
+
+	ENG_switch_tag_MCH = {
+		fire_only_once = yes
+		complete_effect = {
+			MCH = { change_tag_from = ENG }
+		}
+	}
+
+	ENG_switch_tag_NIR = {
+		fire_only_once = yes
+		complete_effect = {
+			NIR = { change_tag_from = ENG }
+		}
+	}
+
+	ENG_switch_tag_SCO = {
+		fire_only_once = yes
+		complete_effect = {
+			SCO = { change_tag_from = ENG }
+		}
+	}
+}

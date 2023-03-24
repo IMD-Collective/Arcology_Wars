@@ -1,0 +1,23 @@
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = MGD
+		add_core_of = MGD
+		victory_points = {
+			13068 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		13068
+	}
+	local_supplies=0.0
+	manpower=82
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

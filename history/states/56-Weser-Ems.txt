@@ -1,0 +1,26 @@
+state={
+	id=56
+	name="STATE_56"
+	manpower = 2058467
+	
+	state_category = city
+
+	history={
+		owner = FGD
+		victory_points = {
+			11388 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			fuel_silo = 1
+			air_base = 3
+
+		}
+		add_core_of = FGD
+	}
+	local_supplies=0.0
+	provinces={
+		247 309 336 3234 3326 9281 11233 11264 11388 13113
+	}
+}

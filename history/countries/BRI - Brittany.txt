@@ -1,0 +1,21 @@
+﻿capital = 8
+
+##oob = ""
+
+set_research_slots = 3
+# Starting tech
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 60
+	fascism = 20
+	communism = 10
+	neutrality = 10
+}

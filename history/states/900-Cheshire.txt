@@ -1,0 +1,21 @@
+state={
+	id=900
+	name="STATE_900"
+
+	history={
+		victory_points = { 3205 2 }
+		victory_points = { 9364 1 }
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		3205 6318 6384 9364 13457 13458 13459
+	}
+	manpower=12392
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

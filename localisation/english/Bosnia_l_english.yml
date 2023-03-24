@@ -1,0 +1,61 @@
+﻿l_english:
+
+ ##Ministers###
+
+ ##Leader Descriptions
+ 
+ 
+ ##Country Names
+ BOS:0 "Islamic Republic of Bosnia"
+ BOS_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_communism:0 "Islamic Republic of Bosnia"
+ BOS_communism_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_democratic:0 "Islamic Republic of Bosnia"
+ BOS_democratic_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_neutrality:0 "Islamic Republic of Bosnia"
+ BOS_neutrality_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_fascism:0 "Islamic Republic of Bosnia"
+ BOS_fascism_DEF:0 "the Islamic Republic of Bosnia"
+ BOS_communism_ADJ:0 "Bosnian"
+ BOS_democratic_ADJ:0 "Bosnian"
+ BOS_neutrality_ADJ:0 "Bosnian"
+ BOS_fascism_ADJ:0 "Bosnian"
+ BOS_ADJ:0 "Bosnian"
+ 
+ ##Focus Trees
+ 
+ #Starting Tree
+ BOS_Start_A_New_Year_for_Bosnia:0 "A New Year for Bosnia"
+ BOS_Start_A_New_Year_for_Bosnia_desc:0 "happy new year bitch allahu akbar and shit idk"
+ BOS_Start_A_Terrorist_Attack:0 "A Terrorist Attack!"
+ BOS_Start_A_Terrorist_Attack_desc:0 "wtf carbomb :("
+ BOS_Start_Begin_an_Investigation:0 "Begin an Investigation"
+ BOS_Start_Begin_an_Investigation_desc:0 "into the terrorist attack"
+ BOS_Start_Look_for_the_Owner:0 "Look for the Owner"
+ BOS_Start_Look_for_the_Owner_desc:0 "who owned the car that exploded??"
+ BOS_Start_Who_Did_it_Target:0 "Who Did It Target?"
+ BOS_Start_Who_Did_it_Target_desc:0 "did it target the serbs or the croats or the muslims or what"
+ BOS_Start_The_Construction_of_the_Weapon:0 "The Construction of the Weapon"
+ BOS_Start_The_Construction_of_the_Weapon_desc:0 "who made bomb and how"
+ BOS_Start_Where_Did_it_Come_From:0 "Where Did it Come From?"
+ BOS_Start_Where_Did_it_Come_From_desc:0 "self explanatory lol"
+ BOS_Start_We_Have_the_Answers:0 "We Have the Answers"
+ BOS_Start_We_Have_the_Answers_desc:0 "investigation is almost done!!!!!!!"
+ BOS_Start_Accuse_the_Suspects:0 "Accuse the Suspects"
+ BOS_Start_Accuse_the_Suspects_desc:0 "time to go to cops"
+ BOS_Start_Go_On_as_Usual:0 "Go On as Usual"
+ BOS_Start_Go_On_as_Usual_desc:0 "thog dont caare"
+ BOS_Start_Honouring_the_Heroes_of_History:0 "Honouring the Heroes of History"
+ BOS_Start_Honouring_the_Heroes_of_History_desc:0 "lost my legs in the bosnian war. edit: thanks for the gold, kind stranger"
+ BOS_Start_Working_With_the_Experts:0 "Working With the Experts"
+ BOS_Start_Working_With_the_Experts_desc:0 "time to build new shit :)"
+ BOS_Start_Continue_Privatisation_Campaigns:0 "Continue Privatisation Campaigns"
+ BOS_Start_Continue_Privatisation_Campaigns_desc:0 "fuck socialism. fuck titto. capitalism time"
+ BOS_Start_Curb_Non_Islamic_Education:0 "Curb Non-Islamic Education"
+ BOS_Start_Curb_Non_Islamic_Education_desc:0 "private education? ew. public-only islamic education time"
+ BOS_Start_Create_an_Islamisation_Committee:0 "Create an Islamisation Committee"
+ BOS_Start_Create_an_Islamisation_Committee_desc:0 "not enough islam in bosnia"
+ BOS_Start_Focus_on_the_Serb_Regions:0 "Focus on the Serb Regions"
+ BOS_Start_Focus_on_the_Serb_Regions_desc:0 "serbs dont praise allah enough. they will learn"
+ BOS_Start_A_Growing_Problem:0 "A Growing Problem"
+ BOS_Start_A_Growing_Problem_desc:0 "more terrorism :((((((("

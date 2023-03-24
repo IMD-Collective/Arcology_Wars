@@ -1,0 +1,11 @@
+capital = 370
+
+set_politics = {
+	ruling_party = fascism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 100
+}

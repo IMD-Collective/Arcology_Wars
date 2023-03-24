@@ -1,0 +1,22 @@
+state=
+{
+	id=337
+	name="STATE_337"
+	manpower = 25900
+	
+	state_category = enclave
+	
+	history=
+	{
+		owner = WST
+		buildings = {
+			infrastructure = 4
+			13003 = {
+				#naval_base = 1
+			}
+		}
+		add_core_of = WST
+	}
+	local_supplies=0.0
+	provinces= { 13003 }
+}

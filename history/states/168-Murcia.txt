@@ -1,0 +1,30 @@
+state={
+	id=168
+	name="STATE_168"
+
+	history={
+		owner = MRC
+		victory_points = {
+			10024 3
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			air_base = 2
+			10024 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = MRC
+
+	}
+
+	provinces={
+		1093 7111 10024 10109 
+	}
+	manpower=422109
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

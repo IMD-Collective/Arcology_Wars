@@ -1,0 +1,32 @@
+﻿capital = 48
+
+#oob = "BUL_1936"
+
+#add_ideas = {
+#	limited_conscription
+#}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 89
+	neutrality = 4
+	fascism = 2
+	democratic = 5
+}
+
+create_country_leader = {
+	name = "Lozan Gorunia"
+	desc = ""
+	picture = "Portrait_Lozan_Gorunia.dds"
+	expire = "2032.1.1"
+	ideology = authoritarian_socialism_subtype 
+	traits = { dictator }
+}

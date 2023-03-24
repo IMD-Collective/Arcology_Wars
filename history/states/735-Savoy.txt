@@ -1,0 +1,29 @@
+state={
+	id=735
+	name="STATE_735"
+
+	state_category = rural
+
+	history={
+		owner = SRA
+		add_core_of = SRA
+		victory_points = {
+			9909 2
+		}
+		victory_points = {
+			9736 1
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+			}		
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		3762 3764 3959 3961 6975 9736 9909 13512
+	}
+	manpower=907500
+	buildings_max_level_factor=1.000
+}

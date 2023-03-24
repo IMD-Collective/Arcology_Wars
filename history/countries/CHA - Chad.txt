@@ -1,0 +1,17 @@
+﻿capital = 774
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	left_populism = 25
+	fascism = 20
+	democratic = 5
+	neutrality = 50
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=28
+	name="STATE_28" # Alsace-Lorraine
+	manpower = 191600
+	
+	state_category = rural
+
+	history={
+		owner = WFU
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			9510 2
+		}
+		victory_points = {
+			9495 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		9495 9510 11465 13408 13409 
+	}
+}

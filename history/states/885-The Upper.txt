@@ -1,0 +1,28 @@
+state={
+	id=885
+	name="STATE_885"
+
+	state_category = town
+	manpower = 422305
+
+	history={
+		owner = FUS
+		buildings = {
+			infrastructure = 5
+			13394 = {
+				bunker = 1
+			}
+		}
+		add_core_of = FUS
+		victory_points = {
+			13394 2
+		}
+		victory_points = {
+			13387 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		13386 13387 13388 13389 13390 13391 13392 13393 13394 13401
+	}
+}

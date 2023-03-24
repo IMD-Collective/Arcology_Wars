@@ -1,0 +1,27 @@
+
+state={
+	id=810
+	name="STATE_810"
+	manpower = 673321
+	
+	state_category = city
+
+	history={
+		owner = NIT
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = NIT
+	}
+	provinces={
+		925 967 6926 11861 
+	}
+	local_supplies=0.0
+}

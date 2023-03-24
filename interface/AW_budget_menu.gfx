@@ -1,0 +1,12 @@
+#spriteTypes = {
+#
+#	spriteType = { 
+#		name = "GFX_budget_static_frame"
+#		texturefile = "gfx/interface/budget/budget_static_frame.dds"
+#	}
+#	
+#	spriteType = { 
+#		name = "GFX_budget_monitor"
+#		texturefile = "gfx/interface/budget/budget_monitor.dds"
+#	}
+#}

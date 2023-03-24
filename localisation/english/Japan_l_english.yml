@@ -1,0 +1,27 @@
+﻿l_english:
+
+ ##Country Names
+ JAP_fascism:0 "Empire of Japan"
+ JAP_fascism_DEF:0 "the Empire of Japan"
+ JAP_democratic:0 "Japan"
+ JAP_democratic_DEF:0 "Japan"
+ JAP_neutrality:0 "Empire of Japan"
+ JAP_neutrality_DEF:0 "the Empire of Japan"
+ JAP_communism:0 "People's State of Japan"
+ JAP_communism_DEF:0 "the People's State of Japan"
+ JAP_left_populism:0 "Japan"
+ JAP_left_populism_DEF:0 "Japan"
+ JAP_fascism_ADJ:0 "Japanese"
+ JAP_democratic_ADJ:0 "Japanese"
+ JAP_neutrality_ADJ:0 "Japanese"
+ JAP_communism_ADJ:0 "Japanese"
+ JAP_left_populism_ADJ:0 "Japanese"
+ JAP:0 "Japan"
+ JAP_DEF:0 "Japan"
+ JAP_ADJ:0 "Japanese"
+ 
+ ##Party Names 
+ JAP_fascism_party:0 "IRAA"
+ JAP_fascism_party_long:0 "Imperial Rule Assistance Association"
+ JAP_neutrality_party:0 "LDP"
+ JAP_neutrality_party_long:0 "Liberal Democratic Party"

@@ -1,0 +1,24 @@
+﻿l_english:
+
+ ##Country Names
+ HUN_fascism:0 "Kingdom of Hungary"
+ HUN_fascism_DEF:0 "the Kingdom of Hungary"
+ HUN_democratic:0 "Republic of Hungary"
+ HUN_democratic_DEF:0 "the Republic of Hungary"
+ HUN_neutrality:0 "Kingdom of Hungary"
+ HUN_neutrality_DEF:0 "the Kingdom of Hungary"
+ HUN_communism:0 "Hungarian People's Republic"
+ HUN_communism_DEF:0 "the Hungarian People's Republic"
+ HUN_left_populism:0 "Republic of Hungary"
+ HUN_left_populism_DEF:0 "the Republic of Hungary"
+ HUN_fascism_ADJ:0 "Hungarian"
+ HUN_democratic_ADJ:0 "Hungarian"
+ HUN_neutrality_ADJ:0 "Hungarian"
+ HUN_communism_ADJ:0 "Hungarian"
+ HUN_left_populism_ADJ:0 "Hungarian" 
+ HUN:0 "Hungary"
+ HUN_DEF:0 "Hungary"
+ HUN_ADJ:0 "Hungarian"
+ 
+ ##Party Names 
+ HUN_fascism_party:0 "A Lándzsa"

@@ -1,0 +1,27 @@
+﻿capital = 109
+
+set_research_slots = 2
+
+#oob = "CRO_1936"
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.6.9"
+	election_frequency = 12
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 80
+	fascism = 20
+}
+
+create_country_leader = {
+	name = "Vjekoslav Rajkovi"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "2032.1.1"
+	ideology = military_socialism 
+	traits = { grand_marshal }
+}

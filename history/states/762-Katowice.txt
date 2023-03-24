@@ -1,0 +1,21 @@
+state={
+	id=762
+	name="STATE_762"
+	local_supplies=0.0
+	manpower=1000000
+	state_category = city
+	history={
+		victory_points = {
+			6464 5
+		}
+		owner = SHL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = SHL
+	}
+	provinces={
+		3271 6263 6298 6325 6349 9264 9294 9320 9347 3368
+	}
+}

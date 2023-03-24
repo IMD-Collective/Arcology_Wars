@@ -1,0 +1,32 @@
+
+state={
+	id=51
+	name="STATE_51"
+	manpower = 6144743
+	resources={
+		steel=30
+	}
+
+
+	state_category = rural
+	
+	history={
+		owner = WFU
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = WFU
+		victory_points = {
+			3659 2
+		}
+		victory_points = {
+			13517 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		3659 6583 9559 9631 11596 11616 13517 13518  
+	}
+	
+}

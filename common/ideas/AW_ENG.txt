@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		ENG_Anglo_American_Brotherhood = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_ENG_Anglo_American_Brotherhood
+
+			modifier = {
+				ai_get_ally_desire_factor = 1
+			}
+
+			targeted_modifier = {
+				tag = USA
+				trade_opinion_factor = 0.15
+			}
+		}
+
+		ENG_Saudade_For_Prior = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_ENG_Saudade_For_Prior
+
+			modifier = {
+			}
+		}
+		ENG_Fortress_UK = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_ENG_Fortress_UK
+
+			modifier = {
+			}
+		}
+	}
+}

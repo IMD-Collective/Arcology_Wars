@@ -1,0 +1,14 @@
+capital = 166
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 22
+	left_populism = 23
+	neutrality = 55
+}

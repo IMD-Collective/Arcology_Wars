@@ -1,0 +1,27 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2008.1.1.12
+		picture = "GFX_select_date_2008"
+		default_country = "USA"
+		default = yes
+
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = neutrality
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

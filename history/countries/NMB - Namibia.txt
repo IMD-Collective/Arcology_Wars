@@ -1,0 +1,15 @@
+﻿capital = 541
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism= 55
+	democratic = 20
+	neutrality = 25
+}

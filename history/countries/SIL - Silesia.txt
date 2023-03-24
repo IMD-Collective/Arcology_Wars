@@ -1,0 +1,19 @@
+﻿capital = 66
+
+#oob = ""
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	fascism = 5
+	communism = 35
+	neutrality = 10
+}

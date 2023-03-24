@@ -1,0 +1,20 @@
+﻿capital = 41
+
+#oob = "SPR_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 22
+	neutrality = 68
+	democratic = 10
+}
+
+set_convoys = 45

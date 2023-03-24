@@ -1,0 +1,39 @@
+###########################
+# Lei Feng Events
+###########################
+
+add_namespace = leifeng
+
+# Ghost of Lei Feng #1 - Anhui
+country_event = {
+	id = leifeng.1
+	title = leifeng.1.t
+	desc = leifeng.1.d
+	picture = GFX_ANH_report_ghost_of_lei_feng
+	
+	is_triggered_only = yes
+
+	option = {
+		name = leifeng.1.a
+		ai_chance = { 
+			factor = 1
+		}
+	}
+}
+
+# Ghost of Lei Feng #2 - Jiangxi-Fujian
+country_event = {
+	id = leifeng.2
+	title = leifeng.2.t
+	desc = leifeng.2.d
+	picture = GFX_PRC_report_ghost_of_lei_feng
+	
+	is_triggered_only = yes
+
+	option = {
+		name = leifeng.2.a
+		ai_chance = { 
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,47 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_SOV_report_event_supreme_soviet"
+		texturefile = "gfx/event_pictures/SOV_report_event_supreme_soviet.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_report_baklanov_speech"
+		texturefile = "gfx/event_pictures/SOV_report_baklanov_speech.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_report_paper_signing"
+		texturefile = "gfx/event_pictures/SOV_report_paper_signing.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_report_pugo_speech"
+		texturefile = "gfx/event_pictures/SOV_report_pugo_speech.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_report_yazov_speech"
+		texturefile = "gfx/event_pictures/SOV_report_yazov_speech.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_news_bomber"
+		texturefile = "gfx/event_pictures/SOV_news_bomber.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_news_mother_russia"
+		texturefile = "gfx/event_pictures/SOV_news_mother_russia.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_news_pugo_victory"
+		texturefile = "gfx/event_pictures/SOV_news_pugo_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_news_baklanov_victory"
+		texturefile = "gfx/event_pictures/SOV_news_baklanov_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_ANH_report_ghost_of_lei_feng"
+		texturefile = "gfx/event_pictures/ANH_report_ghost_of_lei_feng.dds"
+	}
+	spriteType = {
+		name = "GFX_PRC_report_ghost_of_lei_feng"
+		texturefile = "gfx/event_pictures/PRC_report_ghost_of_lei_feng.dds"
+	}
+}

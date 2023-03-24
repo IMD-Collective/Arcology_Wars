@@ -1,0 +1,20 @@
+
+state={
+	id=394
+	name="STATE_394"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+	}
+	local_supplies=0.0
+	provinces={
+		703 926 4166 4738 4834 7611 9657 
+	}
+	manpower=12704
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

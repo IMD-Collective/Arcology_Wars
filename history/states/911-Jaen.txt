@@ -1,0 +1,26 @@
+state={
+	id=911
+	name="STATE_911"
+
+	history={
+		owner = ADU
+		victory_points = {
+			10111 2
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = ADU
+
+	}
+
+	provinces={
+		950 1090 1192 4095 10111 12083
+	}
+	local_supplies=0.0
+	manpower=242513
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,19 @@
+﻿capital = 542
+
+#oob = "BOT_1936"
+
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	left_populism = 20
+	democratic = 53
+	neutrality = 7
+	fascism = 20
+}

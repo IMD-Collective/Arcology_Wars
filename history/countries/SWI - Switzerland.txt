@@ -1,0 +1,19 @@
+﻿capital = 3
+
+#oob = "SWI_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.10.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 96
+	fascism = 2
+	communism = 2
+}
+
+set_stability = 0.85

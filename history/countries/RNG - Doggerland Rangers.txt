@@ -1,0 +1,22 @@
+capital = 889
+
+set_politics = {
+	ruling_party = neutrality 
+	last_election = "2008.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 55
+	democratic = 45
+}
+
+create_country_leader = {
+	name = "Oskar Von Zorin"
+	desc = ""
+	picture = "Portrait_Oskar_Von_Zorin.dds"
+	expire = "2032.1.1"
+	ideology = military_despotism 
+	traits = { }
+}

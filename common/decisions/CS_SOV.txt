@@ -1,0 +1,10 @@
+#Loading trees debug
+SOV_tree_debug_category = {
+
+	SOV_load_CS_SOV_baklanov = {
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_load_baklanov"
+			load_focus_tree = CS_SOV_baklanov
+		}
+	}
+}

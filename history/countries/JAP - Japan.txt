@@ -1,0 +1,39 @@
+﻿capital = 282
+
+#oob = "JAP_1936"
+
+set_convoys = 150
+
+set_research_slots = 4
+
+add_ideas = {
+	isolationist_outlook
+	limited_conscription
+	good_instruction
+	good_research_capabilities
+	state_propaganda
+	mastercomputer_economic_planning
+	global_superpower
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 72
+	neutrality = 28
+}
+
+create_faction = estaway
+
+create_country_leader = {
+	name = "Tadae Takubo"
+	desc = ""
+	picture = "Portrait_Tadae_Takubo.dds"
+	expire = "2032.1.1"
+	ideology = military_ultranationalism 
+	traits = { grand_marshal }
+}

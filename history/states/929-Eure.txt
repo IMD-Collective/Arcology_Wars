@@ -1,0 +1,23 @@
+
+state={
+	id=929
+	name="STATE_929"
+	manpower = 340234
+
+	state_category = town
+
+	history={
+		owner = ERE
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ERE
+		victory_points = {
+			11502 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		485 9578 11502 11563 
+	}
+}

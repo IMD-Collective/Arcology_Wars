@@ -1,0 +1,20 @@
+﻿capital = 110
+
+#oob = "NOR_1936"
+
+set_research_slots = 3
+
+set_convoys = 200
+set_stability = 0.7
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 52
+	fascism = 8
+	left_populism = 40
+}

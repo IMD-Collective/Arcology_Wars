@@ -1,0 +1,23 @@
+state={
+	id=886
+	name="STATE_886"
+
+	state_category = town
+	manpower = 203921
+
+	history={
+		owner = NCA
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			13342 = { naval_base = 2 }
+		}
+		add_core_of = NCA
+		victory_points = { 13344 2 }
+	}
+	local_supplies=0.0
+	provinces={
+		13336 13337 13338 13340 13341 13342 13343 13344 13345 13346
+	}
+}

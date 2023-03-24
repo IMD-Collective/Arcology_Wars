@@ -1,0 +1,26 @@
+state={
+	id=890
+	name="STATE_890"
+
+	state_category = town
+	manpower = 190342
+
+	history={
+		owner = TWC
+		buildings = {
+			infrastructure = 5
+			dockyard = 2
+			industrial_complex = 2
+			13347 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = TWC
+		victory_points = { 13348 2 }
+	}
+	local_supplies=0.0
+	provinces={
+		13347 13348 13349 13350
+	}
+} 

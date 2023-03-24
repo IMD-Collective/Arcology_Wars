@@ -1,0 +1,104 @@
+ideas = {
+
+	economic_theory = { 
+		law = yes
+		use_list_view = yes
+		
+		free_economy = {
+
+			available = {
+				OR = {
+					has_government = left_populism
+					has_government = democratic
+				}
+			}
+
+			modifier = {
+				local_resources_factor = -0.25
+				research_speed_factor = 0.15
+				stability_factor = -0.10
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				gdp_austerity = 0.15
+			}
+
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+		
+		mixed_market_economy = {
+
+			available = {
+				OR = {
+					has_government = communism
+					has_government = left_populism
+					has_government = democratic
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				local_resources_factor = -0.05
+				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+				gdp_spending = 0.05
+			}
+
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+		
+		national_economy = {
+
+			available = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				local_resources_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.20
+				stability_factor = 0.15
+				gdp_spending = 0.20
+			}
+			
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no			
+			default = yes
+		}
+		
+		mastercomputer_economic_planning = {
+
+			available = {
+				OR = {
+					has_government = communism
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				local_resources_factor = 0.35
+				production_speed_buildings_factor = 0.35
+				stability_factor = 0.10
+				gdp_spending = 0.20
+				decryption  = 0.5
+				drift_defence_factor = 0.15
+			}
+			
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+	}
+}

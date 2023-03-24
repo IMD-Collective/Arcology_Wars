@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		weak_influence = {
+			allowed = { always = yes }
+			cancel_if_invalid = no
+		}
+		average_influence = {
+			allowed = { always = yes }
+			cancel_if_invalid = no
+		}
+		good_influence = {
+			allowed = { always = yes }
+			cancel_if_invalid = no
+		}
+		high_influence = {
+			allowed = { always = yes }
+			cancel_if_invalid = no
+		}
+	}
+}

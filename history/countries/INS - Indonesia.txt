@@ -1,0 +1,20 @@
+﻿capital = 335 #Jakarta
+
+#oob = "INS_1936"
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = left_populism
+	last_election = "2008.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_convoys = 25
+
+set_popularities = {
+	left_populism = 80
+	democratic = 10
+	fascism = 10
+}

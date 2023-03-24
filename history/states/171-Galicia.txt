@@ -1,0 +1,30 @@
+
+state={
+	id=171
+	name="STATE_171"
+	manpower = 690353
+	
+	state_category = city
+
+	history={
+		owner = GLC
+		add_core_of = GLC
+		victory_points = {
+			6734 2
+		}
+		victory_points = {
+			11675 1
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = GLC
+	}
+
+	provinces={
+		6734 9686 9689 11675 11677 11840
+	}
+	local_supplies=0.0
+}

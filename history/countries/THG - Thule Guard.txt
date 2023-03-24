@@ -1,0 +1,11 @@
+capital = 930
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "2008.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}

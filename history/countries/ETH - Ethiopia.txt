@@ -1,0 +1,19 @@
+﻿capital = 271
+
+#oob = "ETH_1936"
+
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 70
+	left_populism = 10
+	neutrality = 20
+}

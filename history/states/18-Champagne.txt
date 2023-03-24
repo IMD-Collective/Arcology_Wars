@@ -1,0 +1,29 @@
+
+state={
+	id=18
+	name="STATE_18"
+	manpower = 870800
+	
+	state_category = town
+
+	history={
+		owner = MTZ
+		victory_points = {
+			13501 1
+		}
+		victory_points = {
+			3560 2
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 5
+		}
+		add_core_of = MTZ
+	}
+	local_supplies=0.0
+	provinces={
+		3546 3560 5291 6545 9472 13011 13501 13502 13503 13504 13505 13506
+	}
+}

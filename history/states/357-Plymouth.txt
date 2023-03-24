@@ -1,0 +1,27 @@
+state={
+	id=357
+	name="STATE_357"
+
+	state_category = pastoral
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = USA
+		victory_points = {
+			13260 1
+		}
+		victory_points = {
+			715 2
+		}
+
+	}
+	local_supplies=0.0
+	provinces={
+		715 905 3906 13260 13261 13262 13263 13264 13265
+	}
+	manpower=9202
+}

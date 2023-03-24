@@ -1,0 +1,12 @@
+#scripted_gui = { ###Credits to M&M ###
+#
+#	AW_budget_menu = {
+#		context_type = player_context
+#		parent_window_token = politics_tab
+#		window_name = "budget_menu"
+#
+#		visible = {
+#			always = yes
+#		}
+#	}
+#}

@@ -1,0 +1,21 @@
+capital = 36
+
+set_politics = {
+	ruling_party = anarchy 
+	last_election = "2008.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	anarchy = 100
+}
+
+create_country_leader = {
+	name = "Meatgrinder Darkscape"
+	desc = ""
+	picture = "GFX_missing_info"
+	expire = "2032.1.1"
+	ideology = no_authority 
+	traits = {}
+}

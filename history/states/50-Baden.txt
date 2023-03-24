@@ -1,0 +1,26 @@
+state = {
+	id=50
+	name="STATE_50"
+
+	state_category = large_city
+	history = {
+		owner = WUR
+		victory_points = {
+			9517 20
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = WUR
+	}
+	local_supplies=0.0
+	provinces={
+		3530 6555 6568 6581 9517 11486 13119 11318 11562
+	}
+	manpower=5086854
+	buildings_max_level_factor=1.000
+}

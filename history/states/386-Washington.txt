@@ -1,0 +1,29 @@
+state={
+	id=386
+	name="STATE_386"
+	resources={
+		rubber=4
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			4296 = {
+				#naval_base = 8
+			}
+		}
+		victory_points = {
+			10155 1
+		}
+		add_core_of = USA
+	}
+	local_supplies=0.0
+	provinces={
+		1320 4296 4398 7386 7414 7442 10155 10157 10198 10242 12214 
+	}
+	manpower=10392
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

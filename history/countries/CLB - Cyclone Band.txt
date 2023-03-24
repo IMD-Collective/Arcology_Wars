@@ -1,0 +1,28 @@
+capital = 891
+
+# Starting tech
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 5
+	communism = 10
+	neutrality = 65
+}
+
+create_country_leader = {
+	name = "Bombardier Don"
+	desc = ""
+	picture = "Portrait_Bombardier_Don.dds"
+	expire = "2032.1.1"
+	ideology = military_despotism 
+	traits = { }
+}

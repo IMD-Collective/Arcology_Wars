@@ -1,0 +1,28 @@
+﻿capital = 47
+
+#oob = "GRE_1936"
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.6.9"
+	election_frequency = 12
+	elections_allowed = no # none after offset 1
+}
+
+set_popularities = {
+	communism = 15
+	left_populism = 5
+	neutrality = 60
+	fascism = 20
+}
+
+create_country_leader = {
+	name = "Helios"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_6.dds"
+	expire = "2032.1.1"
+	ideology = militia_despotism 
+	traits = { militia_commander }
+}

@@ -1,0 +1,25 @@
+arcoplex_state = {
+	enable = { always = yes }
+
+	icon = GFX_terrain_arcoplex
+
+	state_production_speed_buildings_factor = 0.15
+	army_core_defence_factor = 0.15
+}
+
+cracked_lands = {
+	enable = { always = yes }
+
+	icon = GFX_terrain_cracked_lands
+
+	state_resources_factor = 0.25
+	recruitable_population_factor = -0.5
+	army_speed_factor_for_controller = -0.25
+	attrition_for_controller = 1
+}
+
+gold_flat = {
+	enable = { always = yes }
+	icon = GFX_modifier_gold
+	gdp_money_gain = 0.5
+}

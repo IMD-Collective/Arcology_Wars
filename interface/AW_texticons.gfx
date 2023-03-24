@@ -1,0 +1,98 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_resources_to_market"
+		texturefile = "gfx/texticons/resources_to_market.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_aluminium_texticon"
+		texturefile = "gfx/texticons/aluminium_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_chromium_texticon"
+		texturefile = "gfx/texticons/chromium_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_oil_texticon"
+		texturefile = "gfx/texticons/oil_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_rubber_texticon"
+		texturefile = "gfx/texticons/rubber_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_steel_texticon"
+		texturefile = "gfx/texticons/steel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_tungsten_texticon"
+		texturefile = "gfx/texticons/tungsten_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_taxes_texticon"
+		texturefile = "gfx/texticons/taxes_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_coins_texticon"
+		texturefile = "gfx/texticons/coins_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_dockyard_texticon"
+		texturefile = "gfx/texticons/dockyard_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_overlord_texticon"
+		texturefile = "gfx/texticons/overlord_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_recession_texticon"
+		texturefile = "gfx/texticons/recession_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_territorial_expansion"
+		texturefile = "gfx/texticons/territorial_expansion.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_jet_fighter_texticon"
+		texturefile = "gfx/texticons/jet_fighter_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_army_xp_red"
+		texturefile = "gfx/texticons/command_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_political_violence"
+		texturefile = "gfx/texticons/political_violence.dds"
+		legacy_lazy_load = no
+	}
+}

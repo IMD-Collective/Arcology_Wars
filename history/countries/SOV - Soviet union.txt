@@ -1,0 +1,41 @@
+capital = 217
+
+#oob = "SOV_1936"
+
+set_convoys = 250
+
+set_research_slots = 4
+
+add_ideas = {
+	isolationist_outlook
+	limited_conscription
+	good_instruction
+	good_research_capabilities
+	state_propaganda
+	mastercomputer_economic_planning
+	global_superpower
+}
+
+create_faction = warsaw_treaty
+add_to_faction = BUL
+add_to_faction = POL
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+create_country_leader = {
+	name = "Grigory Romanov"
+	desc = ""
+	picture = "Portrait_Grigory_Romanov.dds"
+	expire = "2032.1.1"
+	ideology = authoritarian_socialism_subtype 
+	traits = { dictator }
+}

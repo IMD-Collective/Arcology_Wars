@@ -1,0 +1,24 @@
+﻿l_english:
+
+ ##Country Names
+ GRM_fascism:0 "Deutsches Reich"
+ GRM_fascism_DEF:0 "Deutsches Reich"
+ GRM_democratic:0 "Republic of Germany"
+ GRM_democratic_DEF:0 "the Republic of Germany"
+ GRM_neutrality:0 "Republic of Germany"
+ GRM_neutrality_DEF:0 "the Republic of Germany"
+ GRM_communism:0 "German People's Republic"
+ GRM_communism_DEF:0 "the German People's Republic"
+ GRM_left_populism:0 "Republic of Germany"
+ GRM_left_populism_DEF:0 "the Republic of Germany"
+ GRM_fascism_ADJ:0 "German"
+ GRM_democratic_ADJ:0 "German"
+ GRM_neutrality_ADJ:0 "German"
+ GRM_communism_ADJ:0 "German"
+ GRM_left_populism_ADJ:0 "German" 
+ GRM:0 "Germany"
+ GRM_DEF:0 "Germany"
+ GRM_ADJ:0 "German"
+ 
+ ##Party Names 
+ GRM_fascism_party:0 "Deutsche Kriegsarmee"

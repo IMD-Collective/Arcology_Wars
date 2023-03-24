@@ -1,0 +1,23 @@
+state={
+	id=823
+	name="STATE_823"
+	manpower = 789
+	
+	state_category = wasteland
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+		victory_points = {
+			10685 1 
+		}
+	}
+
+	provinces={
+		1836 4772 7862 10685 10719 10618
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=17
+	name="STATE_17" # Lorraine
+	manpower = 737500
+	
+	state_category = town
+	
+	resources={
+		steel=28
+	}
+
+	history={
+		owner = EWW
+		victory_points = {
+			678 2
+		}
+		victory_points = {
+			6666 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 6
+		}
+		add_core_of = EWW
+	}
+	local_supplies=0.0
+	provinces={
+		678 698 3646 3666 6529 6666 6683 9622 9638 13124 13509 13510 
+	}
+}

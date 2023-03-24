@@ -1,0 +1,19 @@
+﻿capital = 361
+
+#oob = "USA_1936"
+
+set_research_slots = 3
+set_stability = 0.75
+
+set_convoys = 100
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 20
+	fascism = 80
+}

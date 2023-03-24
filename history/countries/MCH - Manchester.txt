@@ -1,0 +1,29 @@
+﻿capital = 132
+
+##oob = ""
+
+# Starting tech
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 5
+	fascism = 5
+	communism = 5
+	neutrality = 85
+}
+
+create_country_leader = {
+	name = "Birmingham Manchester Council"
+	desc = ""
+	picture = "Portrait_Manchester_Industrial_Council.dds"
+	expire = "2032.1.1"
+	ideology = congressional_despotism 
+	traits = { }
+}

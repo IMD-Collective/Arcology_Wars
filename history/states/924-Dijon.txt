@@ -1,0 +1,31 @@
+
+state={
+	id=924
+	name="STATE_924" # Bourgogne
+	manpower = 1370800
+	
+	state_category = rural
+	
+	resources={
+		aluminium=11 # was: 18
+	}
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+		victory_points = {
+			3652 2
+		}
+		victory_points = {
+			551 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		648 817 3652 13491 13492 13493 13494
+	}
+}

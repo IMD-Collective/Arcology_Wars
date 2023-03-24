@@ -1,0 +1,20 @@
+﻿capital = 313
+
+#oob = "GUA_1936"
+
+# Starting tech
+
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 30
+	communism = 70
+}

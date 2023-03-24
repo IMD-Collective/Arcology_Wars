@@ -1,0 +1,9 @@
+﻿l_english:
+ ENG_collapse_category:0 "Country Switching"
+ ENG_collapse_debug_category:0 "Collapse Debug"
+ ENG_load_collapse:0 "Load Collapse"
+ ENG_switch_tag_BMG:0 "Play as Arcoplex Birmingham [BMG.GetFlag]"
+ ENG_switch_tag_BRT:0 "Play as Arcoplex Bristol [BRT.GetFlag]"
+ ENG_switch_tag_MCH:0 "Play as Arcoplex Manchester [MCH.GetFlag]"
+ ENG_switch_tag_NIR:0 "Play as the Territory of North Ireland [NIR.GetFlag]"
+ ENG_switch_tag_SCO:0 "Play as the Territory of Scotland [SCO.GetFlag]"

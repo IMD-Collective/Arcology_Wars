@@ -1,0 +1,141 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "external_politics_reception"
+		position = { x = 280 y = 455}
+		size = { width = 234 height = 120 }
+		moveable = no
+		verticalScrollbar = "right_vertical_slider"
+
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "CS_reception_grid"
+			position = {x= 0 y= 0}
+			size = { width = 210 height = 400 }
+			Orientation = upper_left
+			clipping = yes
+			margin = { top = -16 bottom = 0 }
+
+			gridboxtype = {
+				name = "influence_reception_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 400 height = 100% }
+				slotsize = { width = 250 height = 40 }
+				max_slots_horizontal = 1
+				add_horizontal = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "received_influence_list_entry"
+		position = { x = 0 y = 0}
+		size = { width = 300 height = 70 }
+
+		iconType = {
+			name = "received_influence_frame"
+			quadTextureSprite = "GFX_reception_1"
+			position = { x = -76 y = 15 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "received_influence_frame_text"
+			position = { x = -13 y = 26 }
+			font = "hoi_20bs"
+			text = "cs_influence_textbox"
+		}
+
+		buttonType = {
+			name = "reduce_influence_button"
+			quadTextureSprite = "GFX_reduce_influence_button"
+			position = { x = 94 y = 19 }
+			pdx_tooltip = "influence_pp_text_comp"
+		}
+
+		buttonType = {
+			name = "nation_flags" 
+			position = {x= -67 y = 23}
+			text = "[?This.GetFlag]"
+			quadTextureSprite = "GFX_flag_small2"
+			pdx_tooltip = "EXTERNAL_POLITICS_FLAG"
+		}
+	}
+
+	containerWindowType = {
+		name = "external_politics"
+		position = { x = 272 y = 356 }
+		size = { width = 264 height = 225 }
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "influence_projection"
+			position = { x = 6 y = 6 }
+
+			iconType = {
+				name = "static_back"
+				spriteType = "GFX_static_back"
+				position = { x = -4 y = -4 }
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "projected_influence_1"
+				spriteType = "GFX_no_projection"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "projected_influence_2"
+				spriteType = "GFX_weak_projection"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "projected_influence_3"
+				spriteType = "GFX_average_projection"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "projected_influence_4"
+				spriteType = "GFX_middling_projection"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "projected_influence_5"
+				spriteType = "GFX_high_projection"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "influence_buttons"
+			position = { x = 6 y = 6 }
+
+			buttonType = {
+				name = "player_increase_influence"
+				quadTextureSprite = "GFX_increase_influence_button"
+				position = { x=-1 y=59 }
+				buttonText = "influence_increase"
+				font = "hoi_20bs"
+				pdx_tooltip = "influence_pp_text"
+			}
+		}
+	}
+}

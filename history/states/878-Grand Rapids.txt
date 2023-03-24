@@ -1,0 +1,28 @@
+state={
+	id=878
+	name="STATE_878"
+
+	state_category = pastoral
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+		}
+		victory_points = {
+			9724 2
+		}
+		victory_points = {
+			6710 1
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		3766 6710 6769 6782 7420 9724 9746 9747 10233 10303 11656 11714 11731 13199 13155 13200
+	}
+	local_supplies=0.0
+	manpower=33231
+}

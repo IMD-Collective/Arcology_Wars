@@ -1,0 +1,26 @@
+state={
+	id=837
+	name="STATE_837"
+	resources={
+		rubber=4
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+		victory_points = {
+			4657 5
+		}
+	}
+
+	provinces={
+		941 1651 4657 7667 10387 12303 
+	}
+	local_supplies=0.0
+	manpower=2451
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

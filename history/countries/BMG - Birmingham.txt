@@ -1,0 +1,26 @@
+﻿capital = 902
+
+##oob = ""
+
+# Starting tech
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Birmingham Industrial Council"
+	desc = ""
+	picture = "Portrait_Brimingham_Industrial_Council.dds"
+	expire = "2032.1.1"
+	ideology = congressional_despotism 
+	traits = { }
+}

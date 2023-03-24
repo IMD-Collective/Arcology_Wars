@@ -1,0 +1,19 @@
+﻿capital = 306
+
+#oob = "COL_1936"
+
+set_convoys = 10
+
+set_convoys = 5
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 62
+	democratic = 16
+	fascism = 22
+}

@@ -1,0 +1,10 @@
+﻿capital = 231
+
+#oob = "GEO_1936"
+
+set_research_slots = 3
+
+# Starting tech
+
+set_popularities = {	democratic = 25	communism = 75
+}

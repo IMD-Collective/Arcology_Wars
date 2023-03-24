@@ -1,0 +1,23 @@
+state= {
+	id=797
+	name="STATE_797" # Rome
+	manpower = 3240300
+	
+	state_category = metropolis
+
+	history=
+	{
+		owner = ITA
+		victory_points = { 9904 40 }
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 6
+		}
+		add_core_of = ITA
+	}
+
+	provinces= {
+		9904
+ 	}
+	local_supplies=0.0
+}

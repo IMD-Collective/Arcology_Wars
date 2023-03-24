@@ -1,0 +1,33 @@
+
+music_station = "base_music"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+music = {
+	song = "BWV639"
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "Dawns Battle"
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=734
+	name="STATE_734"
+
+	history={
+		owner = SOL
+		add_core_of = SOL
+		buildings = {
+			infrastructure = 3
+			7390 = {
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		7390 
+	}
+	manpower = 5167
+	state_category = tiny_island
+}

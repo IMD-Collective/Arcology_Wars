@@ -1,0 +1,62 @@
+leader_traits = {
+
+	party_leader = {
+		random = no
+		political_power_gain = 0.05
+		trade_opinion_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	securocrat = {
+		random = no
+		compliance_growth = 0.20
+		decryption = 0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	grand_marshal = {
+		random = no
+		war_support_factor = 0.10
+		justify_war_goal_time = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	militia_commander = {
+		random = no
+		resistance_growth_on_our_occupied_states = 0.25
+		equipment_capture_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ruling_cleric = {
+		random = no
+		mobilization_speed = 0.10
+		non_core_manpower = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dictator = {
+		random = no
+		stability_factor = 0.05
+		drift_defence_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

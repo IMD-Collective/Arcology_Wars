@@ -1,0 +1,303 @@
+scripted_gui = { ###Credits to M&M and Globus###
+
+	CS_external_politics = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "external_politics"
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			player_increase_influence = { image = "GFX_increase_influence_button" }
+			projected_influence_1 = { image = "GFX_no_projection" }
+			projected_influence_2 = { image = "GFX_weak_projection" }
+			projected_influence_3 = { image = "GFX_average_projection" }
+			projected_influence_4 = { image = "GFX_middling_projection" }
+			projected_influence_5 = { image = "GFX_high_projection" }
+		}
+
+		effects = {
+			player_increase_influence_click = {
+				meta_effect = { 
+					text = { 
+						add_to_variable = { global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 1 } 
+					} 
+					INFLUENCER_SHIELD = "[FROM.GetTag]"
+					INFLUENCED_SHIELD = "[ROOT.GetTag]"
+				}
+				ROOT = {
+					meta_effect = {
+						text = {
+							add_to_variable = { global.[INFLUENCER]_[INFLUENCED]_influence = 1 }
+						}
+						INFLUENCER = "[FROM.GetTag]"
+						INFLUENCED = "[PREV.GetTag]"
+					}
+					log = "Parent Country: [FROM.GetName] - [FROM.GetTag]"
+					log = "Influencing Country: [PREV.GetName] - [PREV.GetTag]"
+					log = "THIS: [THIS.GetName]"
+					set_variable = { polp = political_power }
+					if = {
+						limit = { has_idea = global_superpower }
+						add_political_power = -75
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { add_political_power = -425 } } }
+					}
+					if = {
+						limit = { has_idea = middling_power }
+						add_political_power = -100
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { add_political_power = -400 } } }
+					}
+					if = {
+						limit = { has_idea = regional_power }
+						add_political_power = -150
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { add_political_power = -350 } } }
+					}
+					if = {
+						limit = { has_idea = third_world_country }
+						add_political_power = -200
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { add_political_power = -300 } } }
+					}
+					if = {
+						limit = { has_idea = irrelevant_third_world_country }
+						add_political_power = -250
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { add_political_power = -250 } } }
+					}
+				}
+				FROM = {
+					if = { limit = { NOT = { is_in_array = { influence_array = ROOT.id } } } add_to_array = { influence_array = ROOT.id } }
+				}
+			}
+		}
+
+		triggers = {
+			projected_influence_1_visible = {
+				tag = FROM
+				NOT = { PREV = { original_tag = ROOT } }
+			}
+
+			projected_influence_2_visible = {
+				ROOT = {
+					meta_trigger = {
+						text = {
+							check_variable = { global.[INFLUENCER]_[INFLUENCED]_influence = 1 }
+						}
+						INFLUENCER = "[ROOT.GetTag]"
+						INFLUENCED = "[PREV.GetTag]"
+					}
+				}
+				THIS = { is_in_array = { influence_array = ROOT.id } }
+				NOT = { PREV = { original_tag = ROOT } }
+			}
+
+			projected_influence_3_visible = {
+				ROOT = {
+					meta_trigger = {
+						text = {
+							check_variable = { global.[INFLUENCER]_[INFLUENCED]_influence = 2 }
+						}
+						INFLUENCER = "[ROOT.GetTag]"
+						INFLUENCED = "[PREV.GetTag]"
+					}
+				}
+				THIS = { is_in_array = { influence_array = ROOT.id } }
+				NOT = { PREV = { original_tag = ROOT } }
+			}
+
+			projected_influence_4_visible = {
+				ROOT = {
+					meta_trigger = {
+						text = {
+							check_variable = { global.[INFLUENCER]_[INFLUENCED]_influence = 3 }
+						}
+						INFLUENCER = "[ROOT.GetTag]"
+						INFLUENCED = "[PREV.GetTag]"
+					}
+				}
+				THIS = { is_in_array = { influence_array = ROOT.id } }
+				NOT = { PREV = { original_tag = ROOT } }
+			}
+
+			projected_influence_5_visible = {
+				ROOT = {
+					meta_trigger = {
+						text = {
+							check_variable = { global.[INFLUENCER]_[INFLUENCED]_influence = 4 }
+						}
+						INFLUENCER = "[ROOT.GetTag]"
+						INFLUENCED = "[PREV.GetTag]"
+					}
+				}
+				THIS = { is_in_array = { influence_array = ROOT.id } }
+				NOT = { PREV = { original_tag = ROOT } }
+			}
+			player_increase_influence_click_enabled = {
+				NOT = {
+					original_tag = ROOT
+					meta_trigger = {
+						text = {
+							check_variable = { global.[INFLUENCER]_[INFLUENCED]_influence > 3.99 }
+						}
+						INFLUENCER = "[ROOT.GetTag]"
+						INFLUENCED = "[PREV.GetTag]"
+					}
+				}
+
+				OR = {
+					ROOT = {
+						has_idea = irrelevant_third_world_country
+						has_political_power > 249
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { has_political_power > 499 } } }
+					}
+					ROOT = {
+						has_idea = third_world_country
+						has_political_power > 199
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { has_political_power > 499 } } }
+					}
+					ROOT = {
+						has_idea = regional_power
+						has_political_power > 149
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { has_political_power > 499 } } }
+					}
+					ROOT = {
+						has_idea = middling_power
+						has_political_power > 99
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { has_political_power > 499 } } }
+					}
+					ROOT = {
+						has_idea = global_superpower
+						has_political_power > 74
+						PREV = { if = { limit = { has_idea = global_superpower } ROOT = { has_political_power > 499 } } }
+					}
+				}
+			}
+		}
+	}
+
+	CS_influence_reception = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "external_politics_reception"
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			nation_flags = { image = "[This.GetFlag]" } 
+			received_influence_frame = { image = "[This.GetInfluenceLevel]" }
+			reduce_influence_button = { image = "GFX_reduce_influence_button" }
+		}
+
+		effects = {
+			reduce_influence_button_click = {
+				THIS = {
+					meta_effect = {
+						text = {
+							subtract_from_variable = { global.[INFLUENCER]_[INFLUENCED]_influence = 1 }
+						}
+						INFLUENCER = "[THIS.GetTag]"
+						INFLUENCED = "[FROM.GetTag]"
+					}
+					if = {
+						limit = { 
+							meta_trigger = {
+								text = {
+									check_variable = {
+										global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 0 
+									}
+								}
+								INFLUENCER_SHIELD = "[THIS.GetTag]" 
+								INFLUENCED_SHIELD = "[FROM.GetTag]"
+							}
+						}
+						remove_from_array = {
+							array = FROM.influence_array
+							value = THIS.id
+						}
+					}
+				}
+
+				ROOT = {
+					if = {
+						limit = { has_idea = irrelevant_third_world_country }
+						add_political_power = -250
+					}
+					if = {
+						limit = { has_idea = third_world_country }
+						add_political_power = -200
+					}
+					if = {
+						limit = { has_idea = regional_power }
+						add_political_power = -150
+					}
+					if = {
+						limit = { has_idea = middling_power }
+						add_political_power = -100
+					}
+					if = {
+						limit = { has_idea = global_superpower }
+						add_political_power = -75
+					}
+				}
+			}
+		}
+
+		triggers = {
+			player_increase_influence_click_enabled = {
+				NOT = { original_tag = ROOT	}
+				OR = {
+					ROOT = {
+						has_idea = irrelevant_third_world_country
+						has_political_power > 249
+					}
+					ROOT = {
+						has_idea = third_world_country
+						has_political_power > 199
+					}
+					ROOT = {
+						has_idea = regional_power
+						has_political_power > 149
+					}
+					ROOT = {
+						has_idea = middling_power
+						has_political_power > 99
+					}
+					ROOT = {
+						has_idea = global_superpower
+						has_political_power > 74
+					}
+				}
+			}
+			reduce_influence_button_visible = {
+				NOT = { original_tag = ROOT }
+				FROM = { is_in_array = { influence_array = ROOT.id } }
+			}
+			received_influence_1_visible = {
+				meta_trigger = { text = { check_variable = { global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 1 } } INFLUENCER_SHIELD = "[FROM.GetTag]" INFLUENCED_SHIELD = "[ROOT.GetTag]" }
+				AND = { PREV = { original_tag = ROOT } }
+			}
+			received_influence_2_visible = {
+				meta_trigger = { text = { check_variable = { global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 2 } } INFLUENCER_SHIELD = "[FROM.GetTag]" INFLUENCED_SHIELD = "[ROOT.GetTag]" }
+				AND = { PREV = { original_tag = ROOT } } 
+			}
+			received_influence_3_visible = {
+				meta_trigger = { text = { check_variable = { global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 3 } } INFLUENCER_SHIELD = "[FROM.GetTag]" INFLUENCED_SHIELD = "[ROOT.GetTag]" }
+				AND = { PREV = { original_tag = ROOT } }
+			}
+			received_influence_4_visible = {
+				meta_trigger = { text = { check_variable = { global.[INFLUENCER_SHIELD]_[INFLUENCED_SHIELD]_influence = 4 } } INFLUENCER_SHIELD = "[FROM.GetTag]" INFLUENCED_SHIELD = "[ROOT.GetTag]" }
+				AND = { PREV = { original_tag = ROOT } }
+			}
+		}
+
+		dynamic_lists = {
+			influence_reception_grid = {
+				array = influence_array
+				entry_container = received_influence_list_entry
+				change_scope = yes
+			}
+		}
+    }
+}

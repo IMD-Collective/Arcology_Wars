@@ -1,0 +1,28 @@
+
+state={
+	id=387
+	name="STATE_387"
+	resources={
+		rubber=4
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9616 1 
+		}
+
+	}
+	local_supplies=0.0
+	provinces={
+		1789 7845 9616 10556 10602 10672
+	}
+	manpower=1030
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

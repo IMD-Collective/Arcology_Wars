@@ -1,0 +1,20 @@
+﻿capital = 666
+
+##oob = ""
+
+# Starting tech
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 26
+	fascism = 1
+	communism = 11
+	neutrality = 62
+}

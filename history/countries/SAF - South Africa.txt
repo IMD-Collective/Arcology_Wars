@@ -1,0 +1,16 @@
+﻿capital = 275
+
+set_convoys = 25
+
+set_politics = {
+	ruling_party = left_populism
+	last_election = "2008.5.17"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 20
+	left_populism = 50
+	democratic = 20
+	fascism  = 10
+}

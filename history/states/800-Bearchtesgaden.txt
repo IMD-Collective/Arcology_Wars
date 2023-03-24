@@ -1,0 +1,25 @@
+
+state={
+	id=800
+	name="STATE_800"
+	manpower = 32156
+	
+	state_category = pastoral
+
+	history={
+		owner = HAN
+		victory_points = {
+			708 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = HAN
+	}
+
+	provinces={
+		425 3522 6218 6487 9238 9375 11219 11359 11468
+	}
+	local_supplies=0.0
+}

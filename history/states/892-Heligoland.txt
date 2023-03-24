@@ -1,0 +1,28 @@
+state={
+	id=892
+	name="STATE_892"
+
+	history={
+		owner = NOD
+		add_core_of = NOD
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
+		}
+		victory_points = {
+			3444 2
+		}
+		victory_points = {
+			6570 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		587 3444 3512 3547 6469 6570 9522 11360 13365
+	}
+	manpower=343000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

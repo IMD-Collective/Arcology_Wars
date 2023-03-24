@@ -1,0 +1,32 @@
+state={
+	id=848
+	name="STATE_848"
+	resources={
+		steel=24
+		aluminium=16
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 1
+			anti_air_building = 2
+			radar_station = 1
+			air_base = 7
+		}
+		add_core_of = USA
+		victory_points = {
+			13256 30
+		}
+	}
+
+	provinces={
+		7315 13256 
+	}
+	local_supplies=0.0
+	manpower=4902391
+	buildings_max_level_factor=1.000
+	state_category = arcoplex
+}

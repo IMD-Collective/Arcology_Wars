@@ -1,0 +1,31 @@
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
+	
+	state_category = pastoral
+
+	history={
+		add_core_of = BAH
+		owner = BAH
+		victory_points = {
+			10254 1
+		}
+		buildings = {
+			infrastructure = 4
+			10254 = {
+				naval_base = 1
+			}
+			10440 = {
+				naval_base = 1
+			}
+			1513 = {
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		1513 10254 10440 13307 13308
+	}
+}

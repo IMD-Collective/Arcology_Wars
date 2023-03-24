@@ -1,0 +1,35 @@
+﻿capital = 107
+
+#oob = "YUG_1936"
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = fascism 
+	last_election = "2008.5.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 30
+	neutrality = 10
+	fascism = 60
+}
+
+set_autonomy = {
+	target = MAC
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_stability = 0.6
+
+create_country_leader = {
+	name = "Slobodan Milosevic"
+	desc = ""
+	picture = "Portrait_Slobodan_Milosevic.dds"
+	expire = "2032.1.1"
+	ideology = ultranational_socialism 
+	traits = { dictator }
+}

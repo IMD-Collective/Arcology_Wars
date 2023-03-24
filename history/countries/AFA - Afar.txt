@@ -1,0 +1,17 @@
+﻿capital = 550 #Change when Afar gets a state
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 5
+	fascism = 15
+	communism = 55
+	neutrality = 25
+}

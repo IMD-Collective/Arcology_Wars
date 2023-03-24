@@ -1,0 +1,59 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "CS_faction_banners"
+		position = { x = 88 y = 305 }
+		size = { width = 50 height = 20 }
+		clipping = no
+
+		iconType = {
+			name = "nato_member"
+			spriteType = "GFX_NATO"
+			position = { x = 280 y = -66 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "warpac_member"
+			spriteType = "GFX_WARPAC"
+			position = { x = 280 y = -66 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "tripac_member"
+			spriteType = "GFX_TRIPAC"
+			position = { x = 280 y = -66 }
+			alwaystransparent = yes
+			pdx_tooltip = "tripartite_pact"
+		}
+		
+		iconType = {
+			name = "indchism_member"
+			spriteType = "GFX_INDCHISM"
+			position = { x = 280 y = -66 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "estway_member"
+			spriteType = "GFX_ESTWAY"
+			position = { x = 280 y = -66 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "neutral"
+			spriteType = "GFX_Neutral_Faction"
+			position = { x = 280 y = -66 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "monitor_effect_politics"
+			spriteType = "GFX_monitor_effect_politics_view"
+			position = { x = 280 y = -66 }
+			alwaystransparent = yes
+		}
+	}
+}

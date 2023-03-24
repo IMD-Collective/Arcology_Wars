@@ -1,0 +1,10 @@
+##start
+GRM_alpine_backers_category = {
+
+	GRM_austrian_guns = {
+		available = { has_completed_focus = GRM_our_alpine_backers }
+		complete_effect = {
+			#
+		}
+	}
+}

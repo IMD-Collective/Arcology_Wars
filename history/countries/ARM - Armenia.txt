@@ -1,0 +1,12 @@
+﻿capital = 230 #Yerevan, Armenia
+
+#oob = "AZR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+
+set_popularities = {	fascism = 34
+	democratic = 30
+	communism = 36
+}

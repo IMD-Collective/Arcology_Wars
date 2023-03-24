@@ -1,0 +1,34 @@
+ideas = {
+
+	naval_theory = { 
+		law = yes
+		use_list_view = yes
+
+		submarine_theorem = {
+			
+			cost = 0
+			removal_cost = -1
+		}
+		
+		beach_head_support = {
+		
+			cost = 0
+			removal_cost = -1
+			default = yes
+		}
+
+		carrier_theorem = {
+
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+		
+		destroyer_theorem = {
+			
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+	}
+}

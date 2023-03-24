@@ -1,0 +1,17 @@
+﻿capital = 303
+
+#oob = "PRU_1936"
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.10.11"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 49
+	communism = 51
+}

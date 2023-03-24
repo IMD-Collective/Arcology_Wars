@@ -1,0 +1,29 @@
+state=
+{
+	id=803
+	name="STATE_803"
+	manpower = 543021
+	
+	state_category = town
+	
+	resources={
+		steel=4
+	}
+	
+	history={
+		owner = MRV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			557 1 
+		}
+		add_core_of = MRV
+	}
+	provinces= {
+		557 11525 
+	}
+	local_supplies=0.0
+}

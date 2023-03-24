@@ -1,0 +1,28 @@
+
+state={
+	id=875
+	name="STATE_875"
+	manpower = 27801
+	
+	state_category = pastoral
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = USA
+		victory_points = {
+			1445 2
+		}
+		victory_points = {
+			6974 1
+		}
+
+	}
+
+	provinces={
+		1445 1582 4452 4988 6696 6971 6974 7547 9727 9779 12568 12637 12709
+	}
+	local_supplies=0.0
+}

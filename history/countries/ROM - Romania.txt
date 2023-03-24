@@ -1,0 +1,32 @@
+﻿capital = 46
+
+#oob = "ROM_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 9
+	communism = 16
+	left_populism = 13
+	neutrality = 62
+}
+
+create_country_leader = {
+	name = "Nicu Ceausesc"
+	desc = ""
+	picture = "Portrait_Nicu_Ceausescu.dds"
+	expire = "2032.1.1"
+	ideology = social_despotism 
+	traits = { dictator }
+}

@@ -1,0 +1,124 @@
+spriteTypes = {	
+
+	##Nazi Germany
+	spriteType = {
+		name = "GFX_idea_GRM_legacy_of_the_orginal_fuhrer"
+		texturefile = "gfx/interface/ideas/idea_GRM_legacy_of_the_orginal_fuhrer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRM_volkssturm"
+		texturefile = "gfx/interface/ideas/idea_GRM_volkssturm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Stasi_Securocracy"
+		texturefile = "gfx/interface/ideas/idea_GER_Stasi_Securocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Frontline_Commissars"
+		texturefile = "gfx/interface/ideas/idea_GER_Frontline_Commissars.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WGR_The_Manic_Struggle"
+		texturefile = "gfx/interface/ideas/idea_WGR_The_Manic_Struggle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WGR_Anarchist_Brigades"
+		texturefile = "gfx/interface/ideas/idea_WGR_Anarchist_Brigades.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Pax_Sovietica_I"
+		texturefile = "gfx/interface/ideas/idea_SOV_Pax_Sovietica_I.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Pax_Sovietica_II"
+		texturefile = "gfx/interface/ideas/idea_SOV_Pax_Sovietica_II.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_Pax_Sovietica_III"
+		texturefile = "gfx/interface/ideas/idea_SOV_Pax_Sovietica_III.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_High_Suicide_Rates_I"
+		texturefile = "gfx/interface/ideas/idea_SOV_High_Suicide_Rates_I.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_High_Suicide_Rates_II"
+		texturefile = "gfx/interface/ideas/idea_SOV_High_Suicide_Rates_II.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OCC_French_Nationalist_Insurgency"
+		texturefile = "gfx/interface/ideas/French_Nationalist_Insurgency.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OCC_Soviet_Aid"
+		texturefile = "gfx/interface/ideas/Soviet_Aid_Generic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Military_State"
+		texturefile = "gfx/interface/ideas/Military_State.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Savoy_Crisis"
+		texturefile = "gfx/interface/ideas/Savoy_Crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Euro_Coop"
+		texturefile = "gfx/interface/ideas/European_Cooperation_League_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_Islamic_Republic"
+		texturefile = "gfx/interface/ideas/idea_BOS_Islamic_Republic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_Jihadist_Pressure"
+		texturefile = "gfx/interface/ideas/idea_BOS_Jihadist_Pressure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_Secularist_Movement"
+		texturefile = "gfx/interface/ideas/idea_BOS_Secularist_Movement.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_no_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_thrifty_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_thrifty_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_limited_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_decent_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_decent_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_good_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_good_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_great_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_great_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_anomalous_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_anomalous_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_militarized_research_capabilities_law"
+		texturefile = "gfx/interface/ideas/idea_militarized_research_capabilities_law.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Anglo_American_Brotherhood"
+		texturefile = "gfx/interface/ideas/idea_ENG_Anglo_American_Brotherhood.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Saudade_For_Prior"
+		texturefile = "gfx/interface/ideas/idea_ENG_Saudade_For_Prior.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Fortress_UK"
+		texturefile = "gfx/interface/ideas/idea_ENG_Fortress_UK.dds"
+	}
+}

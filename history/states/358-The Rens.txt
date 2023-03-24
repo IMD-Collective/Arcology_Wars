@@ -1,0 +1,23 @@
+state={
+	id=358
+	name="STATE_358"
+	
+	state_category = wasteland
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+		victory_points = {
+			4839 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		1747 1767 1851 3750 4839 6722 7877 10587 12566
+	}
+	manpower=352
+	buildings_max_level_factor=1.000
+}

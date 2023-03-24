@@ -1,0 +1,240 @@
+ideas = {
+
+	hidden_ideas = {
+	
+		GDP_minor_recession = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.10
+				war_support_factor = -0.10
+				stability_factor = -0.10
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.09
+			}
+		}
+
+		GDP_recession = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.20
+				war_support_factor = -0.15
+				stability_factor = -0.15
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.15
+			}
+		}
+
+		GDP_major_recession = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.25
+				war_support_factor = -0.20
+				stability_factor = -0.20
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.20
+			}
+		}
+
+		GDP_depression = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.45
+				war_support_factor = -0.30
+				stability_factor = -0.30
+				consumer_goods_factor = 0.40
+				production_speed_buildings_factor = -0.35
+			}
+		}
+
+		GDP_economic_aid_distribution_small = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.01
+			}
+		}
+
+		GDP_economic_aid_distribution_medium = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.03
+				consumer_goods_factor = 0.01
+			}
+		}
+
+		GDP_economic_aid_distribution_large = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+
+		GDP_economic_aid_reception_small = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.02
+			}
+		}
+
+		GDP_economic_aid_reception_medium = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.03
+				production_speed_buildings_factor = 0.02
+			}
+		}
+
+		GDP_economic_aid_reception_large = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.04
+			}
+		}
+
+		GDP_economic_exploitation_small = {
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.03
+				consumer_goods_factor = -0.01
+				production_speed_buildings_factor = -0.03
+			}
+		}
+
+		GDP_economic_exploitation_medium = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.04
+				consumer_goods_factor = -0.02
+				production_speed_buildings_factor = -0.05
+			}
+		}
+
+		GDP_economic_exploitation_large = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = -0.03
+				production_speed_buildings_factor = -0.10
+			}
+		}
+
+		GDP_paying_foreign_debt_small = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.01
+			}
+		}
+
+		GDP_paying_foreign_debt_medium = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		GDP_paying_foreign_debt_large = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.10
+				consumer_goods_factor = 0.10
+			}
+		}
+
+		GDP_liquid_capital_gain_small = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+
+		GDP_liquid_capital_gain_medium = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_speed_buildings_factor = 0.03
+			}
+		}
+
+		GDP_liquid_capital_gain_large = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.04
+				production_speed_buildings_factor = 0.06
+			}
+		}
+
+		GDP_economic_loansharking_small = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.02
+				consumer_goods_factor = -0.01
+				production_speed_buildings_factor = 0.01
+			}
+		}
+
+		GDP_economic_loansharking_medium = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.03
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		GDP_economic_loansharking_large = {
+			allowed = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.08
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.8
+			}
+		}
+	}
+}

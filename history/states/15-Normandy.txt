@@ -1,0 +1,31 @@
+
+state={
+	id=15
+	name="STATE_15"
+	manpower = 672100
+	resources={
+		steel=21
+	}
+	
+	state_category = city
+
+	history={
+		owner = NRM
+		victory_points = {
+			3629 2
+		}
+		victory_points = {
+			6449 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 6
+		}
+		add_core_of = NRM
+	}
+	local_supplies=0.0
+	provinces={
+	 539 553 3579 3629 6449 6599 9434 9503 11521 11535 13404
+	}
+}

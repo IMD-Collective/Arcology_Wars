@@ -1,0 +1,4 @@
+sound = {
+	name = "se_uk_collapse"
+	file = "menu/se_uk_collapse.wav"
+}

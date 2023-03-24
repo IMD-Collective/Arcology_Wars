@@ -1,0 +1,15 @@
+﻿capital = 336 #change when they get a state
+
+#oob = "PAT_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {	fascism = 100
+}

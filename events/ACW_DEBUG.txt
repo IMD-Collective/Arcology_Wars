@@ -1,0 +1,16 @@
+##### FOR DEBUGGING
+
+add_namespace = ACW_DEBUG
+
+country_event = {
+	id = ACW_DEBUG.1
+	title = ACW_DEBUG.1.t
+	desc = ACW_DEBUG.1.d
+	picture = GFX_SOV_report_event_supreme_soviet
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ACW_DEBUG.1.a
+	}
+}

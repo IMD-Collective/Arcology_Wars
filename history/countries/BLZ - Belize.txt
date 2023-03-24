@@ -1,0 +1,18 @@
+﻿capital = 311
+
+##oob = ""
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 75
+	fascism = 1
+	communism = 1
+	neutrality = 23
+}

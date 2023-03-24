@@ -1,0 +1,168 @@
+ideas = {
+
+	development_level_law = { 
+		law = yes
+		use_list_view = yes
+		
+		irrelevant_third_world_country = {
+
+			available = {
+				num_of_civilian_factories < 10
+				NOT = {
+					OR = {
+						has_idea = global_superpower
+						has_idea = middling_power
+					}
+				}
+			}
+
+			modifier = {
+				guarantee_cost = 0.25
+				generate_wargoal_tension = -0.5
+				drift_defence_factor = -0.5
+				political_power_gain = -0.35
+				send_volunteer_size = 2
+				air_volunteer_cap = 50
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 20
+					num_of_civilian_factories < 10
+				}
+   			}
+
+			cost = 0
+			cancel_if_invalid = no
+		}
+		
+		third_world_country = {
+
+			available = {
+				num_of_civilian_factories > 10
+				NOT = {
+					OR = { 
+						has_idea = global_superpower 
+						has_idea = middling_power
+					}
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = -0.3
+				send_volunteer_size = 3
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 40
+					AND = {
+						has_idea = irrelevant_third_world_country
+						num_of_civilian_factories > 10
+					}
+				}
+   			}
+
+			cost = 0
+			cancel_if_invalid = no
+		}
+		
+		regional_power = {
+
+			available = {
+				num_of_civilian_factories > 50
+				NOT = {
+					has_idea = global_superpower
+				}
+			}
+
+			modifier = {
+				political_power_gain = 0.10
+				drift_defence_factor = -0.1
+				send_volunteer_size = 6
+				air_volunteer_cap = 200
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 40
+					AND = {
+						has_idea = third_world_country
+						num_of_civilian_factories > 50
+					}
+				}
+   			}
+			
+			cost = 0
+			default = yes
+			cancel_if_invalid = no
+		}
+		
+		middling_power = {
+
+			available = {
+				num_of_civilian_factories > 90
+			}
+
+			modifier = {
+				political_power_gain = 0.25
+				trade_opinion_factor = 0.15
+				gdp_increase = 0.10
+				send_volunteer_size = 8
+				air_volunteer_cap = 500
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 70
+					AND = {
+						has_idea = regional_power
+						num_of_civilian_factories > 90
+					}
+				}
+   			}
+						
+			cost = 0
+			cancel_if_invalid = no
+		}
+		
+		global_superpower = {
+
+			available = {
+				num_of_civilian_factories > 150
+			}
+
+			modifier = {
+				political_power_gain = 0.5
+				trade_opinion_factor = 0.5
+				drift_defence_factor = 0.5
+				gdp_increase = 0.25
+				send_volunteer_size = 15
+				air_volunteer_cap = 1000
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 100
+					OR = {
+						has_idea = middling_power
+						num_of_civilian_factories > 150
+					}
+				}
+   			}
+
+			cost = 0
+			cancel_if_invalid = no
+		}
+	}
+}

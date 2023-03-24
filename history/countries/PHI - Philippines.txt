@@ -1,0 +1,17 @@
+﻿capital = 327
+
+#oob = "PHI_1936"
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.9.15"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 82
+	fascism = 18
+}

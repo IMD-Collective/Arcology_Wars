@@ -1,0 +1,32 @@
+﻿capital = 44
+
+##oob = ""
+set_politics = {
+	ruling_party = fascism 
+	last_election = "2008.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 90
+	communism = 10
+}
+
+create_country_leader = {
+	name = "Jetor Sapunxiu"
+	desc = ""
+	picture = "Portrait_Jetor_Sapunxiu.dds"
+	expire = "2032.1.1"
+	ideology = clerical_ultranationalism 
+	traits = { dictator }
+}
+
+create_country_leader = {
+	name = "Ramiz Alia"
+	desc = ""
+	picture = "Portrait_Ramiz_Alia.dds"
+	expire = "2032.1.1"
+	ideology = congressional_socialism 
+	traits = { dictator }
+}

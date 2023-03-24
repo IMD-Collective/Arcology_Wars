@@ -1,0 +1,25 @@
+state={
+	id=891
+	name="STATE_891"
+
+	history={
+		owner = CLB
+		add_core_of = CLB
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 9
+		}
+		victory_points = {
+			9444 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		3488 6537 9418 9444 11407 13081 13364
+	}
+	manpower=343000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

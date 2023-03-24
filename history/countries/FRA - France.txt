@@ -1,0 +1,28 @@
+﻿capital = 920
+#oob = "FRA_1936"
+
+set_research_slots = 3
+set_stability = 0.5
+
+add_ideas = {
+	regional_power
+}
+
+# Starting tech
+
+set_convoys = 300
+
+
+set_politics = {
+	ruling_party = neutrality 
+	last_election = "2008.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 15
+	left_populism = 14
+	democratic = 21
+	neutrality = 35
+	fascism = 15
+}

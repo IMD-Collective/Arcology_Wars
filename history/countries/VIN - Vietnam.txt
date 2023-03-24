@@ -1,0 +1,44 @@
+﻿capital = 671 #Hanoi
+
+#oob = "VIN_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	regional_power
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 15
+	communism = 85
+}
+
+create_faction = indchism
+add_to_faction = CAM
+add_to_faction = LAO
+
+set_autonomy = {
+	target = CAM
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomy_integrated_puppet
+}
+
+create_country_leader = {
+	name = "Pham Duc Linh"
+	desc = ""
+	picture = "Portrait_Pham_Duc_Linh.dds"
+	expire = "2032.1.1"
+	ideology = military_socialism 
+	traits = { grand_marshal }
+}

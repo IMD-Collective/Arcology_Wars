@@ -1,0 +1,29 @@
+state={
+	id=844
+	name="STATE_844"
+	resources={
+		rubber=3
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+		victory_points = {
+			4799 3
+		}
+		victory_points = {
+			1740 1
+		}
+	}
+
+	provinces={
+		850 1740 4799 7879 12699
+	}
+	local_supplies=0.0
+	manpower=15640
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

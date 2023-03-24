@@ -1,0 +1,17 @@
+ENG_collapse_debug_category = {
+	icon = GFX_decision_category_generic_political_actions
+	allowed = {
+		original_tag = ENG
+		is_debug = yes
+	}
+}
+
+ENG_collapse_category = {
+	icon = GFX_decision_category_generic_political_actions
+	allowed = {
+		original_tag = ENG
+	}
+	visible = {
+		ENG = { has_global_flag = britain_has_collapsed }
+	}
+}

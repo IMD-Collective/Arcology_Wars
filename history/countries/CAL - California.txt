@@ -1,0 +1,15 @@
+capital = 378
+
+set_convoys = 200
+
+set_politics = {
+	ruling_party = democratic 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 21
+	left_populism = 13
+	democratic = 66
+}

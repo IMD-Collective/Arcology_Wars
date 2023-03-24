@@ -1,0 +1,25 @@
+state={
+	id=888
+	name="STATE_888"
+
+	state_category = town
+	manpower = 329413
+
+	history={
+		owner = OGC
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 1
+			13335 = { bunker = 1 }
+			13332 = { bunker = 1 }
+			13322 = { naval_base = 4 coastal_bunker = 3 }
+		}
+		add_core_of = OGC
+		victory_points = { 13325 2 }
+	}
+	local_supplies=0.0
+	provinces={
+		13322 13325 13327 13328 13329 13332 13335
+	}
+}

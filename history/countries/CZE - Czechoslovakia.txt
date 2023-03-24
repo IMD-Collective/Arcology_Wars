@@ -1,0 +1,29 @@
+﻿capital = 9
+
+#oob = "CZE_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.5.19"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 20
+	left_populism = 15
+	democratic = 10
+	neutrality = 50
+	fascism = 5
+}
+
+create_country_leader = {
+	name = "Drahoslav Bílek"
+	desc = ""
+	picture = "Portrait_Drahoslav_Bílek.dds"
+	expire = "2032.1.1"
+	ideology = despotism_subtype 
+	traits = { dictator }
+}

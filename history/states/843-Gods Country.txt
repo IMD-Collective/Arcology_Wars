@@ -1,0 +1,26 @@
+state={
+	id=843
+	name="STATE_843"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = USA
+		victory_points = {
+			6827 2 
+		}
+		victory_points = {
+			4807 1
+		}
+	}
+
+	provinces={
+		1719 4807 6752 6827 7536 9880
+	}
+	local_supplies=0.0
+	manpower=12521
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

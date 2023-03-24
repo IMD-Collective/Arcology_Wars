@@ -1,0 +1,25 @@
+﻿l_english:
+
+ ##Country Names
+ CAN_fascism:0 "Canada"
+ CAN_fascism_DEF:0 "Canada"
+ CAN_democratic:0 "Canada"
+ CAN_democratic_DEF:0 "Canada"
+ CAN_neutrality:0 "Canada"
+ CAN_neutrality_DEF:0 "Canada"
+ CAN_communism:0 "Canadian People's Republic"
+ CAN_communism_DEF:0 "the Canada People's Republic"
+ CAN_left_populism:0 "Canada"
+ CAN_left_populism_DEF:0 "Canada"
+ CAN_left_populism_ADJ:0 "Canadian"
+ CAN_fascism_ADJ:0 "Canadian"
+ CAN_democratic_ADJ:0 "Canadian"
+ CAN_neutrality_ADJ:0 "Canadian"
+ CAN_communism_ADJ:0 "Canadian"
+ CAN:0 "Canada"
+ CAN_DEF:0 "Canada"
+ CAN_ADJ:0 "Canadian"
+
+ ##Party Names 
+ CAN_neutrality_party:0 "CEG"
+ CAN_neutrality_party_long:0 "Coalitionary Emergency Group" 

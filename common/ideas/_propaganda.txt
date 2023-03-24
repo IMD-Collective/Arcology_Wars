@@ -1,0 +1,120 @@
+ideas = {
+
+	propaganda = { 
+		law = yes
+		use_list_view = yes
+
+		free_press = {
+
+			modifier = {
+				drift_defence_factor = -0.15
+				stability_factor = -0.08
+				defensive_war_stability_factor = 0.4
+				democratic_acceptance = 40
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 25
+					OR = {
+						has_government = democratic
+						has_government = left_populism
+					}
+				}
+   			}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+		
+		limited_censorship = {
+
+			available = {
+				has_idea = free_press
+				has_government = democratic
+			}
+
+			modifier = {
+				drift_defence_factor = -0.08
+				stability_factor = -0.15
+				gdp_spending = 0.01
+			}
+			
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+
+		state_propaganda = {
+
+			available = {
+				OR = {
+					has_government = communism
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = 0.05
+				party_popularity_stability_factor = 0.10
+				gdp_spending = 0.03
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 50
+					OR = {
+						has_government = communism
+						has_government = neutrality
+						has_government = fascism
+					}
+				}
+   			}
+	
+			cost = 0
+			default = yes
+			cancel_if_invalid = no
+		}
+		
+		heavy_state_propaganda = {
+
+			available = {
+				has_idea = state_propaganda
+				OR = {
+					has_government = communism
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = 0.15
+				stability_factor = 0.15
+				party_popularity_stability_factor = 0.40
+				gdp_spending = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 50
+					OR = {
+						has_government = communism
+						has_government = neutrality
+						has_government = fascism
+					}
+				}
+   			}
+			
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+	}
+}

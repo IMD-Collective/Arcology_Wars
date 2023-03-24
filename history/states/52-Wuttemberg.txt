@@ -1,0 +1,29 @@
+
+state={
+	id=52
+	name="STATE_52"
+	manpower = 2679413
+	resources={
+		aluminium=18
+	}
+	
+	state_category = city
+
+	history={
+		owner = GRM
+		victory_points = {
+			692 22
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 6
+		}
+		add_core_of = GRM
+	}
+	local_supplies=0.0
+	provinces={
+		692 3705 6693 9652 11620 
+	}
+}

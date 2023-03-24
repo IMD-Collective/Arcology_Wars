@@ -1,0 +1,20 @@
+state={
+	id=831
+	name="STATE_831"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+	}
+	
+	provinces={
+		1915 3875 3972 4919 7762 9773 10702 12301 12848 12893 
+	}
+	local_supplies=0.0
+	manpower=609
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

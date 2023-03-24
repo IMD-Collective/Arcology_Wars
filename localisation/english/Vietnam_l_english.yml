@@ -1,0 +1,25 @@
+﻿l_english:
+
+ ##Country Names
+ VIN_left_populism:0 "Republic of Vietnam"
+ VIN_left_populism_DEF:0 "the Republic of Vietnam"
+ VIN_left_populism_ADJ:0 "Vietnamese"
+ VIN_fascism:0 "Empire of Vietnam"
+ VIN_fascism_DEF:0 "the Empire of Vietnam"
+ VIN_democratic:0 "Republic of Vietnam"
+ VIN_democratic_DEF:0 "the Republic of Vietnam"
+ VIN_neutrality:0 "Republic of Vietnam"
+ VIN_neutrality_DEF:0 "the Republic of Vietnam"
+ VIN_communism:0 "Democratic Republic of Vietnam"
+ VIN_communism_DEF:0 "the Democratic Republic of Vietnam"
+ VIN_fascism_ADJ:0 "Vietnamese"
+ VIN_democratic_ADJ:0 "Vietnamese"
+ VIN_neutrality_ADJ:0 "Vietnamese"
+ VIN_communism_ADJ:0 "Vietnamese"
+ VIN:0 "Vietnam"
+ VIN_DEF:0 "Vietnam"
+ VIN_ADJ:0 "Vietnamese"
+ 
+ ##Party Names 
+ VIN_communism_party:0 "CPV"
+ VIN_communism_party_long:0 "Communist Party of Vietnam" 

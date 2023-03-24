@@ -1,0 +1,18 @@
+﻿capital = 524 # Nanjing
+
+#oob = "CHI_1936"
+
+set_stability = 0.2
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2004.3.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 58
+	neutrality = 42
+}

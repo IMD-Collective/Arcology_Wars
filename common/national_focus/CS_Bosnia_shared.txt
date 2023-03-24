@@ -1,0 +1,252 @@
+###################
+## Starting Tree ##
+###################
+shared_focus = {
+	id = BOS_Start_A_New_Year_for_Bosnia
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 1
+	x = 8
+	y = 0
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_A_Terrorist_Attack
+	icon = GFX_BOS_A_Terrorist_Attack
+	cost = 5
+	x = 0
+	y = 1
+	relative_position_id = BOS_Start_A_New_Year_for_Bosnia
+	available = {
+		always = no
+	}
+	prerequisite = {
+		focus = BOS_Start_A_New_Year_for_Bosnia
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Begin_an_Investigation
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = -2
+	y = 1
+	relative_position_id = BOS_Start_A_Terrorist_Attack
+	prerequisite = {
+		focus = BOS_Start_A_Terrorist_Attack
+	}
+	mutually_exclusive = {
+		focus = BOS_Start_Go_On_as_Usual
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Look_for_the_Owner
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = -1
+	y = 1
+	relative_position_id = BOS_Start_Begin_an_Investigation
+	prerequisite = {
+		focus = BOS_Start_Begin_an_Investigation
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Who_Did_it_Target
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 0
+	y = 1
+	relative_position_id = BOS_Start_Look_for_the_Owner
+	prerequisite = {
+		focus = BOS_Start_Look_for_the_Owner
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_The_Construction_of_the_Weapon
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 1
+	y = 1
+	relative_position_id = BOS_Start_Begin_an_Investigation
+	prerequisite = {
+		focus = BOS_Start_Begin_an_Investigation
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Where_Did_it_Come_From
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 0
+	y = 1
+	relative_position_id = BOS_Start_The_Construction_of_the_Weapon
+	prerequisite = {
+		focus = BOS_Start_The_Construction_of_the_Weapon
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_We_Have_the_Answers
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = -1
+	y = 1
+	relative_position_id = BOS_Start_Where_Did_it_Come_From
+	prerequisite = {
+		focus = BOS_Start_Who_Did_it_Target
+	}
+	prerequisite = {
+		focus = BOS_Start_Where_Did_it_Come_From
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Accuse_the_Suspects
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 0
+	y = 1
+	relative_position_id = BOS_Start_We_Have_the_Answers
+	prerequisite = {
+		focus = BOS_Start_We_Have_the_Answers
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Go_On_as_Usual
+	icon = GFX_BOS_Go_On_as_Usual
+	cost = 5
+	x = 2
+	y = 1
+	relative_position_id = BOS_Start_A_Terrorist_Attack
+	prerequisite = {
+		focus = BOS_Start_A_Terrorist_Attack
+	}
+	mutually_exclusive = {
+		focus = BOS_Start_Begin_an_Investigation
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Honouring_the_Heroes_of_History
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = -1
+	y = 1
+	relative_position_id = BOS_Start_Go_On_as_Usual
+	prerequisite = {
+		focus = BOS_Start_Go_On_as_Usual
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Working_With_the_Experts
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 0
+	y = 1
+	relative_position_id = BOS_Start_Honouring_the_Heroes_of_History
+	prerequisite = {
+		focus = BOS_Start_Honouring_the_Heroes_of_History
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Continue_Privatisation_Campaigns
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 1
+	y = 1
+	relative_position_id = BOS_Start_Go_On_as_Usual
+	prerequisite = {
+		focus = BOS_Start_Go_On_as_Usual
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Curb_Non_Islamic_Education
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 0
+	y = 1
+	relative_position_id = BOS_Start_Continue_Privatisation_Campaigns
+	prerequisite = {
+		focus = BOS_Start_Continue_Privatisation_Campaigns
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Create_an_Islamisation_Committee
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = -1
+	y = 1
+	relative_position_id = BOS_Start_Curb_Non_Islamic_Education
+	prerequisite = {
+		focus = BOS_Start_Working_With_the_Experts
+	}
+	prerequisite = {
+		focus = BOS_Start_Curb_Non_Islamic_Education
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_Focus_on_the_Serb_Regions
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = 0
+	y = 1
+	relative_position_id = BOS_Start_Create_an_Islamisation_Committee
+	prerequisite = {
+		focus = BOS_Start_Create_an_Islamisation_Committee
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BOS_Start_A_Growing_Problem
+	icon = GFX_BOS_A_New_Year_for_Bosnia
+	cost = 5
+	x = -2
+	y = 1
+	relative_position_id = BOS_Start_Focus_on_the_Serb_Regions
+	prerequisite = {
+		focus = BOS_Start_Accuse_the_Suspects
+		focus = BOS_Start_Focus_on_the_Serb_Regions
+	}
+	completion_reward = {
+	}
+}

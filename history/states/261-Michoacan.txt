@@ -1,0 +1,28 @@
+state={
+	id=261
+	name="STATE_261"
+	
+	state_category = wasteland
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			8032 = {
+				#naval_base = 3
+			}
+		}
+		add_core_of = MEX
+		victory_points = {
+			4887 2
+		}
+		victory_points = {
+			8032 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		4887 8032
+	}	
+	manpower=591
+}

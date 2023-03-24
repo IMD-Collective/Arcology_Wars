@@ -1,0 +1,8 @@
+#Collapse Debug
+ENG_collapse_debug_category = {
+	ENG_load_collapse = {
+		complete_effect = {
+			country_event = { id = british_collapse.1 }
+		}
+	}
+}

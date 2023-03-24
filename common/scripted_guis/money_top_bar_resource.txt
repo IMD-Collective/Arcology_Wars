@@ -1,0 +1,53 @@
+scripted_gui = {
+
+	money = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "money_container"
+		visible = {
+            always=yes
+		}
+
+		triggers = {
+			container_gdp_visible = {
+				ROOT = {
+					has_country_flag = check_gdp
+				}
+			}
+			container_income_visible = {
+				ROOT = {
+					OR = {
+						has_country_flag = check_income
+						AND = {
+							NOT = {
+								OR = {
+									has_country_flag = check_income
+									has_country_flag = check_gdp
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		effects = {
+			container_gdp_click = {
+				set_country_flag = check_income
+				clr_country_flag = check_gdp
+			}
+			container_income_click = {
+				set_country_flag = check_gdp
+				clr_country_flag = check_income
+			}
+		}
+	}
+	money_debt = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "money_container_debt"
+		visible = {
+            always=yes
+		}
+	}
+}

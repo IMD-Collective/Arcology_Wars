@@ -1,0 +1,41 @@
+﻿capital = 802
+
+#oob = "GER_1936"
+
+# Starting tech
+
+declare_war_on = {
+	target = WGR
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = GRM
+	type = annex_everything
+}
+
+add_ideas = {
+	GER_Stasi_Securocracy
+	GER_Frontline_Commissars
+}
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 80
+	left_populism = 20
+}
+
+create_country_leader = {
+	name = "Wolfgang Schwanitz"
+	desc = ""
+	picture = "Portrait_Wolfgang_Schwanitz.dds"
+	expire = "2032.1.1"
+	ideology = securocratic_socialism 
+	traits = { securocrat }
+}

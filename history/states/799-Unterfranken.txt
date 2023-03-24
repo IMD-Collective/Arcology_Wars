@@ -1,0 +1,22 @@
+
+state={
+	id=799
+	name="STATE_799"
+	manpower = 142403
+
+	state_category = rural
+
+	history={
+		owner = DDR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = DDR
+	}
+
+	provinces={
+		482 786 1211 3474 6421 6524 9497 11404 13116
+	}
+	local_supplies=0.0
+}

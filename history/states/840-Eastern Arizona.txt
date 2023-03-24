@@ -1,0 +1,28 @@
+state={
+	id=840
+	name="STATE_840"
+	resources={
+		oil=11
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+		victory_points = {
+			7920 1 
+		}
+		victory_points = {
+			6897 2
+		}
+	}
+
+	provinces={
+		1972 4796 6897 7920 10573 10645 10914 12552 
+	}
+	local_supplies=0.0
+	manpower=10208
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

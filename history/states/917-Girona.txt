@@ -1,0 +1,26 @@
+
+state={
+	id=917
+	name="STATE_917"
+	manpower = 226438
+	
+	state_category = town
+
+	history={
+		owner = CAT
+		add_core_of = CAT
+		victory_points = {
+			6927 1
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+		}
+		add_core_of = CAT
+	}
+
+	provinces={
+		854 6927 9824 11779
+	}
+	local_supplies=0.0
+}

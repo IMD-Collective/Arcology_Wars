@@ -1,0 +1,17 @@
+﻿capital = 329
+
+#oob = "TAN_1936"
+
+#add_ideas = {
+#	limited_conscription
+#}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}

@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+		GRM_legacy_of_the_orginal_fuhrer = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_GRM_legacy_of_the_orginal_fuhrer
+
+			modifier = {
+				stability_factor = 0.075
+				army_attack_factor = 0.01
+				army_defence_factor = 0.025
+				drift_defence_factor = 0.45
+			}
+		}
+		
+		GRM_civillian_general_staff = {
+			allowed = { always = no }
+			removal_cost = -1
+			#picture = 
+
+			modifier = {
+				army_org = -0.10
+				supply_consumption_factor = 0.25
+				planning_speed = -0.20
+			}
+		}
+		
+		GRM_poor_industrial_knowhow = {
+			allowed = { always = no }
+			removal_cost = -1
+			#picture = 
+
+			modifier = {
+				production_speed_buildings_factor = -0.45
+				line_change_production_efficiency_factor = -0.50
+				production_factory_start_efficiency_factor = -0.25 
+			}
+		}
+		
+		GRM_volkssturm = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_GRM_volkssturm
+
+			modifier = {
+			conscription = 0.08
+			}
+		}
+	}
+}

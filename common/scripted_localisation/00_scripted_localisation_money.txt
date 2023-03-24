@@ -1,0 +1,36 @@
+defined_text = { # Country
+	name = GetMoneyTooltip
+	text = {
+		localization_key = MONEY_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetMoneyTooltipDebt
+	text = {
+		localization_key = MONEY_TOOLTIP_BASE_DEBT
+	}
+}
+defined_text = { # Country
+	name = GetCurrentGDPShowing
+	text = {
+		trigger = {
+			has_country_flag = check_gdp
+			NOT = {
+				has_country_flag = check_income
+			}
+		}
+		localization_key = MONEY_GDP
+	}
+	text = {
+		trigger = {
+			has_country_flag = check_income
+			NOT = {
+				has_country_flag = check_gdp
+			}
+		}
+		localization_key = MONEY_INCOME
+	}
+	text = {
+		localization_key = MONEY_INCOME
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=34
+	name="STATE_34"
+	manpower = 3381300
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			943 2
+		}
+		victory_points = {
+			9853 1 
+		}
+		owner = OCC
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		add_core_of = OCC
+	}
+	local_supplies=0.0
+	provinces={
+		943 3946 6766 6915 6917 6931 9853 11699
+	}
+}

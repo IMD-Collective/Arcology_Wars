@@ -1,0 +1,25 @@
+﻿l_english:
+
+ ##Country Names
+ LAO_left_populism:0 "Republic of Laos"
+ LAO_left_populism_DEF:0 "the Republic of Laos"
+ LAO_left_populism_ADJ:0 "Laotian"
+ LAO_fascism:0 "Unitary Laos"
+ LAO_fascism_DEF:0 "Unitary Laos"
+ LAO_democratic:0 "Republic of Laos"
+ LAO_democratic_DEF:0 "the Republic of Laos"
+ LAO_neutrality:0 "Kingdom of Laos"
+ LAO_neutrality_DEF:0 "the Kingdom of Laos"
+ LAO_communism:0 "Lao People's Democratic Republic"
+ LAO_communism_DEF:0 "the Lao People's Democratic Republic"
+ LAO_fascism_ADJ:0 "Laotian"
+ LAO_democratic_ADJ:0 "Laotian"
+ LAO_neutrality_ADJ:0 "Laotian"
+ LAO_communism_ADJ:0 "Laotian"
+ LAO:0 "Laos"
+ LAO_DEF:0 "Laos"
+ LAO_ADJ:0 "Laotian"
+ 
+ ##Party Names 
+ LAO_communism_party:0 "LPRP"
+ LAO_communism_party_long:0 "Lao People's Revolutionary Party" 

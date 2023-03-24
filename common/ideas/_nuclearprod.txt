@@ -1,0 +1,44 @@
+ideas = {
+
+	nuclear_production = { 
+		law = yes
+		use_list_view = yes
+
+		no_nuclear_production = {
+
+			modifier = {
+			}
+			default = yes
+
+			cost = 0
+			removal_cost = -1
+		}
+
+		sluggish_nuclear_production = {
+
+			modifier = {
+			}
+			
+			cost = 0
+			removal_cost = -1
+		}
+		
+		active_nuclear_production = {
+
+			modifier = {
+			}
+			
+			cost = 0
+			removal_cost = -1
+		}
+
+		hasty_nuclear_production = {
+
+			modifier = {
+			}
+
+			cost = 0
+			removal_cost = -1
+		}
+	}
+}

@@ -1,0 +1,54 @@
+scripted_gui = {
+
+	CS_banners = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "CS_faction_banners"
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			nato_member = { image = "GFX_NATO" }
+			warpac_member = { image = "GFX_WARPAC" }
+			tripac_member = { image = "GFX_TRIPAC" }
+			indchism_member = { image = "GFX_INDCHISM" }
+			estway_member = { image = "GFX_ESTWAY" }
+			neutral = { image = "GFX_Neutral_Faction" }
+			monitor_effect_politics = { image = "GFX_monitor_effect_politics_view" }
+		}
+
+		triggers = {
+			nato_member_visible = {
+				is_in_faction_with = USA
+			}
+	
+			warpac_member_visible = {
+				is_in_faction_with = SOV
+			}
+	
+			tripac_member_visible = {
+				OR = {
+					is_in_faction_with = AUS
+					is_in_faction_with = NIT
+					is_in_faction_with = HUN
+					is_in_faction_with = GRM
+				}
+			}
+	
+			indchism_member_visible = {
+				is_in_faction_with = VIN
+			}
+	
+			estway_member_visible = {
+				is_in_faction_with = JAP
+			}
+	
+			neutral_visible = {
+				is_in_faction = no
+			}
+		}
+	}
+}
+

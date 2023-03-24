@@ -1,0 +1,29 @@
+
+state={
+	id=374
+	name="STATE_374"
+	manpower = 1039
+	resources={
+		rubber=3
+	}
+	
+	state_category = wasteland
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+		victory_points = {
+			5103 2
+		}
+		victory_points = {
+			1806 1
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		1618 1806 2043 5103 6803 7904 9822 10798 11802 
+	}
+}

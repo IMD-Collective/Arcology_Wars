@@ -1,0 +1,23 @@
+
+state={
+	id=481
+	name="STATE_481" # Durango
+	manpower = 5094
+	
+	state_category = rural
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MEX
+		victory_points = {
+			7921 10
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		4946 7921 8003 10853 10871 
+	}
+}

@@ -1,0 +1,15 @@
+﻿capital = 12
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.10.3"
+	election_frequency = 108
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}

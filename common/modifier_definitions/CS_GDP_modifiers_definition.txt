@@ -1,0 +1,436 @@
+###Things to keep in mind when using GDP modifiers: 
+#Do not use negative operation symbols (Minus symbol) on modifiers that increase growth/spending. 
+
+#GDP Increase - Increases monthly income & growth rate.
+gdp_increase = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Decrease - Decreases monthly income & growth rate.
+gdp_decrease = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Spending Increase - Increases the monthly expenses.
+gdp_spending = {
+	color_type = neutral
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Austerity - Decreases the monthly expenses, is very OP meaning it should be acompanied by massive debuffs whenever used in content.
+gdp_austerity = {
+	color_type = neutral
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Add To Eco - Adds to total GDP, not growth rate. 1 = 1 bn dollars.
+gdp_money_gain = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+#GDP Loss From Eco - Adds to total debt, 1 = 1 bn dollars.
+gdp_money_spent = {
+	color_type = bad
+	value_type = number
+	precision = 2
+	category = country
+}
+
+#GDP Paying Loan - Increases debt-to-income ratio at which you pay off debt. Much like austerity, representing a high dti ratio in game should mean huge debuffs though.
+gdp_paying_loan = {
+	color_type = neutral
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+#GDP Defaulting - Decreases debt-to-income ratio and increases monthly debt growth.
+gdp_default_loan = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+### SPECIFIC INCOME MODIFIERS
+
+#Income from Civilian Factories - Increases the amount of income you get from civilian factories.
+income_from_civilian_factories = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Civilian Factories - Decreases the amount of income you get from civilian factories.
+cost_from_civilian_factories = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Taxable Population - Increases the amount of income you get from the taxable population.
+income_from_taxable_population = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Taxable Population - Decreases the amount of income you get from the taxable population.
+cost_from_taxable_population = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Tax from Non-Cored States - Increases the amount of tax you recieve from non-cored states.
+income_from_non_core_states = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost of Non-Cored States - Decreases the amount of tax you recieve from non-cored states.
+cost_of_non_core_states = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Chromium Export - Increases the amount of income you get from exporting chromium.
+income_from_chromium_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Chromium Export - Decreases the amount of income you get from exporting chromium.
+cost_from_chromium_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Tungsten Export - Increases the amount of income you get from exporting tungsten.
+income_from_tungsten_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Tungsten Export - Decreases the amount of income you get from exporting tungsten.
+cost_from_tungsten_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Rubber Export - Increases the amount of income you get from exporting rubber.
+income_from_rubber_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Rubber Export - Decreases the amount of income you get from exporting rubber.
+cost_from_rubber_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Aluminium Export - Increases the amount of income you get from exporting aluminium.
+income_from_aluminum_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Aluminium Export - Decreases the amount of income you get from exporting aluminium.
+cost_from_aluminum_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Oil Export - Increases the amount of income you get from exporting oil.
+income_from_oil_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Oil Export - Decreases the amount of income you get from exporting oil.
+cost_from_oil_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Steel Export - Increases the amount of income you get from exporting steel.
+income_from_steel_export = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Steel Export - Decreases the amount of income you get from exporting steel.
+cost_from_steel_export = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+### EXPENSES MODIFIERS
+
+#Cost from Steel Export - Increases the cost of administrating states.
+cost_from_state_upkeep = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Steel Export - Decreases the cost of administrating states.
+efficiency_of_state_upkeep = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Steel Export - Increases the cost of occupying states.
+cost_from_occupied_states = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Steel Export - Decreases the cost of occupying states.
+efficiency_of_occupied_states = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Steel Export - Increases the cost of military factory upkeep.
+cost_from_military_factories = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Steel Export - Decreases the cost of military factory upkeep.
+efficiency_of_military_factories = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Dockyard Upkeep - Increases the cost of dockyard upkeep.
+cost_from_dockyards = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Dockyard Upkeep - Decreases the cost of dockyard upkeep.
+efficiency_of_dockyards = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Military Spending - Increases the cost of military spending.
+cost_from_military_spending = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Military Spending - Decreases the cost of military spending.
+efficiency_of_military_spending = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Army Spending - Decreases the cost of army spending.
+efficiency_of_army_spending = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Army Spending - Increases the cost of army spending.
+cost_from_army_spending = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Airforce Spending - Increases the cost of airforce spending.
+cost_from_air_spending = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Airforce Spending - Decreases the cost of airforce spending.
+efficiency_of_air_spending = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Naval Spending - Increases the cost of naval spending.
+cost_from_naval_spending = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Naval Spending - Decreases the cost of naval spending.
+efficiency_of_naval_spending = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Chromium Imports - Increases the cost of importing chromium.
+cost_from_chromium_imports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Chromium Imports - Decreases the cost of importing chromium.
+efficiency_of_chromium_imports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Tungsten Imports - Increases the cost of importing tungsten.
+cost_from_tungsten_imports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Tungsten Imports - Decreases the cost of importing tungsten.
+efficiency_of_tungsten_imports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Rubber Imports - Increases the cost of importing rubber.
+cost_from_rubber_imports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Rubber Imports - Decreases the cost of importing rubber.
+efficiency_of_rubber_imports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Aluminium Imports - Increases the cost of importing aluminium.
+cost_from_aluminum_imports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Aluminium Imports - Decreases the cost of importing aluminium.
+efficiency_of_aluminum_imports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Oil Imports - Increases the cost of importing oil.
+cost_from_oil_imports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Oil Imports - Decreases the cost of importing oil.
+efficiency_of_oil_imports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from Steel Imports - Increases the cost of importing steel.
+cost_from_steel_imports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of Steel Imports - Decreases the cost of importing steel.
+efficiency_of_steel_imports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from All Imports - Increases the cost of importing all resources.
+cost_from_all_imports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of All Imports - Decreases the cost of importing all resources.
+efficiency_of_all_imports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Cost from All Exports - Increases the cost of exporting all resources.
+cost_from_all_exports = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Efficiency of All Exports - Decreases the cost of exporting all resources.
+efficiency_of_all_exports = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income from Subjects - Set percentage of GDP growth transferred to overlord.
+overlord_income_from_subjects = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+#Income to Overlord - Set percentage of GDP growth transferred to overlord. Same effect as above but shown as bad.
+subject_income_to_overlord = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}

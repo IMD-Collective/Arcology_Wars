@@ -1,0 +1,18 @@
+﻿capital = 307
+
+#oob = "VEN_1936"
+
+# Starting tech
+
+set_convoys = 10
+set_politics = {
+	ruling_party = left_populism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 5
+	left_populism = 80
+	fascism = 15
+}

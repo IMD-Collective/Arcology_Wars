@@ -1,0 +1,17 @@
+####################
+### Bosnia Trees ###
+####################
+
+focus_tree = {
+	id = CS_BOS_Start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 3200 y = 1100 }
+	shared_focus = BOS_Start_A_New_Year_for_Bosnia
+}

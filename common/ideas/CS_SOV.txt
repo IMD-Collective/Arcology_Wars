@@ -1,0 +1,103 @@
+ideas = {
+	country = {
+		SOV_Pax_Sovietica_I = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_I
+
+			modifier = {
+				research_speed_factor = 0.05 
+				war_support_factor = -0.12
+				production_speed_arms_factory_factor = -0.4
+				production_speed_industrial_complex_factor = 0.3
+				encryption_factor = 0.01
+				decryption_factor = 0.01
+				conscription_factor = -0.15
+				political_power_gain = 0.25 
+			}
+		}
+		SOV_Pax_Sovietica_II = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_II
+
+			modifier = {
+				research_speed_factor = 0.03
+				war_support_factor = -0.06
+				production_speed_arms_factory_factor = -0.3
+				production_speed_industrial_complex_factor = 0.2
+				encryption_factor = 0.001
+				decryption_factor = 0.001
+				conscription_factor = -0.08
+				political_power_gain = 0.10 
+			}
+		}
+		SOV_Pax_Sovietica_III = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Pax_Sovietica_III
+
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		SOV_High_Suicide_Rates_I = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_High_Suicide_Rates_I
+
+			modifier = {
+				stability_factor = -0.06
+				MONTHLY_POPULATION = -0.10 
+			}
+		}
+		SOV_High_Suicide_Rates_II = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_High_Suicide_Rates_II
+
+			modifier = {
+				stability_factor = -0.03
+				MONTHLY_POPULATION = -0.6 
+			}
+		}
+		SOV_An_Awakening_I = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_An_Awakening_I
+
+			modifier = {
+				army_core_defence_factor = 0.05 
+			}
+		}
+		SOV_An_Awakening_II = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_An_Awakening_II
+
+			modifier = {
+				army_core_defence_factor = 0.05
+				decryption_factor = 0.05	
+				encryption_factor = 0.05   
+			}
+		}
+		SOV_Red_Irredentism = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_SOV_Red_Irredentism
+
+			modifier = {
+				offensive_war_stability_factor = 0.01
+				army_core_defence_factor = 0.05
+				decryption_factor = 0.05	
+				encryption_factor = 0.05  
+			}
+		}
+	}
+}	
+
+
+
+
+

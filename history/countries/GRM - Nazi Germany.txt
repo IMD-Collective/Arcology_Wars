@@ -1,0 +1,29 @@
+capital = 52
+
+set_politics = {
+	ruling_party = fascism 
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 80
+	communism  = 10
+	democratic = 10
+}
+
+add_ideas = {
+	GRM_legacy_of_the_orginal_fuhrer
+	GRM_civillian_general_staff
+	GRM_poor_industrial_knowhow
+}
+
+create_country_leader = {
+	name = "Benedikt Delbrück"
+	desc = ""
+	picture = "Portrait_Benedikt_Delbrück.dds"
+	expire = "2032.1.1"
+	ideology = military_ultranationalism 
+	traits = { grand_marshal }
+}

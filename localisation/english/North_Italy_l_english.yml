@@ -1,0 +1,27 @@
+﻿l_english:
+
+ ##Country Names
+ NIT_fascism:0 "Italan Social Republic"
+ NIT_fascism_DEF:0 "Italan Social Republic"
+ NIT_democratic:0 "Republic of Italy"
+ NIT_democratic_DEF:0 "the Republic of Italy"
+ NIT_neutrality:0 "Republic of Italy"
+ NIT_neutrality_DEF:0 "the Republic of Italy"
+ NIT_communism:0 "People's National State of Italy"
+ NIT_communism_DEF:0 "the People's National State of Italy"
+ NIT_left_populism:0 "Italian People's Republic"
+ NIT_left_populism_DEF:0 "the Italian People's Republic"
+ NIT_fascism_ADJ:0 "Italian"
+ NIT_democratic_ADJ:0 "Italian"
+ NIT_neutrality_ADJ:0 "Italian"
+ NIT_communism_ADJ:0 "Italian"
+ NIT_left_populism_ADJ:0 "Italian"
+ NIT:0 "Italy"
+ NIT_DEF:0 "Italy"
+ NIT_ADJ:0 "Italians"
+
+ ##Party Names 
+ NIT_communism_party:0 "ISM"
+ NIT_communism_party_long:0 "Italian Social Movement"
+ NIT_fascism_party:0 "ISM"
+ NIT_fascism_party_long:0 "Italian Social Movement"

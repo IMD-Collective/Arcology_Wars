@@ -1,0 +1,33 @@
+﻿capital = 88
+
+#oob = "POL_1936"
+
+set_research_slots = 3
+
+# Starting tech
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 45
+	left_populism = 9
+	democratic = 11
+	neutrality = 19 
+	fascism = 16
+}
+
+create_country_leader = {
+	name = "Wojciech Jaruzelski"
+	desc = ""
+	picture = "Portrait_Wojciech_Jaruzelski.dds"
+	expire = "2032.1.1"
+	ideology = military_socialism 
+	traits = { grand_marshal }
+}

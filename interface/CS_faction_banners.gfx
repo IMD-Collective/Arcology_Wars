@@ -1,0 +1,30 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_WARPAC"
+		textureFile = "gfx/interface/WARPAC.dds"
+	}
+	spriteType = {
+		name = "GFX_NATO"
+		textureFile = "gfx/interface/NATO.dds"
+	}
+	spriteType = {
+		name = "GFX_TRIPAC"
+		textureFile = "gfx/interface/TRIPAC.dds"
+	}
+	spriteType = {
+		name = "GFX_Neutral_Faction"
+		textureFile = "gfx/interface/Neutral_Faction.dds"
+	}
+	spriteType = {
+		name = "GFX_INDCHISM"
+		textureFile = "gfx/interface/INDCHISM.dds"
+	}
+	spriteType = {
+		name = "GFX_ESTWAY"
+		textureFile = "gfx/interface/ESTWAY.dds"
+	}
+	spriteType = {
+		name = "GFX_monitor_effect_politics_view"
+		textureFile = "gfx/interface/monitor_effect_politics_view.dds"
+	}
+}

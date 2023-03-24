@@ -1,0 +1,29 @@
+state={
+	id=913
+	name="STATE_913"
+
+	history={
+		owner = ADU
+		victory_points = {
+			12070 2
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			12070 = {
+				naval_base = 5
+			}
+
+		}
+		add_core_of = ADU
+
+	}
+
+	provinces={
+		3940 6884 9815 9819 12070
+	}
+	manpower=125092
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.0
+}

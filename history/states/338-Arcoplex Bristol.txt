@@ -1,0 +1,29 @@
+
+state={
+	id=338
+	name="STATE_338"
+	manpower = 8800615
+	resources={
+		steel=9 # was: 16
+	}
+
+	state_category = arcoplex
+
+	history={
+		owner = ENG
+		victory_points = {
+			13363 30
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 3
+			industrial_complex = 8
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+	local_supplies=0.0
+	provinces={
+		3369 13363
+	}
+}

@@ -1,0 +1,17 @@
+﻿capital = 586 #Almaty
+
+#oob = "KAZ_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "2008.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 60
+	communism = 40
+}

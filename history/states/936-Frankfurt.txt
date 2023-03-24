@@ -1,0 +1,27 @@
+
+state={
+	id=936
+	name="STATE_936"
+	manpower = 1239102
+	
+	state_category = metropolis
+	
+
+	history={
+		owner = WGR
+		victory_points = {
+			3528 30 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 8
+		}
+		add_core_of = WGR
+	}
+	local_supplies=0.0
+	provinces={
+		2871 3528 
+	}
+}

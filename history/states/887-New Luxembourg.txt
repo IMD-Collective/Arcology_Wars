@@ -1,0 +1,23 @@
+state={
+	id=887
+	name="STATE_887"
+
+	state_category = town
+	manpower = 394320
+
+	history={
+		owner = LUX
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			13324 = { naval_base = 2 coastal_bunker = 1 }
+		}
+		add_core_of = LUX
+		victory_points = { 13317 2 }
+	}
+	local_supplies=0.0
+	provinces={
+		13316 13317 13318 13319 13320 13321 13323 13324
+	}
+}

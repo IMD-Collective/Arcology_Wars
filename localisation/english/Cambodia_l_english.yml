@@ -1,0 +1,25 @@
+﻿l_english:
+
+ ##Country Names
+ CAM_left_populism:0 "Republic of Cambodia"
+ CAM_left_populism_DEF:0 "the Republic of Cambodia"
+ CAM_left_populism_ADJ:0 "Khmer"
+ CAM_fascism:0 "Imperial Khmer"
+ CAM_fascism_DEF:0 "Imperial Khmer"
+ CAM_democratic:0 "Republic of Cambodia"
+ CAM_democratic_DEF:0 "the Republic of Cambodia"
+ CAM_neutrality:0 "Republic of Cambodia"
+ CAM_neutrality_DEF:0 "the Republic of Cambodia"
+ CAM_communism:0 "Democratic Kampuchea"
+ CAM_communism_DEF:0 "Democratic Kampuchea"
+ CAM_fascism_ADJ:0 "Khmer"
+ CAM_democratic_ADJ:0 "Khmer"
+ CAM_neutrality_ADJ:0 "Khmer"
+ CAM_communism_ADJ:0 "Khmer"
+ CAM:0 "Cambodia"
+ CAM_DEF:0 "Cambodia"
+ CAM_ADJ:0 "Khmer"
+ 
+ ##Party Names 
+ CAM_communism_party:0 "CPK"
+ CAM_communism_party_long:0 "Communist Party of Kampuchea" 

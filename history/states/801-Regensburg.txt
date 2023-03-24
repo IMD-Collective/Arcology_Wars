@@ -1,0 +1,21 @@
+
+state={
+	id=801
+	name="STATE_801"
+	manpower = 1031109
+	
+	state_category = city
+
+	history={
+		owner = MEK
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = MEK
+	}
+
+	provinces={
+		268 293 3367 11276 13105 13108 13109 13110 13111 13112
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,120 @@
+USA_collapse_alphastate = {
+	color = rgb { 76 88 106 }
+	color_ui = rgb { 76 88 106 }
+}
+ARZ_new_age = {
+	color = rgb { 149 94 120 }
+	color_ui = rgb { 135 84 99 }
+}
+ARZ_soviet = {
+	color = rgb { 135 84 99 }
+	color_ui = rgb { 135 84 99 }
+}
+ARZ_cult = {
+	color = rgb { 84 84 84 }
+	color_ui = rgb { 84 84 84 }
+}
+ARZ_gang = {
+	color = rgb { 125 125 125 }
+	color_ui = rgb { 125 125 125 }
+}
+TNS_USMC = {
+	color = rgb { 79 97 125 }
+	color_ui = rgb { 79 97 125 }
+}
+ENG_fascist_csm = {
+	color = rgb { 188 176 173 }
+	color_ui = rgb { 188 176 173 }
+}
+ENG_fascist_unified_csm = {
+	color = rgb { 124 79 85 }
+	color_ui = rgb { 124 79 85 }
+}
+ENG_communism_csm = {
+	color = rgb { 199 70 70 }
+	color_ui = rgb { 199 70 70 }
+}
+ENG_left_populism_csm = {
+	color = rgb { 214 202 202 }
+	color_ui = rgb { 214 202 202 }
+}
+ENG_democratic_csm = {
+	color = rgb { 72 117 178 }
+	color_ui = rgb { 72 117 178 }
+}
+ENG_democratic_unified_csm = {
+	color = rgb { 124 79 85 }
+	color_ui = rgb { 124 79 85 }
+}
+BRT_democratic_csm = {
+	color = rgb { 140 139 150 }
+	color_ui = rgb { 140 139 150 }
+}
+BRT_left_populism_csm = {
+	color = rgb { 187 51 51 }
+	color_ui = rgb { 187 51 51 }
+}
+BRT_admin_csm = {
+	color = rgb {127 56 101 }
+	color_ui = rgb {127 56 101 }
+}
+BRT_fascism_csm = {
+	color = rgb {68 74 101 }
+	color_ui = rgb {68 74 101 }
+}
+BRT_communism_csm = {
+	color = rgb {206 44 44 }
+	color_ui = rgb {206 44 44 }
+}
+BMG_admin_csm = {
+	color = rgb { 149 101 111 }
+	color_ui = rgb { 149 101 111 }
+}
+BMG_fascism_csm = {
+	color = rgb { 162 157 116 }
+	color_ui = rgb { 162 157 116 }
+}
+BMG_democratic_csm = {
+	color = rgb { 80 185 184 }
+	color_ui = rgb { 80 185 184 }
+}
+MCH_communism_csm = {
+	color = rgb { 172 32 32 }
+	color_ui = rgb { 172 32 32 }
+}
+MCH_trotskyism_csm = {
+	color = rgb { 143 3 7 }
+	color_ui = rgb { 143 3 7 }
+}
+MCH_left_populism_csm = {
+	color = rgb { 179 94 94 }
+	color_ui = rgb { 179 94 94 }
+}
+MCH_admin_csm = {
+	color = rgb { 172 80 80 }
+	color_ui = rgb { 172 80 80 }
+}
+SCO_admin_csm = {
+	color = rgb { 169 107 122 }
+	color_ui = rgb { 169 107 122 }
+}
+SCO_communism_csm = {
+	color = rgb { 120 90 157 }
+	color_ui = rgb { 120 90 157 }
+}
+SCO_highland_csm = {
+	color = rgb { 145 189 214 }
+	color_ui = rgb { 145 189 214 }
+}
+NIR_admin_csm = {
+	color = rgb { 134 81 121 }
+	color_ui = rgb { 90 130 21 }
+}
+NIR_communism_csm = {
+	color = rgb { 215 90 111 }
+	color_ui = rgb { 215 90 111 }
+}
+NIR_democratic_csm = {
+	color = rgb { 104 157 90 }
+	color_ui = rgb { 104 157 90 }
+}

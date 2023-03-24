@@ -1,0 +1,27 @@
+state= {
+	id=122
+	name="STATE_122"
+	manpower = 29231
+	
+	state_category = pastoral
+
+	resources={
+		steel=11 # was: 16
+		aluminium=3 # was: 4
+	}
+
+	history={
+		victory_points = { 11361 2 }
+		victory_points = { 13432 1 }
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		407 3241 7239 9484 11361 13429 13431 13432 13433 13434 13439 13440
+	}
+	local_supplies=0.0
+}

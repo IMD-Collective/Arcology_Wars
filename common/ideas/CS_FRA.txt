@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		FRA_Military_State = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = Military_State
+
+			modifier = {
+#				conscription_factor = 0.10
+#				war_support_factor = 0.10
+#				consumer_goods_factor = -0.10
+#				gdp_increase = 0.05
+			}
+		}
+		FRA_Savoy_Crisis = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = Savoy_Crisis
+
+			modifier = {
+				political_power_cost = 0.15
+			}
+		}
+		FRA_Euro_Coop = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = European_Cooperation_League_2
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		
+	}
+}	
+
+
+
+
+

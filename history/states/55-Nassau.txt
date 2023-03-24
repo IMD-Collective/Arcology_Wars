@@ -1,0 +1,25 @@
+
+state={
+	id=55
+	name="STATE_55"
+	manpower = 3798235
+
+	state_category = large_city
+
+	history={
+		owner = WGR
+		add_core_of = WGR
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			6488 20
+		}
+	}
+	local_supplies=0.0
+	provinces={
+		589 2333 3574 6444 6488 6594 11417 11560 
+	}
+}

@@ -1,0 +1,25 @@
+﻿capital = 670
+
+#oob = "LAO_1936"
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2008.1.1.12"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {	democratic = 30
+	communism = 45	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Chansamone Chanyalath"
+	desc = ""
+	picture = "Portrait_Chansamone_Chanyalath.dds"
+	expire = "2032.1.1"
+	ideology = securocratic_socialism 
+	traits = { securocrat }
+}

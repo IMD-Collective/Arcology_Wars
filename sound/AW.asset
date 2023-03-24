@@ -1,0 +1,15 @@
+######################################
+
+category = {
+ 	name = "Effects"
+	soundeffects = {
+		se_uk_collapse
+	}
+}
+
+soundeffect = {
+	name = "se_uk_collapse"
+	sounds = {
+		sound = se_uk_collapse
+	} 
+}

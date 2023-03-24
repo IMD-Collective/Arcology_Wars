@@ -1,0 +1,48 @@
+###################
+###Soviet Shared###
+###################
+
+focus_tree = {
+	id = CS_SOV_yazov
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 3200 y = 1100 }
+	
+	shared_focus = SOV_the_2008_report
+}
+
+focus_tree = {
+	id = CS_SOV_pugo
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 3200 y = 1100 }
+	
+	shared_focus = SOV_pugos_preeminence
+}
+
+focus_tree = {
+	id = CS_SOV_baklanov
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 3200 y = 1100 }
+
+	shared_focus = SOV_the_baklanov_ensemble
+}

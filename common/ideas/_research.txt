@@ -1,0 +1,297 @@
+ideas = {
+
+	research_law = { 
+		law = yes
+		use_list_view = yes
+		
+		no_research_capabilities = {
+			picture = no_research_capabilities_law
+
+			available = {
+				num_of_civilian_factories < 4
+			}
+			
+			modifier = {
+				research_speed_factor = -0.40
+				consumer_goods_factor = -0.10
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 20
+					has_idea = irrelevant_third_world_country 
+				}
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			cancel_if_invalid = no
+		}
+
+		thrifty_research_capabilities = {
+
+			picture = thrifty_research_capabilities_law
+			available = {
+				AND = {
+					num_of_civilian_factories > 8
+					check_variable = { GDP > 2 }
+					has_idea = no_research_capabilities
+				}
+			}
+			
+			modifier = {
+				research_speed_factor = -0.15
+				gdp_money_spent = 3
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 40
+					has_idea = irrelevant_third_world_country 
+				}
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			cancel_if_invalid = no
+		}
+		
+		limited_research_capabilities = {
+
+			picture = limited_research_capabilities_law
+			available = {
+				OR = {
+					has_idea = no_research_capabilities
+					has_idea = thrifty_research_capabilities
+					has_idea = decent_research_capabilities
+				}
+				check_variable = { GDP > 3 }
+			}
+			
+			modifier = {
+				research_speed_factor = -0.10
+				gdp_spending = 0.01
+				gdp_money_spent = 4
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 60
+					OR = {
+						has_idea = third_world_country
+						has_idea = regional_power 
+					}
+				}
+			}
+
+			cost = 0
+			removal_cost = -1
+
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		decent_research_capabilities = {
+
+			picture = decent_research_capabilities_law
+
+			available = {
+				OR = {
+					has_idea = limited_research_capabilities
+					has_idea = militarized_research_capabilities
+					has_idea = good_research_capabilities
+				}
+				check_variable = { GDP > 6 }
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.10
+				gdp_spending = 0.03
+				gdp_money_spent = 7
+			}
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					factor = 50
+					has_idea = middling_power
+				}
+				
+   				modifier = {
+					factor = 10						
+					has_idea = third_world_country						
+				}
+			}
+			
+			cost = 0
+			removal_cost = -1
+			
+			cancel_if_invalid = no
+		}
+
+		militarized_research_capabilities = {
+
+			picture = militarized_research_capabilities_law
+
+			available = {
+				OR = {
+					has_idea = decent_research_capabilities
+					has_idea = good_research_capabilities
+					has_idea = great_research_capabilities
+				}
+				check_variable = { GDP > 13 }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				gdp_spending = 0.04
+				gdp_money_spent = 14
+			}
+
+			research_bonus = {
+				air_doctrine = 0.45
+				land_doctrine = 0.45
+				naval_doctrine = 0.45
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 50
+					has_idea = middling_power
+					OR = {
+						has_government = fascism
+						has_government = neutrality 
+						has_government = fascism
+					}
+				}
+
+   				modifier = {
+					factor = 20
+					has_idea = global_superpower
+					OR = {
+						has_government = fascism
+						has_government = neutrality 
+						has_government = fascism
+					}
+				}
+			}
+		}
+		
+		good_research_capabilities = {
+
+			picture = good_research_capabilities_law
+
+			available = {
+				OR = {
+					has_idea = decent_research_capabilities
+					has_idea = great_research_capabilities
+				}
+				check_variable = { GDP > 14 }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.10
+				gdp_spending = 0.05
+				gdp_money_spent = 15
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 2
+
+   				modifier = {
+					factor = 40
+					has_idea = global_superpower
+				}
+   			}
+		}
+		
+		great_research_capabilities = {
+
+			picture = great_research_capabilities_law
+			
+			available = {
+				OR = {
+					has_idea = good_research_capabilities
+					has_idea = anomalous_research_capabilities
+				}
+				check_variable = { GDP > 19 }
+			}
+			
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				research_speed_factor = 0.25
+				gdp_spending = 0.07
+				gdp_money_spent = 20
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 2
+
+   				modifier = {
+					factor = 50
+					has_idea = global_superpower
+				}
+   			}
+		}
+
+		anomalous_research_capabilities = {
+
+			picture = anomalous_research_capabilities_law
+			
+			available = {
+				has_idea = great_research_capabilities
+				check_variable = { GDP > 29 }
+			}
+			
+			cost = 0
+			removal_cost = -1
+			
+			modifier = { ####ZONE RELATED RESEARCH BUFFS - MODIFIERS COMING SOON####
+				consumer_goods_factor = 0.08
+				research_speed_factor = 0.19
+				gdp_spending = 0.12
+				gdp_money_spent = 30
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 25
+					has_idea = global_superpower
+				}
+   			}
+		}
+	}
+}

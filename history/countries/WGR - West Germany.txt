@@ -1,0 +1,39 @@
+﻿capital = 55
+
+# Starting tech
+
+declare_war_on = {
+	target = GRM
+	type = annex_everything
+}
+
+set_research_slots = 4
+set_convoys = 50
+set_stability = 0.7
+
+set_politics = {
+	ruling_party = left_populism
+	last_election = "2008.1.1.12"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+set_popularities = {
+	communism = 10
+	left_populism = 80
+	communism = 10
+}
+
+add_ideas = {
+	WGR_The_Manic_Struggle
+	WGR_Anarchist_Brigades
+}
+
+create_country_leader = {
+	name = "Gerald Götting"
+	desc = ""
+	picture = "Portrait_Gerald_Götting.dds"
+	expire = "2032.1.1"
+	ideology = left_populism_subtype 
+	traits = { }
+}

@@ -1,0 +1,17 @@
+﻿capital = 37
+
+#oob = "DEN_1936"
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality  = 46
+	democratic = 24
+	communism = 30
+}
+
+set_convoys = 40

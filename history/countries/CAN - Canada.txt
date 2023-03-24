@@ -1,0 +1,31 @@
+﻿capital = 276
+
+#oob = "CAN_1936"
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.1
+set_convoys = 100
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2008.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 59
+	fascism = 1
+	democratic = 30
+	communism = 10
+}
+
+create_country_leader = {
+	name = "Cameron Ostell"
+	desc = ""
+	picture = "Portrait_Cameron_Ostell.dds"
+	expire = "2032.1.1"
+	ideology = congressional_despotism 
+	traits = { }
+}
