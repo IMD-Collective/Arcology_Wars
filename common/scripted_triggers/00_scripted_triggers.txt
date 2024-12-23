@@ -497,90 +497,147 @@ anti_submarine_strategy_required_trigger = {
 #	}
 #}
 
-enemy_has_equal_or_better_radar_tech_trigger = {
-	custom_trigger_tooltip = {
-		tooltip = enemy_has_equal_or_better_radar_tech_trigger_tt
-		if = {
-			limit = {
-				ROOT = { 
-					has_tech = radio_detection 
-					NOT = {
-						has_tech = decimetric_radar
-					}
-				} 
-			}
-			FROM = { 
-				OR = {
-					has_tech = radio_detection 
-					has_tech = decimetric_radar
-				}
-			}
+#enemy_has_equal_or_better_radar_tech_trigger = {
+#	custom_trigger_tooltip = {
+#		tooltip = enemy_has_equal_or_better_radar_tech_trigger_tt
+#		if = {
+#			limit = {
+#				ROOT = { 
+#					has_tech = radio_detection 
+#					NOT = {
+#						has_tech = decimetric_radar
+#					}
+#				} 
+#			}
+#			FROM = { 
+#				OR = {
+#					has_tech = radio_detection 
+#					has_tech = decimetric_radar
+#				}
+#			}
+#		}
+#		else_if = {
+#			limit = {
+#				ROOT = { 
+#					has_tech = decimetric_radar 
+#					NOT = {
+#						has_tech = improved_decimetric_radar
+#					}
+#				} 
+#			}
+#			FROM = { 
+#				OR = {
+#					has_tech = decimetric_radar 
+#					has_tech = improved_decimetric_radar
+#				}
+#			}
+#		}
+#		else_if = {
+#			limit = {
+#				ROOT = { 
+#					has_tech = improved_decimetric_radar 
+#					NOT = {
+#						has_tech = centimetric_radar
+#					}
+#				} 
+#			}
+#			FROM = { 
+#				OR = {
+#					has_tech = improved_decimetric_radar 
+#					has_tech = centimetric_radar
+#				}
+#			}
+#		}
+#		else_if = {
+#			limit = {
+#				ROOT = { 
+#					has_tech = centimetric_radar 
+#					NOT = {
+#						has_tech = improved_centimetric_radar
+#					}
+#				} 
+#			}
+#			FROM = { 
+#				OR = {
+#					has_tech = centimetric_radar 
+#					has_tech = improved_centimetric_radar
+#				}
+#			}
+#		}
+#		else_if = {
+#			limit = {
+#				ROOT = { 
+#					has_tech = improved_centimetric_radar 
+#					NOT = {
+#						has_tech = advanced_centimetric_radar
+#					}
+#				} 
+#			}
+#			FROM = { 
+#				OR = {
+#					has_tech = improved_centimetric_radar 
+#					has_tech = advanced_centimetric_radar
+#				}
+#			}
+#		}
+#		#no more steps needed because end of research tree is reached
+#	}
+#}
+
+
+# Does Ethiopia (or anyone else that want to use this) have a Military Academy? 
+# Add triggers for those countries as needed 
+has_military_academy = {
+	IF = {
+		limit = { 
+			original_tag = ETH 
 		}
-		else_if = {
-			limit = {
-				ROOT = { 
-					has_tech = decimetric_radar 
-					NOT = {
-						has_tech = improved_decimetric_radar
-					}
-				} 
-			}
-			FROM = { 
-				OR = {
-					has_tech = decimetric_radar 
-					has_tech = improved_decimetric_radar
-				}
-			}
+		custom_trigger_tooltip = {
+			tooltip = has_military_academy_tt 
+			#has_completed_focus = ETH_ecole_militaire_haile_selassie_1er
 		}
-		else_if = {
-			limit = {
-				ROOT = { 
-					has_tech = improved_decimetric_radar 
-					NOT = {
-						has_tech = centimetric_radar
-					}
-				} 
-			}
-			FROM = { 
-				OR = {
-					has_tech = improved_decimetric_radar 
-					has_tech = centimetric_radar
-				}
-			}
+	}
+}
+
+
+# Does Ethiopia (or anyone else that want to use this) have a Naval Academy? 
+# Add triggers for those countries as needed 
+has_naval_academy = {
+	IF = {
+		limit = { 
+			original_tag = ETH 
 		}
-		else_if = {
-			limit = {
-				ROOT = { 
-					has_tech = centimetric_radar 
-					NOT = {
-						has_tech = improved_centimetric_radar
-					}
-				} 
-			}
-			FROM = { 
-				OR = {
-					has_tech = centimetric_radar 
-					has_tech = improved_centimetric_radar
-				}
-			}
+		custom_trigger_tooltip = {
+			tooltip = has_naval_academy_tt 
+			#has_completed_focus = ETH_asmera_naval_college
 		}
-		else_if = {
-			limit = {
-				ROOT = { 
-					has_tech = improved_centimetric_radar 
-					NOT = {
-						has_tech = advanced_centimetric_radar
-					}
-				} 
-			}
-			FROM = { 
-				OR = {
-					has_tech = improved_centimetric_radar 
-					has_tech = advanced_centimetric_radar
-				}
-			}
+	}
+}
+
+# Does Ethiopia (or anyone else that want to use this) have an Air Force Academy? 
+# Add triggers for those countries as needed 
+has_air_academy = {
+	IF = {
+		limit = { 
+			original_tag = ETH 
 		}
-		#no more steps needed because end of research tree is reached
+		custom_trigger_tooltip = {
+			tooltip = has_air_academy_tt 
+			#has_completed_focus = ETH_debre_zeyit_air_force_training_center
+		}
+	}
+}
+# Does Ethiopia (or anyone else that want to use this) have an established Air Force? 
+# Add triggers for those countries as needed 
+has_air_force_command = {
+	IF = {
+		limit = { 
+			original_tag = ETH 
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_air_force_command_tt 
+			#has_completed_focus = ETH_the_ethiopian_air_force
+		}
 	}
 }
 

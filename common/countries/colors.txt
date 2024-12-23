@@ -952,6 +952,10 @@ CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
 }
+WST = {
+	color = rgb { 0 0 50 }
+	color_ui = rgb { 0 0 0 }
+}
 MGD = {
 	color = rgb { 0 0 50 }
 	color_ui = rgb { 0 0 0 }

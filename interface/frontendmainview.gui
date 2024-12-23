@@ -22,6 +22,91 @@ guiTypes = {
 		
 	}
 
+	containerWindowType = {
+		name = "owned_dlc_item"
+		size = { width = -50 height = 50 }
+		
+		buttonType ={
+			position = { x = -3700 y = 0 }
+			name ="dlc_button"
+			spriteType = "GFX_frontend_banner_dlc018"
+		}
+		
+		iconType = {
+			name = "glowup"
+			position = { x = -3700 y = -21 }
+			spriteType = "GFX_BPT_area_defense_setting_tick"
+			scale = 0.8
+			#hide = yes
+		}
+		
+		buttonType = {
+			name = "owned_tick"
+			spriteType = "GFX_BPT_area_defense_setting_tick"
+			position = { x = -3700 y = 1 }
+			scale = 0.56
+			#hide = yes
+		}
+		
+		buttonType = {
+			name = "enabled_tick"
+			spriteType = "GFX_general_check"
+			position = { x = 3700 y = 24 }
+			alwaysTransparent = yes
+		}
+		
+	}
+	
+	containerWindowType = {
+		name = "unowned_dlc_item"
+		size = { width = 3700 height = 50 }
+		
+		buttonType ={
+			position = { x = -3700 y = 0 }
+			name ="dlc_button"
+			spriteType = "GFX_frontend_banner_dlc018"
+		}
+		
+		buttonType = {
+			name = "owned_tick"
+			spriteType = "GFX_BPT_area_defense_setting_tick"
+			position = { x = -3700 y = 1 }
+
+			scale = 0.56
+			alwaysTransparent = yes
+			#enabled = no
+		}
+		
+		buttonType = {
+			name = "enabled_tick"
+			spriteType = "GFX_general_check"
+			position = { x = 3700 y = 24 }
+
+			alwaysTransparent = yes
+		}
+		
+	}
+
+	### MAIN MENU PANEL (DLC Ownership) 
+	containerWindowType = {
+		name  ="mainmenu_dlc_ownership"
+		position = { x=3700 y =0 }
+		size = { width = 370 height = 528}
+		Orientation = lower_left
+		origo = lower_left
+		
+		gridBoxType = {
+			name = "potential_dlc_list"
+			position = { x = 3700 y = 0}
+			size = { width = 50 height = 300 }
+			#Orientation = upper_left
+			slotsize = {width=50 height=51 }
+			max_slots_vertical = 1
+			format = "RIGHT"
+		}
+		
+	}
+
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
@@ -290,27 +375,27 @@ guiTypes = {
 			
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
 		position = { x=-50 y=25 }	
-		size = { width = 240 height = 134 }
+		size = { width = 240 height = 90 }
 		Orientation = center	
 		origo = center
 		
 		positionType = {
 			name = "position_without_social_gui"
-			position = { x = 0 y = 165 }
+			position = { x = 0 y = 175 }
 		}
-		
+
 		positionType = {
 			name = "subscription_position"
-			position = { x = -50 y = 89 }
+			position = { x = -50 y = 109 }
 		}
 
 		positionType = {
 			name = "subscription_position_without_social_gui"
-			position = { x = 0 y = 219 }
+			position = { x = 0 y = 239 }
 		}
 		
 		containerWindowType = {
@@ -360,41 +445,74 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "homepage_button"
-			position = { x=10 y=-20 }
+			position = { x=-24 y=0 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
+			scale = 0.9
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x=55 y=-20 }
+			position = { x=12 y=0 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
 			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
+			scale = 0.9
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=100 y=-20 }
+			position = { x=48 y=0 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
 			web_link = "https://www.facebook.com/Heartsofiron"
+			scale = 0.9
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x=145 y=-20 }
+			position = { x=84 y=0 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
 			web_link = "https://twitter.com/hoi_game"
+			scale = 0.9
+		}
+		ButtonType = {
+			name = "instagram_button"
+			position = { x=120 y=0 }
+			quadTextureSprite ="instagram"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_INSTAGRAM"
+			web_link = "https://www.instagram.com/hearts_of_iron_pdx"
+			scale = 0.9
+		}
+		ButtonType = {
+			name = "discord_button"
+			position = { x=156 y=0 }
+			quadTextureSprite ="discord"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_DISCORD"
+			web_link = "https://discord.gg/hoi4"
+			scale = 0.9
+		}
+
+		ButtonType = {
+			name = "youtube_button"
+			position = { x=192 y=0 }
+			quadTextureSprite ="youtube"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_YOUTUBE"
+			web_link = "https://www.youtube.com/@HeartsOfIronOfficial"
+			scale = 0.9
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x=190 y=-20 }
+			position = { x=228 y=0 } 
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
+			scale = 0.9
 		}
 	}
 

@@ -136,6 +136,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/techtree/techtree_navaldoctrine_tab_large.dds"
 		noOfFrames = 2		
 	}
+		spriteType = {
+		name = "GFX_specialforcesdoctrine_tab_large"
+		textureFile = "gfx/interface/techtree/techtree_specialforcesdoctrine_tab_large.dds"
+		noOfFrames = 2		
+	}
 
 	spriteType = {
 		name = "GFX_naval_folder_tab"
@@ -362,6 +367,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_subtechnology_air_techs_unavailable_item_bg"
 		textureFile = "gfx/interface/subtech_carrier_plane_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_subtechnology_bba_air_techs_available_item_bg"
+		textureFile = "gfx/interface/subtech_carrier_plane_available_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_subtechnology_bba_air_techs_researched_item_bg"
+		textureFile = "gfx/interface/subtech_carrier_plane_researched_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_subtechnology_bba_air_techs_unavailable_item_bg"
+		textureFile = "gfx/interface/subtech_carrier_plane_unavailable_item_bg.dds"
 	}	
 	
 	spriteType = {
@@ -459,7 +479,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_currently_researching_item_bg"
-		texturefile = "gfx//interface//researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -490,7 +510,7 @@ spriteTypes = {
 		name = "GFX_technology_naval_doctrine_folder_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
-	
+
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_naval_doctrine_folder_currently_researching_item_bg"
 		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
@@ -575,7 +595,41 @@ spriteTypes = {
 		play_on_show = yes
 		pause_on_loop = 0.0
 	}
+	
+	### special_forces doctrine tech entry bgs ###
+	
+	spriteType = {
+		name = "GFX_technology_special_forces_doctrine_folder_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_special_forces_doctrine_folder_branch_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_branch_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_special_forces_doctrine_folder_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
 
+	spriteType = {
+		name = "GFX_technology_special_forces_doctrine_folder_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_special_forces_doctrine_folder_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
 		##### electronics tech #####
 
 	spriteType = {
@@ -634,7 +688,6 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}	
 
-#GFX_technology_currently_researching_item_bg
 
 	#### naval tech ######
 
@@ -665,11 +718,6 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}	
 	
-	spriteType = { 
-		name = "GFX_technology_naval_folder_currently_researching_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
-	}	
-	
 	spriteType = {
 		name = "GFX_technology_naval_folder_available_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
@@ -683,6 +731,23 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_technology_naval_folder_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
+	}
+
+	#spriteType = { #MM: OLD, no animation
+	#	name = "GFX_technology_naval_folder_currently_researching_item_bg"
+	#	textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
+	#}	
+
+	frameAnimatedSpriteType = { #MM: NEW with animation when researching (like with other techs)
+		name = "GFX_technology_naval_folder_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_naval_currently_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
 	}
 
 	
@@ -713,11 +778,6 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
 	
-	spriteType = { 
-		name = "GFX_technology_mtgnavalfolder_currently_researching_item_bg"
-		textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
-	}	
-	
 	spriteType = {
 		name = "GFX_technology_mtgnavalfolder_available_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
@@ -731,6 +791,86 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_technology_mtgnavalfolder_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
+	}
+
+	#spriteType = { #MM: OLD, no animation
+	#	name = "GFX_technology_mtgnavalfolder_currently_researching_item_bg"
+	#	textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
+	#}
+
+	frameAnimatedSpriteType = { #MM: NEW with animation when researching (like with other techs)
+		name = "GFX_technology_mtgnavalfolder_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_naval_currently_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+
+	############################### mtg naval support
+
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_naval_unavailable_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
+	}
+
+	#spriteType = { #MM: OLD, no animation with this
+	#	name = "GFX_technology_mtgnavalsupportfolder_currently_researching_item_bg"
+	#	textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
+	#}	
+
+	frameAnimatedSpriteType = { #MM: NEW with animation when researching (like with other techs)
+		name = "GFX_technology_mtgnavalsupportfolder_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_naval_currently_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
 	}
 	
 	
@@ -829,7 +969,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_support_folder_foreign_currently_researching_item_bg"
-		texturefile = "gfx//interface//researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -840,6 +980,34 @@ spriteTypes = {
 	}
 
 	# aircraft folder 
+
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_air_techs_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
 	spriteType = {
 		name = "GFX_technology_air_techs_folder_foreign_unavailable_item_bg"
 		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg.dds"
@@ -878,6 +1046,62 @@ spriteTypes = {
 		play_on_show = yes
 		pause_on_loop = 0.0
 	}	
+
+	#bba aircraft folder
+
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_bba_air_techs_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_foreign_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_foreign_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_foreign_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_researched_item_bg.dds"
+	}	
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_bba_air_techs_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
     ##############
 
 		#### artillery tech #####		# artillery has a special small override	
@@ -1392,6 +1616,10 @@ spriteType = {
 		textureFile = "gfx/interface/techtree/icons/air_techs_folder_icon.dds"
 	}
 	spriteType = {
+		name = "GFX_bba_air_techs_folder_icon"
+		textureFile = "gfx/interface/techtree/icons/air_techs_folder_icon.dds"
+	}
+	spriteType = {
 		name = "GFX_armour_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/armour_folder_icon.dds"
 	}
@@ -1432,7 +1660,444 @@ spriteType = {
 		textureFile = "gfx/interface/techtree/icons/naval_folder_icon.dds"
 	}
 	spriteType = {
+		name = "GFX_mtgnavalsupportfolder_icon"
+		textureFile = "gfx/interface/techtree/icons/naval_support_folder_icon.dds"
+	}
+	spriteType = {
 		name = "GFX_support_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/support_folder_icon.dds"
 	}
+
+
+		##### WW/GTD Special Projects tech #####
+
+	# ELECTRONICS
+	spriteType = {
+		name = "GFX_technology_electronics_folder_special_project_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_electronics_folder_special_project_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_electronics_folder_special_project_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}	
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_electronics_folder_special_project_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	# SUPPORT
+	spriteType = {
+		name = "GFX_technology_support_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_support_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_support_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_support_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# TANK (NSB)
+	spriteType = {
+		name = "GFX_technology_nsb_armour_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_nsb_armour_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_nsb_armour_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_nsb_armour_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# TANK (Vanilla)
+	spriteType = {
+		name = "GFX_technology_armour_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_armour_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_armour_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_armour_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# ARTILLERY
+	spriteType = {
+		name = "GFX_technology_artillery_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_artillery_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_artillery_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_artillery_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# AIR (BBA)
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_big_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_big_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_big_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_bba_air_techs_folder_special_project_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//researching_special_projects_big_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# AIR (Vanilla)
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_big_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_big_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_big_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_air_techs_folder_special_project_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//researching_special_projects_big_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# NAVAL (Vanilla)
+	#SMALL
+	spriteType = {
+		name = "GFX_technology_naval_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_naval_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_naval_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_naval_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	#LONG
+	spriteType = {
+		name = "GFX_technology_naval_folder_special_project_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_naval_folder_special_project_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_naval_folder_special_project_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_naval_folder_special_project_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_naval_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# NAVAL (MTG)
+	#SMALL
+	spriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	#LONG
+	spriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mtgnavalfolder_special_project_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_naval_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	# NAVAL SUPPORT (MTG)
+	#SMALL
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	#LONG
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_available_item_bg.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_unavailable_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_special_project_naval_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mtgnavalsupportfolder_special_project_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//technology_special_project_naval_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
 }

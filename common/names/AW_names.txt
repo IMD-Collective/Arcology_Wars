@@ -1,0 +1,1623 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Juliette" "Anna" }
+	#	surnames = { }
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	#}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+ 
+####### AW Countries - This is temp, and I'm including this to get rid of certain errors, Nilo #######
+OGC = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+FRH = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+FUS = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+DRG = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+FLA = {
+	male = {
+		names = { 
+			Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
+			Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
+			Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
+			Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier 
+			Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner
+		
+		  }
+	}
+	female = {
+		names = { Marie Anne Géraldine Louise Marie-Claude Helene Karine Rachel Paule Claude Melanie Merel Marleen Johanna Ingrid Irene Ilse Hilda Helga Beatrix Antje Anneke }
+	}
+	surnames = {
+		Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet 
+		Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort" 
+		"de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
+		"de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" 
+		"de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" 
+		"de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix 
+		"Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
+		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand 
+		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb 
+		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude
+	
+	 }
+	callsigns = { }
+}
+SAP = {
+	male = {
+		names = { 
+			Adolph Jens Odd Johan Frederik Lorentz Jan Per Kjell Svein Arne Knut Harald Odd Hans Terje 
+			Gunnar Rolf Ole Tor Leif Steinar Olav Einar Lars Nils Erik Egil Finn Magne
+			Thore Magnar Otto Aage Arnfinn Eivind Birger Atle Arve Kristian Roald Kai Sigurd Jostein
+			Trond Stein Erling Bgarne Ragnar Reidar Ivar Karl Sverre Ola Ove
+			Harald Haakon Olaf Paul Petter Carl Christian Kaare Jacob Søren Wilhelm Tryggve Daniel
+		}
+	}
+	
+	female = {
+		names = { 
+			Trine Kajsa Helga Paula Olivia Nela Monika Torhild Trude Ingeborg Gerda Bjørg Inger 
+			Anne Inger Liv Kari Marit Berit Eva Gerd Karin Randi Astrid Else Solveig Aud Turid
+			Reidun Ragnhild Kirsten Tove Grethe Wenche Jorunn Laila Ingrid Brit Grete Ellen Unni
+			Eli Vigdis Britt Bodil Sonja Gunvor Jorun Kirsti
+		}
+	}
+
+	surnames = { 
+		Munthe Sejersted Ræder Nordhaug Hamre Fleischer
+		Prytz Nørregaard Vilberg Hauge Sunde Petersen Brandt Lie Wergeland Frisvold
+		Teige Carenwall Falck Hansen Johansen Olsen Larsen Andersen Nilsen Pedersen Jensen
+		Kristiansen Karlsen Johnsen Pettersen Eriksen Berg Haugen Hagen Johannessen Jacobsen
+		Andreassen Dahl Halvorsen Lund Henriksen Jørgensen Jakobsen
+	}
+	callsigns = { "Beowulf" "Hrothgar" "Sigurd" "Thor" "Hagbard" "Valkayrie" "Knight of Valhalla" }
+}
+SML = {
+	male = {
+		names = { 
+			Aar Abadir Abd Abdallah Abdi Abdihakim Abdillahi Abdiqasim Abdirahman Abdirashid Abdirizak Abdisalam Abdiweli Abdourahman Abdulkadir Abdullahi Abdulsalami Adan Aden Ahmed Ali Arawelo Ayub Dahir Daud Elman Faisal Farah Hasan Hassan Hirsi Ibrahim Ismail Jama Jaylaani Liban 
+			Maxamed Mo Mohamed Mohammed Mohamoud Mohamud Muse Mustafa Nur Nuruddin Olol Omar Osman Rageh Salaad Sharif Shaykh Shire Uways Warsame Yusuf 
+		}
+	}
+	female = {
+		names = { 
+			Amina Asha Asli Ayaan Edna Fatima Fowziya Halima Hanan Hawa Hodan Idyl Iman Khadija Ladan Maryam Siham Waris Yasmin Yasmine Yussur Zahra 
+		}
+	}
+	surnames = { 
+		Aato Abade Abdi Abdillahi Abdulle Abdulmajid Abrar Abubakar Adan Addou Afrax "Al-Amawi" Ahmed Ali Allas Aptidon "Ar-Rida" Aweys Awl Bani "Al-Barawi" Barre Bile Daar Daud Diinle Dirie Duale Elmi Farah Farole Feiruz Galal 
+		Galaydh Ghalib Ghedi Haji "Haji-Faqi" Hashi Hassan Hersi Hirsi Hussein Ibrahim Ibrahim Ikar Irro Islam Ismail Issa Isse "Al-Jabarti" Jama Osman Jibrell Kahin Kassim "Al-Kawneyn" Kediye Kenadid Kusow Liibaan Maanta Madobe 
+		Mahamuud Malimey Moalim Mohallim Mohamed Muhammad Mukhtar Mumin Mursal Nalayeh Nur Omaar Omer Osman Osoble Qalanjo Qarshe "Al-Qutbi" Said Samatar Sharmarke Shermarke Shirdon Shire Siad Silanyo Sinimo Sufi Timacade Waberi 
+		Warfa Warsame "Al-Zayla'i"
+	}
+	callsigns = { }
+}
+RNG = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+NCA = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+TWC = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+TWC = {
+	male = {
+		names = {
+			Jack Thomas James Daniel Joshua	Matthew Samuel Ryan Joseph Luke Jordan Benjamin Callum William Alexander Liam
+			Adam Connor George Lewis Harry Michael Jake Oliver Nathan Christopher Kieran Jacob Jamie Bradley Ben Aaron Mohammed
+			Robert David Andrew Ethan Cameron Kyle Charlie Charles Tyler Jonathan Edward Reece Alex Sam Brandon John Ashley Scott
+		    Joe Harrison Sean Dominic Louis Rhys Nicholas Dylan Alfie Max Morgan Aidan Henry Owen Ross Peter Conor Mark Stephen Elliot
+		    Isaac Muhammad Patrick Harvey Anthony Billy Leon Ellis Lee Kane Curtis Corey Jason Richard Kai Joel Zachary Oscar Rory Paul
+		    Mitchell Taylor Steven Calum Toby Declan Jay Ewan Niall
+		}
+	}
+	female = {
+		names = { 
+	 		Chloe Emily Sophie Jessica Charlotte Lauren Rebecca Megan Hannah Amy Lucy Bethany Emma Katie Olivia Georgia Laura Jade Shannon 
+			Eleanor Abigail Holly Sarah Alice Rachel Molly Elizabeth Danielle Ellie Phoebe Paige Natasha Courtney Victoria Georgina Nicole
+			Grace Samantha Zoe Amber Chelsea Leah Anna Alexandra Jasmine Ella Caitlin Natalie Niamh Melissa Louise Isobel Amelia Katherine
+			Stephanie Millie Alisha Mia Abbie Gemma Lydia Kayleigh Francesca Harriet Mollie Jodie Tia Jennifer Erin Alicia Isabella Kate
+			Madeleine Kirsty Aimee Rosie Isabelle Sophia Lily Isabel Daisy Hollie Imogen Kelsey Charlie Morgan Freya Catherine Maisie Ashleigh
+			Ruby Ellen Poppy Bethan Eve Sian Naomi Taylor Tara Eloise
+		
+		
+		}
+	}
+	surnames = { 
+		Smith Jones	Taylor Brown Williams Wilson Johnson Davies	Patel Robinson Wright Thompson Evans Walker White Roberts Green Hall Thomas Clarke
+		Jackson Wood Harris Edwards Turner Martin Cooper Hill Ward Hughes Moore Clark King Harrison Lewis Baker Lee Allen Morris Khan Scott Watson
+		Davis Parker James Bennett Young Phillips Richardson Mitchell Bailey Carter Cook Singh Shaw Bell Collins Morgan Kelly Begum	Miller Cox Hussain	
+		Marshall Simpson Price Anderson Adams Wilkinson	Ali	Ahmed Foster Ellis Murphy Chapman Mason Gray Richards Webb Griffiths Hunt Palmer Campbell Holmes
+		Mills Rogers Barnes Knight Matthews Barker Powell Stevens Kaur Fisher Butler Dixon ussell Harvey Pearson Graham
+	}
+	callsigns = { "Kingfish" "Rook" "Eagle" "Cackle" "Duke" "Serpent" "Charger" "Homegrown" "Speedster" "English" "Low Danger" "Pops" "Trigger" "Guts" }
+	
+}
+WGR = {
+	male = {
+		names = {
+			Jan Lukas Philipp Philip Alexander Daniel Tobias Kevin Marcel Dennis Felix Denis Felix Florian Niklas Maximilian Patrik Fabian Jonas Sebastian Kristian
+			Christian Julian Marwin Timo David Niko Mark Fynn Leon Lennart Max Tom Niels Pascal Simon Dominik Christopher Benjamin Moritz Lars Paul Marko Swen
+			Robin Kristof Christof Christoph Torben Thorben Malte Johannes Meik Jakob Michael Martin Andre Stefan Stephan Mathias Hendrik Luka Nikolas Steven
+			Vincent Sascha Jonathan Markus Frederik Tomas Robert Erik Oliver Nik Ole Marius Justin Joshua Andreas Lasse Kai Maurice Manuel Konstantin Luis 
+			Adrian Steffen Mirko Anton Benedikt John Julius Til Henri Henry Henrik Bastian Leonard Johann Johan Michel Hannes Mohammed Raphael
+		}
+	}
+	female = {
+		names = { 
+			Anna Julia Sara Lisa Laura Katharina Vanessa Lena Jennifer Annika Jana Leah Marie Jasmin Jessica Franziska Michelle Nina Hannah Alina Johanna Kim Nadine
+			Jacqueline Karoline Kristina Ann Svenja Louisa Natalie Sophie 
+		}
+	}
+	surnames = { 
+		Mueller Schmidt Schneider Fischer Weber Meyer Wagner Becker Schulz Hoffmann Schaefer Koch Bauer Richter Klein Wolf Schroeder Neumann Schwarz Zimmermann Braun Kruger Hoffman
+		Hartmann Lange Schmitt Schmitz Krause Meier Lehmann Schmid Schulze Maier Koehler Hermann Koenig Walter Mayer Huber Kaiser Fuchs Peters Lang Scholz Moller Weiss Jung Hahn 
+		Schubert Vogel Friedrich Keller Günther Frank Berger Winkler Roth Beck Lorenz Baumann Franke Albrecht Schuster Simon Ludwig Boehm Winter Kraus Martin Schumacher Kraemer
+		Vogt Stein Jaeger Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Kühn Pohl Engel Busch Horn Bergmann Thomas Voigt Sauer Arnold 
+		Wolff Bender Pfeiffer
+	}
+	callsigns = { "Adler" "Blitz" "Falk" "Donner" "Komet" "Geier" "Sturm" "Eisern" "Nebel" "Zephyr" "Fuchs" "Nachthund" "Siegfried" "Dammerung" }
+	
+}
+THG = {
+	male = {
+		names = {
+			Jan Lukas Philipp Philip Alexander Daniel Tobias Kevin Marcel Dennis Felix Denis Felix Florian Niklas Maximilian Patrik Fabian Jonas Sebastian Kristian
+			Christian Julian Marwin Timo David Niko Mark Fynn Leon Lennart Max Tom Niels Pascal Simon Dominik Christopher Benjamin Moritz Lars Paul Marko Swen
+			Robin Kristof Christof Christoph Torben Thorben Malte Johannes Meik Jakob Michael Martin Andre Stefan Stephan Mathias Hendrik Luka Nikolas Steven
+			Vincent Sascha Jonathan Markus Frederik Tomas Robert Erik Oliver Nik Ole Marius Justin Joshua Andreas Lasse Kai Maurice Manuel Konstantin Luis 
+			Adrian Steffen Mirko Anton Benedikt John Julius Til Henri Henry Henrik Bastian Leonard Johann Johan Michel Hannes Mohammed Raphael
+		}
+	}
+	female = {
+		names = { 
+			Anna Julia Sara Lisa Laura Katharina Vanessa Lena Jennifer Annika Jana Leah Marie Jasmin Jessica Franziska Michelle Nina Hannah Alina Johanna Kim Nadine
+			Jacqueline Karoline Kristina Ann Svenja Louisa Natalie Sophie 
+		}
+	}
+	surnames = { 
+		Mueller Schmidt Schneider Fischer Weber Meyer Wagner Becker Schulz Hoffmann Schaefer Koch Bauer Richter Klein Wolf Schroeder Neumann Schwarz Zimmermann Braun Kruger Hoffman
+		Hartmann Lange Schmitt Schmitz Krause Meier Lehmann Schmid Schulze Maier Koehler Hermann Koenig Walter Mayer Huber Kaiser Fuchs Peters Lang Scholz Moller Weiss Jung Hahn 
+		Schubert Vogel Friedrich Keller Günther Frank Berger Winkler Roth Beck Lorenz Baumann Franke Albrecht Schuster Simon Ludwig Boehm Winter Kraus Martin Schumacher Kraemer
+		Vogt Stein Jaeger Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Kühn Pohl Engel Busch Horn Bergmann Thomas Voigt Sauer Arnold 
+		Wolff Bender Pfeiffer
+	}
+	callsigns = { "Adler" "Blitz" "Falk" "Donner" "Komet" "Geier" "Sturm" "Eisern" "Nebel" "Zephyr" "Fuchs" "Nachthund" "Siegfried" "Dammerung" }
+	
+}
+DDR = {
+	male = {
+		names = {
+			Jan Lukas Philipp Philip Alexander Daniel Tobias Kevin Marcel Dennis Felix Denis Felix Florian Niklas Maximilian Patrik Fabian Jonas Sebastian Kristian
+			Christian Julian Marwin Timo David Niko Mark Fynn Leon Lennart Max Tom Niels Pascal Simon Dominik Christopher Benjamin Moritz Lars Paul Marko Swen
+			Robin Kristof Christof Christoph Torben Thorben Malte Johannes Meik Jakob Michael Martin Andre Stefan Stephan Mathias Hendrik Luka Nikolas Steven
+			Vincent Sascha Jonathan Markus Frederik Tomas Robert Erik Oliver Nik Ole Marius Justin Joshua Andreas Lasse Kai Maurice Manuel Konstantin Luis 
+			Adrian Steffen Mirko Anton Benedikt John Julius Til Henri Henry Henrik Bastian Leonard Johann Johan Michel Hannes Mohammed Raphael
+		}
+	}
+	female = {
+		names = { 
+			Anna Julia Sara Lisa Laura Katharina Vanessa Lena Jennifer Annika Jana Leah Marie Jasmin Jessica Franziska Michelle Nina Hannah Alina Johanna Kim Nadine
+			Jacqueline Karoline Kristina Ann Svenja Louisa Natalie Sophie 
+		}
+	}
+	surnames = { 
+		Mueller Schmidt Schneider Fischer Weber Meyer Wagner Becker Schulz Hoffmann Schaefer Koch Bauer Richter Klein Wolf Schroeder Neumann Schwarz Zimmermann Braun Kruger Hoffman
+		Hartmann Lange Schmitt Schmitz Krause Meier Lehmann Schmid Schulze Maier Koehler Hermann Koenig Walter Mayer Huber Kaiser Fuchs Peters Lang Scholz Moller Weiss Jung Hahn 
+		Schubert Vogel Friedrich Keller Günther Frank Berger Winkler Roth Beck Lorenz Baumann Franke Albrecht Schuster Simon Ludwig Boehm Winter Kraus Martin Schumacher Kraemer
+		Vogt Stein Jaeger Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Kühn Pohl Engel Busch Horn Bergmann Thomas Voigt Sauer Arnold 
+		Wolff Bender Pfeiffer
+	}
+	callsigns = { "Adler" "Blitz" "Falk" "Donner" "Komet" "Geier" "Sturm" "Eisern" "Nebel" "Zephyr" "Fuchs" "Nachthund" "Siegfried" "Dammerung" }
+	
+}
+GHA = {
+	male = {
+		names = {
+			Abdul Ablade Akwasi Albert Alex Aliu Anthony Ataa Austin Ave Awal Ben Bernard Cephas Clement Daniel Ebenezer Eddie Edward El Elom Emmanuel Ephraim Eric Francis Frank Fred George Gloria Godfried Gyearbuor Hilla 
+			Ignatius Isaac Jackie James Jerry Joachim Joe John Joseph Joshua Kobina Koby Kofi Kow Kudjoe Kwadwo Kwaku Kwame Kwamena Kwaw Kwesi Majid Mamood Mark Maxwell Michael Mikki Mohammed Nana Nat Nii Obed Obo Oli Patrick 
+			Peter Philip Prince Richie Rikki Rudolf Sammi Samuel Shamo Simon Tetteh Van Victor Yaw
+		}
+	}
+	female = {
+		names = {
+			Akosua Cecilia Juliet Leila Mavis Nadia Nana Shirley Suzzy Yvonne
+		}
+	}
+	surnames = {
+		Abongo Adablah Addy Adjei Adu Affutu Agbee Aggudey Aidoo Akuetteh "Akufo-Addo" Alhassan Amadu Amankwah "Amenga-Etego" Amissah Amoah Amu Anatsui Anin Annan Ansah Apea Arkaah Aryee Asante Ayensu Baah Berko Blay Buari Busia
+		Chireh Djansi Dossey "Frimpong-Manso" Gbeho "de Graft-Johnson" Ibrahim Kalilu Konadu Kuffour Kumah Labi Limann Mahama McBrown Mensah Michel Mumuni Nikoi Nyarko Oko Ollennu Preko Quartey Quaynor Rahman "Sintim-Misa"
+		"Wemega-Kwawu" Yaw
+	}
+	callsigns = { }
+}
+MRV = {
+	male = {
+		names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
+		surnames = { "Havlíček" "Dvořák" "Novák" "Kolář" "Novotný" "Macháček" "Veselý" "Vaněk" "Němec" "Malý" "Adamec" "Suchý" "Havlík"
+		"Horváth" "Majer" "Kocian" "Chalupa" "Ferko" }
+	}
+	female = {
+		names = { "Marie" "Anna" "Hana" "Božena" "Alžběta" "Marta" }
+		surnames = { "Havlíčková" "Dvořáková" "Nováková" "Kolářová" "Novotná" "Macháčková" "Veselá" "Vaňková" "Němcová" "Malá" "Adamcová" "Suchá" "Havlíková"
+		"Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" }
+	}
+}
+BSR = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+ETR = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+CIR = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+SHC = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+GZH = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+HNN = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+SHA = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+CNG = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+HEN = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+HUB = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+ANH = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+SDG = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+GGZ = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+JIN = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+SGH = {
+	male = {
+		names = {Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { Wang Li Lee Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu Wei Fang Xiuying Na Min Jing Li Jing Qiang Jing Yong Tao Jun Ping Bai}
+	}
+	female = {
+		names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu Zen Tan Lau Lieu Chang Cheung Chan Wong Whang Zhou Huang Wu Xu Zhu Gao Lin He Guo Liang Han Ren Fang Wupen Xiwang Xiaoping Xinping Xingfu Yao Zhao Qian Sun li Zhou Wu Zheng Wang Feng Chen Chu Wei Jiang Shen Han Yang Zhu Qin You Xu He Lu Shi Zhang Kong Cao 
+	 Yan Hua Jin Wei Tao Jiang Qi Xie Zou Yu Bai Shui Dou Zhang Yun Su Pan Ge Xi Fan Peng Lang Lu Wei Chang Ma Miao Feng Hua Fang Yu Ren Yuan Liu Feng Bao Shi Tang Fei Lian Cen Xue Lei He Ni Tang Teng Yin Luo Bi Hao Wu An Chang Yue Yu Shi Fu Pi Bian Qi Kang Wu Yu Bu Gu Meng Ping Huang He Mu Xiao Yin Yao Shao Zhan Wang Qi Mao Yu Di Mi Bei Ming Zang Ji Fu Cheng Dai Tan Song Mao Pang Xiong Ji Shu Qu
+	 Xiang Zhu Dong Liang Du Ruan Lan Min Xi Ji Ma Qiang Jia Lu Lou Jiang Tong Yan Guo Mei Sheng Lin Diao Zhong Xu Qiu Luo Gao Xia Cai Tian Fan Hu Ling Huo Yu Wan Zhi Ke Zan Guan Lu Mo Jing Fang Qiu Miao Gan Xie Ying Zong Ding Xuan Ben Deng Yu Shan Hang Hong Bao Zhu Zuo Shi Cui Ji Niu Gong Cheng Ji Xing Hua Pei Lu Rong Weng Xun Yang Yu Hui Zhen Qu Jia Feng Rui Yi Chu Jin Ji Bing Mi Song Jing Duan
+	 Fu Wu Jiao Ba Gong Chao Guan Kuai Xiang Zha Hou Jing Hong You Zhu Quan Lu Ge Yi Huan Gong Moqi Sima Shangguan Ouyang Xiahou Zhuge Wenren Dongfang Helian Huangfu Yuchi Gongyang Tantai Gongye Zhongzheng Puyang Chunyu Chanyu Taishu Shentu Gongsun Zhongsun Xuanyuan Linghu Zhongli Yuwen Zhangsun Murong Xianyu Luqiu Situ Sikon Qiguan Sikou Zhang Du Ziju Zhuansun Duanmu Wuma Gongxi Qidiao Yuezheng Rangsi Gongliang Tuoba Jiagu Zaifu Guliang Jin Chu Yan Fa Ru Yan Tu Qin Duangan Baili Dongguo Nanmen
+	 Huyan Gui Hai Yangshe Weisheng Yue Shuai Gou Kang Kuang Hou You Qing Liangqiu Zuoqiu Dongmen Ximen Shang Mou She Nai Bo Shang Nangong Mo Ha Qiao Da Nian Ai Yang Tong Diwu Yan Fu  }
+		
+		surnames = { An Chen Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { }
+	callsigns = { Lotus Dragon Crane Monkey "Bing Sheng" "Buyi Jiangjun" "Fei Jiangjun" "Fei Xiong" "Feng Chu" Phoenix Hero "Warrior Monk" Shaolin Panda }
+}
+NRM = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+ARA = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+ROJ = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+BSQ = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+CNT = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+VAL = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+MRC = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+ATA = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+LEO = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+ITA = {
+	male = {
+		names = { 
+			Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+			Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+			Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+			Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+			Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+		
+		  }
+	}
+	female = {
+		names = { Maria Anna Sara Laura Sofia Stella Angela Giovanna Guiseppina Gianna Giulia Valentina }
+	}
+	surnames = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Savoia"
+		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
+		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+	
+	 }
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
+}
+SRA = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+WFU = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+PDT = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+BNK = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+SCM = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+MTZ = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+EWW = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+ERE = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+HOL = {
+	male = {
+		names = { 
+			Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+		 }
+	}
+	
+	female = {
+		names = { Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus }
+	}
+
+	surnames = { 
+	Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Hollander" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Voorst tot Voorst" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+	  }
+}
+SCA = {
+	male = {
+		names = {
+		 	Dan David Fredrik Gustav Johan Martin Olof Nils Peter Per Dennis Alexander Felix Magnus 
+			Tobias Erik Niklas Björn Emil Robin Jonas John Rikard Daniel Anton Andreas Rufus Daniel Lars 
+			Mikael Anders Karl Thomas Jan Hans Stefan Mats Marcus Mattias Bengt Oskar Bo Patrik Viktor
+			Leif Sven Henrik Filip Joakim Christer Ulf Emil Simon Christoffer Anton Gustav Robert Kjell Christian William
+			Lucas Rickard Håkan Göran Rolf Adam Lennart Jakob Jonathan Robin Sebastian Tobias Stig Elias John Axel Linus Kent
+			Roger Hugo Isak Claes Jesper Albin Jörgen Rasmus Ludvig Max Ali Gunnar Joel Dennis Josef Olof Olle Kurt Pontus Leo Torbjörn Felix Arvid
+		}
+	}
+	female = {
+		names = { Anna Linda Sara Caroline Eira Katya Greta Pernilla Malin Linnéa Ebba Tove Astrid Camilla Lotta Eva Maria Kristina Sara Lena Emma Ingrid
+				  Malin Annika Hanna Linda Birgitta Elin Monica Inger Carina Ulla Julia Katarina Linnéa Ida Anette Gunilla Anneli Maja Ann Josefin Barbro Frida Ulrika Elsa
+				  Siv Klara Ebba Gun Agneta Berit Pia Wilma Yvonne Astrid Mona "Ann-Christin" Agnes Sonja Lisbeth Rut }
+	}
+	
+	surnames = { 
+		Andersson Anward Björk Johansson Kiby Lind Norrevik Palmqvist Zetterman Wester Cornelius
+		Hasselström Knubb Sjöman Dahlberg Borg Wendel Sparrhult Oltner Hemmingsson Jenelius
+		Nisshagen Karlsson Bodlund Elgerot Lundström Blomberg Viklund Lindgren Lagerqvist
+		Brolin Cederholm Wickerström Tisander Rickne Ivarsson Åslund Norrevik Ekre
+		Sjöberg Lerström Hargelid Carlberg Ström Hultdin Renström Tronde Nilsson Eriksson
+		Larsson Olsson Persson Svensson Gustafsson Pettersson Jonsson Jansson Hansson Bengtsson Lindberg Jakobsson Magnusson 
+		Olofsson Lindqvist Lindgren Axelsson Berg Bergström Lundberg Lundgren Lundqvist Mattson Berglund Fredriksson Sandberg Henriksson Forsberg Wallin Eklund
+		Danielsson Håkansson Lundin Gunnarsson Björk Bergman Holm Wikström Nyström Arvidsson Holmberg Nyberg Blomqvist Nordström Lundström Eliasson Viklund Björklund Ström Nordin
+		Holmgren Falk Ek Dahlberg Hassan Hansen 
+	 }
+	 callsigns = { Hammer "God of Thunder" Trickster Fenrir Dokkalfar Ljosalfar Jormungandr Jotnar Ratatoskr Sleipnir Valkyrie Odin Njord Vaasa Ragnar Örn Lapp }
+}
+MIN = {
+	male = {
+		names = { Emilio Apolinario Andrés José Hermano Jacinto Mariano Deodato Ladislao Teodoro Valentíne Antonio León Simeón Arcadio Artemio Manuel  }
+	}
+	female = {
+		names = {
+			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	surnames = {
+		Aguainaldo Mabini Bonifacio Jacinto Rizal Díaz Plata Diwa Arellano
+	}
+	callsigns = { }
+}
+NKM = {
+	male = {
+		names = { Emilio Apolinario Andrés José Hermano Jacinto Mariano Deodato Ladislao Teodoro Valentíne Antonio León Simeón Arcadio Artemio Manuel  }
+	}
+	female = {
+		names = {
+			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	surnames = {
+		Aguainaldo Mabini Bonifacio Jacinto Rizal Díaz Plata Diwa Arellano
+	}
+	callsigns = { }
+}
+WPP = {
+	male = {
+		names = { Joko Fauzi Prabowo Ali Soemarno Henk Widji Teuku Hadi Azwar Mustafa Zaini Abdul Anak Ida Dewa Ahmad Arief Muhammad Agus Mohamad Haji}
+	}
+	female = {
+		names = { Diah Siti Nur Endang Maria Nurul Nurhayati }
+	}
+	surnames = { Widodo Bowo Subianto Sadikin Sosroatmodjo Ngantung Permatasari Damono Wibowo Thukul Hartinah Gunawan Haryanto Suprianto Sabara Abubakar "Bagus Oka" "Bagus Mantra" Martha}
+	callsigns = { Rainbow Wulung Morotai Rajawali Gereja Pekakak }
+}
+CAB = {
+	male = {
+		names = { 
+			José Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
+		   }
+	}
+	female = {
+		names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa Constança }
+	}
+	surnames = {
+		"dos Santos" Tiago "N'zita" Vinama Chingunji Chilingutila Chitunda Chidondo "de Carvalho" Mingas Neto "da Cruz" Alves
+	 }
+	callsigns = { }
+}
+AZA = {
+	male = {
+		names = { 
+			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
+			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
+			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar
+			#Algeria Specific
+			Abdelaziz Abdelkader Abdelmalek Albert Boualem Chadli Frantz Ferhat Giorgio Houari Jacques Kamel Kateb Madjid Mehdi Moufdi Nabil Rabah Rafik Sofiane Yacine Yasmina
+		}
+	}
+	female = {
+		names = { 
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Israa Jathibiyya Khalida Latifa Maha Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar Samia Sarah
+			Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha
+			#Algeria Specific
+			Ahlam Assia Hélène
+		}
+	}
+	surnames = { 
+		Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+		Saqqaf Sultan Tawfeek Tawfiq Zaman
+		#Algeria Specific
+		Abbas Abeid Arkoun "Ben Bella" Bendjedid Bentaleb Bitat Bougherra Boumediene Bouteflika Brahimi Camus Chiellini Cixous Daoud Derrida Djebar Djebbour "El Djezairi" Fanon Feghouli Ghilas Khadra Mosteghanemi Sansal 
+		Sellal Yacine Zakaria
+	}
+	callsigns = { }
+}
+GRM = {
+	male = {
+		names = {  Ezekiel Maximilian Felix Erich Gerhard Gunther Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl Aaron Abraham Adrian Alban Albert Albrecht Alexander Alfons Alfred
+			Alois Andreas Anselm Arend Armin Arnd Arno Arnold Arnulf Arthur August Aurel Axel Baldur Baptist Barnabas Bartholomäus Benedikt Bernhard Bonifaz Bruno Carl 
+			Christian Christoph Claus Clemens Conrad Cornelius David Dennis Detlef Diedrich Dierk Diethelm Dietmar Dietrich Dirk Dominik Eberhard Eckart Eckehard Edgar 
+			Egon Ekkehard Elias Elmar Emanuel Emmerich Engel Ernst Erwin Eugen Fabian Filibert Florian Franz Gebhard Gerald Gottfried Gregor Hagen Johannes
+			Helmut Hugo Immanuel Isidor Jan Karlmann Klemens Leonard Leopold Ludger Ludolf Ludwig Luitger Lukas Manfred Meinhard Nikolaus Olaf Oswald Oskar Raphael Reinhold
+			Rolf Rudiger Rudolf Ruprecht Siegfried Sigismund Sigmund Silvester Thorben Uwe Ulrich Walther Winfried Wolfgang Wulf }
+	}
+	female = {
+		names = { Sandra Maria Anna Anne Hannah Hildegard Sarah }
+	}
+	surnames = { Lugmair Neudinger Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann  Koch Wolf Klein Richter Bauer Schroder Neumann Zimmermann Schwarz 
+		Braun Kruger Hofmann Lange Schmitt Werner Schmitz Werner Krause Meier Lehmann Schulze Maier Kohler Konig Mayer Huber "von Braun" "von Bismarck" "von Konigsberg"
+		Kaiser Fuchs Peters Lang Scholz Moller Weiss Jung Hahn Schubert Vogel Friedrich Keller Gunther Frank Berger Winkler Roth Beck Lorenz Baumann Franke Albrecht Schuster
+		Simon Ludwig Bohm Winter Kraus Martin Schumacher Kramer Vogt Stein Jager Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Pohl 
+		Engel Horn Busch Bergmann Thomas Voigt Sauer Arnold Wolff Pfeiffer
+	}
+	callsigns = { Stift Amboss Hammer "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+FGD = {
+	male = {
+		names = {  Ezekiel Maximilian Felix Erich Gerhard Gunther Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl Aaron Abraham Adrian Alban Albert Albrecht Alexander Alfons Alfred
+			Alois Andreas Anselm Arend Armin Arnd Arno Arnold Arnulf Arthur August Aurel Axel Baldur Baptist Barnabas Bartholomäus Benedikt Bernhard Bonifaz Bruno Carl 
+			Christian Christoph Claus Clemens Conrad Cornelius David Dennis Detlef Diedrich Dierk Diethelm Dietmar Dietrich Dirk Dominik Eberhard Eckart Eckehard Edgar 
+			Egon Ekkehard Elias Elmar Emanuel Emmerich Engel Ernst Erwin Eugen Fabian Filibert Florian Franz Gebhard Gerald Gottfried Gregor Hagen Johannes
+			Helmut Hugo Immanuel Isidor Jan Karlmann Klemens Leonard Leopold Ludger Ludolf Ludwig Luitger Lukas Manfred Meinhard Nikolaus Olaf Oswald Oskar Raphael Reinhold
+			Rolf Rudiger Rudolf Ruprecht Siegfried Sigismund Sigmund Silvester Thorben Uwe Ulrich Walther Winfried Wolfgang Wulf }
+	}
+	female = {
+		names = { Sandra Maria Anna Anne Hannah Hildegard Sarah }
+	}
+	surnames = { Lugmair Neudinger Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann  Koch Wolf Klein Richter Bauer Schroder Neumann Zimmermann Schwarz 
+		Braun Kruger Hofmann Lange Schmitt Werner Schmitz Werner Krause Meier Lehmann Schulze Maier Kohler Konig Mayer Huber "von Braun" "von Bismarck" "von Konigsberg"
+		Kaiser Fuchs Peters Lang Scholz Moller Weiss Jung Hahn Schubert Vogel Friedrich Keller Gunther Frank Berger Winkler Roth Beck Lorenz Baumann Franke Albrecht Schuster
+		Simon Ludwig Bohm Winter Kraus Martin Schumacher Kramer Vogt Stein Jager Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Pohl 
+		Engel Horn Busch Bergmann Thomas Voigt Sauer Arnold Wolff Pfeiffer
+	}
+	callsigns = { Stift Amboss Hammer "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+FGH = {
+	male = {
+		names = {  Ezekiel Maximilian Felix Erich Gerhard Gunther Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl Aaron Abraham Adrian Alban Albert Albrecht Alexander Alfons Alfred
+			Alois Andreas Anselm Arend Armin Arnd Arno Arnold Arnulf Arthur August Aurel Axel Baldur Baptist Barnabas Bartholomäus Benedikt Bernhard Bonifaz Bruno Carl 
+			Christian Christoph Claus Clemens Conrad Cornelius David Dennis Detlef Diedrich Dierk Diethelm Dietmar Dietrich Dirk Dominik Eberhard Eckart Eckehard Edgar 
+			Egon Ekkehard Elias Elmar Emanuel Emmerich Engel Ernst Erwin Eugen Fabian Filibert Florian Franz Gebhard Gerald Gottfried Gregor Hagen Johannes
+			Helmut Hugo Immanuel Isidor Jan Karlmann Klemens Leonard Leopold Ludger Ludolf Ludwig Luitger Lukas Manfred Meinhard Nikolaus Olaf Oswald Oskar Raphael Reinhold
+			Rolf Rudiger Rudolf Ruprecht Siegfried Sigismund Sigmund Silvester Thorben Uwe Ulrich Walther Winfried Wolfgang Wulf }
+	}
+	female = {
+		names = { Sandra Maria Anna Anne Hannah Hildegard Sarah }
+	}
+	surnames = { Lugmair Neudinger Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann  Koch Wolf Klein Richter Bauer Schroder Neumann Zimmermann Schwarz 
+		Braun Kruger Hofmann Lange Schmitt Werner Schmitz Werner Krause Meier Lehmann Schulze Maier Kohler Konig Mayer Huber "von Braun" "von Bismarck" "von Konigsberg"
+		Kaiser Fuchs Peters Lang Scholz Moller Weiss Jung Hahn Schubert Vogel Friedrich Keller Gunther Frank Berger Winkler Roth Beck Lorenz Baumann Franke Albrecht Schuster
+		Simon Ludwig Bohm Winter Kraus Martin Schumacher Kramer Vogt Stein Jager Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Pohl 
+		Engel Horn Busch Bergmann Thomas Voigt Sauer Arnold Wolff Pfeiffer
+	}
+	callsigns = { Stift Amboss Hammer "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+NIT = {
+	male = {
+		names = { 
+			Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+			Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+			Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+			Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+			Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+		
+		  }
+	}
+	female = {
+		names = { Maria Anna Sara Laura Sofia Stella Angela Giovanna Guiseppina Gianna Giulia Valentina }
+	}
+	surnames = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Savoia"
+		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
+		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+	
+	 }
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
+}
+CLB = {
+	male = {
+		names = { 
+		
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		
+		  }
+	}
+	female = {
+		names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+	}
+	surnames = { 
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+
+	}
+	callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog"}
+}
+NOD = {
+	male = {
+		names = { 
+		
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		
+		  }
+	}
+	female = {
+		names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+	}
+	surnames = { 
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+
+	}
+	callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog"}
+}
+WST = {
+	male = {
+		names = { 
+			Error Invalid_Character Unexpected_Instance
+		}
+	}
+	female = {
+		names = { Error Invalid_Character }
+		callsigns = { Unexpected_Air_Instance }
+	}
+	surnames = {
+		Instance_x01 Instance_z03 Instance_x034 Instance_x010 Instance_y011 Instance_z0233 Instance_x01 Instance_x155 Instance_y03 Instance_x65 Instance_z43 Instance_x022 Instance_x112 Instance_y233 Instance_z2553 Instance_x57 Instance_x82 Instance_y23
+	}
+	callsigns = { 
+		Unexpected_Air_Instance
+	}
+}
+MGD = {
+	male = {
+		names = { 
+			Error Invalid_Character Unexpected_Instance
+		}
+	}
+	female = {
+		names = { Error Invalid_Character }
+		callsigns = { Unexpected_Air_Instance }
+	}
+	surnames = {
+		Instance_x01 Instance_z03 Instance_x034 Instance_x010 Instance_y011 Instance_z0233 Instance_x01 Instance_x155 Instance_y03 Instance_x65 Instance_z43 Instance_x022 Instance_x112 Instance_y233 Instance_z2553 Instance_x57 Instance_x82 Instance_y23
+	}
+	callsigns = { 
+		Unexpected_Air_Instance
+	}
+}

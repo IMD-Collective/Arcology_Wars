@@ -27,47 +27,54 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
+		slot = economic_theory
 		slot = research_law
 		slot = outlook
 		slot = development_level_law
-		
-		ledger = civilian
-		
-		cost = 0
-		removal_cost = 0
-	}
-	
-	production = {
-		slot = nuclear_production
 		slot = military_instruction_law
-		slot = propaganda
-		slot = economic_theory
 		slot = development_prioritization
-
+		slot = propaganda
+		character_slot = political_advisor
+		
 		ledger = civilian
 		
 		cost = 0
 		removal_cost = 0
 	}
 
-	theory = {
-		slot = army_theory
-		slot = air_theory
-		slot = naval_theory
-		slot = army_designer
-		slot = air_designer
-		slot = naval_designer
+	research_production = {
+		slot = tank_manufacturer
+		slot = naval_manufacturer
+		slot = aircraft_manufacturer
+		slot = materiel_manufacturer
+		slot = industrial_concern
+		slot = nuclear_production
+		character_slot = theorist
 
 		ledger = civilian
 		
-		cost = 0
+		cost = 150
+		removal_cost = 0
+	}
+
+	military_staff = {
+		character_slot = army_chief 
+		character_slot = navy_chief 
+		character_slot = air_chief
+		character_slot = high_command
+		character_slot = high_command
+		character_slot = high_command
+		
+		ledger = invalid # must be overridden
+		
+		cost = 150
 		removal_cost = 0
 	}
 
 	academy_spirit = {
 		type = army_spirit
 
-		cost = 25
+		cost = 20
 		removal_cost = -1
 		
 		politics_tab = no
@@ -80,7 +87,7 @@ idea_categories = {
 	army_spirit = {
 		type = army_spirit
 
-		cost = 50
+		cost = 35
 		removal_cost = -1
 		
 		politics_tab = no
@@ -92,7 +99,7 @@ idea_categories = {
 	division_command_spirit = {
 		type = army_spirit
 		
-		cost = 75
+		cost = 50
 		removal_cost = -1
 		
 		politics_tab = no
@@ -104,7 +111,7 @@ idea_categories = {
 	naval_academy_spirit = {
 		type = navy_spirit
 
-		cost = 25
+		cost = 20
 		removal_cost = -1
 		
 		politics_tab = no
@@ -116,7 +123,7 @@ idea_categories = {
 	navy_spirit = {
 		type = navy_spirit
 
-		cost = 50
+		cost = 35
 		removal_cost = -1
 		
 		politics_tab = no
@@ -128,7 +135,7 @@ idea_categories = {
 	naval_command_spirit = {
 		type = navy_spirit
 		
-		cost = 75
+		cost = 50
 		removal_cost = -1
 		
 		politics_tab = no
@@ -140,7 +147,7 @@ idea_categories = {
 	air_force_academy_spirit = {
 		type = air_spirit
 
-		cost = 25
+		cost = 50
 		removal_cost = -1
 		
 		politics_tab = no
@@ -152,7 +159,7 @@ idea_categories = {
 	air_force_spirit = {
 		type = air_spirit
 
-		cost = 75
+		cost = 50
 		removal_cost = -1
 		
 		politics_tab = no
@@ -166,7 +173,7 @@ idea_categories = {
 		
 		politics_tab = no
 		
-		cost = 75
+		cost = 50
 		removal_cost = -1
 		
 		ledger = hidden

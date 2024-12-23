@@ -803,6 +803,7 @@ technologies = {
 		
 		# EFFECT ########
 		air_cas_efficiency = 0.20
+		ground_attack_factor = 0.10
 		###########
 		
 		path = {
@@ -1169,9 +1170,9 @@ technologies = {
 	keypoint_bombing = {
 
 		# EFFECT ########
-		#tac_bomber = {
-		#	air_bombing = 0.10
-		#}
+		tac_bomber = {
+			air_bombing = 0.10
+		}
 		###########
 		
 		
@@ -1765,9 +1766,9 @@ technologies = {
 	carousel_bombing = {
 
 		# EFFECT ########
-		#tac_bomber = {
-		#	air_bombing = 0.2
-		#}
+		tac_bomber = {
+			air_bombing = 0.2
+		}
 		###########
 		
 		path = {

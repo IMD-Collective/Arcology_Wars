@@ -13,7 +13,7 @@ sub_units = {
 			artillery
 		}
 
-		group = infantry
+		group = combat_support
 		
 		categories = {
 			category_army
@@ -88,20 +88,26 @@ sub_units = {
 			artillery
 		}
 
-		group = mobile
+		group = mobile_combat_support
 		
 		categories = {
 			category_army
 			category_line_artillery
 			category_artillery
+			category_mobile_and_mobile_combat_sup
 		}
 
 		combat_width = 3
 		transport = motorized_equipment
 		manpower = 500
+
+		essential = {
+			motorized_equipment
+		}
+
 		need = {
 			artillery_equipment = 36
-			motorized_equipment = 35
+			motorized_equipment = 36
 		}
 		
 		max_strength = 0.6
@@ -161,7 +167,7 @@ sub_units = {
 			artillery
 		}
 
-		group = infantry
+		group = combat_support
 		
 		categories = {
 			category_army
@@ -234,7 +240,7 @@ sub_units = {
 			artillery
 		}
 
-		group = mobile
+		group = mobile_combat_support
 		
 		categories = {
 			category_army
@@ -246,7 +252,7 @@ sub_units = {
 		transport = motorized_equipment
 		need = {
 			rocket_artillery_equipment = 36
-			motorized_equipment = 35
+			motorized_equipment = 36
 		}
 		
 		manpower = 500
@@ -309,7 +315,7 @@ sub_units = {
 			rocket
 		}
 
-		group = mobile
+		group = mobile_combat_support
 		
 		categories = {
 			category_army
